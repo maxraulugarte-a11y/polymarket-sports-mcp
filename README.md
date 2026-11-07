@@ -57,7 +57,7 @@ python src/server.py
 - `mlb`, `nhl`
 - `epl`, `mls`, `soccer`
 - `ufc`, `mma`
-- `pga`, `liv`, `golf`
+- `pga`, `golf`
 - `baseball`, `hockey`
 
 ## Notes
