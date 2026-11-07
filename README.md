@@ -46,16 +46,19 @@ python src/server.py
 - "Show me NBA copy candidates for tonight"
 - "Which specialists have sides on EPL today?"
 - "Get NFL copy candidates for tomorrow"
-- "Show me the best sports bettors to copy this month"
+- "Show me March Madness copy candidates"
+- "What positions can I copy on today's golf?"
 
 ## Supported sports
 
 - `football` (default — NFL + CFB)
 - `nfl`, `cfb`
-- `nba`, `mlb`, `nhl`
+- `nba`, `cbb`, `basketball`, `college basketball`, `march madness`
+- `mlb`, `nhl`
 - `epl`, `mls`, `soccer`
 - `ufc`, `mma`
-- `basketball`, `baseball`, `hockey`
+- `pga`, `liv`, `golf`
+- `baseball`, `hockey`
 
 ## Notes
 
