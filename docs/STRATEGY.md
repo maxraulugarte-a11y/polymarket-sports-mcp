@@ -1,9 +1,9 @@
 # Copy-trading strategy: Polymarket sports specialists → Polymarket US
 
-This document stands on its own, so another LLM or a person can follow how picks are made. Last updated 2026-11-08 (pipeline v4). Code lives outside this repo in the operator's workspace. The rules here are the spec.
+This document stands on its own, so another LLM or a person can follow how picks are made. Last updated 2026-11-11 (pipeline v4, with the HomeRunHazard NBA-spread rule and $10 flat stakes). Code lives outside this repo in the operator's workspace. The rules here are the spec.
 
 ## Goal
-Copy pre-game sports bets that **reliably profitable specialist wallets** on global Polymarket hold, and place small bets (about $5) on the matching **Polymarket US** market. A human approves every pick before it is placed.
+Copy pre-game sports bets that **reliably profitable specialist wallets** on global Polymarket hold, and place small bets (about $10) on the matching **Polymarket US** market. A human approves every pick before it is placed.
 
 ## 1. Data sources (global Polymarket, public, no key)
 | Purpose | Endpoint |
@@ -65,12 +65,14 @@ We compute all numbers ourselves from settled history. **Leaderboard ROI is neve
 - game not started, and the exact US market exists
 - no keep/watch wallet holds the opposite outcome
 
+**HomeRunHazard NBA spreads (override):** copy **only his single largest NBA spread** on a game, and only when that position is at least **1.2× his usual size** (the median of the larger side of his NBA spread markets). Rest a fee-free maker order at or below his average entry. **Never mirror his full two-sided book.** He holds opposite-team spreads or moneylines on essentially every game (arbs and middles); those extra legs are not a one-way opinion we can copy in full, and a full mirror as a taker lost money in the backtest (see BACKTEST.md).
+
 Picks are sorted keep-first, then by score. A second agreeing wallet is shown but **is not required**, and token-sized second wallets never count.
 
 ## 4. Stake sizing
-- Base stake is **$5**.
-- Conviction scaling `stake = clamp(5·√(their stake / their median stake), $3, $12)` applies **only to proven sizers**. A proven sizer meets all of these: Spearman(size multiple, z = (res − p)/√(p(1−p))) > 0 with p < 0.001, ≥ 200 clean bets, ROI on above-median-size bets > below-median, and stake-weighted ROI > flat ROI.
-- As of 2026-11-08 **no wallet qualifies**, so every pick is $5 flat. Out of sample, bet size showed no relationship with outcome (see BACKTEST.md).
+- Base stake is now **about $10** per pick (raised from $5).
+- Conviction scaling `stake = clamp(10·√(their stake / their median stake), $6, $24)` would apply **only to proven sizers**. A proven sizer meets all of these: Spearman(size multiple, z = (res − p)/√(p(1−p))) > 0 with p < 0.001, ≥ 200 clean bets, ROI on above-median-size bets > below-median, and stake-weighted ROI > flat ROI.
+- As of 2026-11-11 **no wallet qualifies**, so every pick is about $10 flat. Out of sample, bet size showed no relationship with outcome (see BACKTEST.md). HomeRunHazard's own dollar-weighted NBA book also lagged an equal $10/game copy, which is another reason to keep stakes flat.
 - **Daily exposure cap:** 25% of current buying power.
 
 ## 5. Execution
@@ -80,7 +82,7 @@ Picks are sorted keep-first, then by score. A second agreeing wallet is shown bu
 - Every pick needs explicit human approval. Never commit keys or account IDs.
 
 ## 6. Fees
-The Polymarket US taker fee per fill is **0.095 × contracts × p × (1 − p)**, about 4.75% of stake at p = 0.50 (around $0.24 on a $5 bet). Resting maker fills are free. The backtests model taker copies at entry + 1¢ slippage plus this fee.
+The Polymarket US taker fee per fill is **0.095 × contracts × p × (1 − p)**, about 4.75% of stake at p = 0.50 (around $0.48 on a $10 bet, or $0.24 on a $5 bet). Resting maker fills are free. The backtests model taker copies at entry + 1¢ slippage plus this fee.
 
 ## 7. Known pitfalls (all hit in practice)
 - **Leaderboard ROI is a short rolling window, not all-time.** It swung from +19% to −24% overnight for one wallet. Compute ROI from settled history yourself.
@@ -93,4 +95,6 @@ The Polymarket US taker fee per fill is **0.095 × contracts × p × (1 − p)**
 - **Preview ≠ create.** Preview doesn't validate the tick size. Round to the tick before creating.
 
 ## 8. Honest expectation
-In the walk-forward backtest, v4 picks earned about **+5.5% ± 2.1 if resting orders fill at the trader's price** (an upper bound) and **−0.8% ± 2.1 as taker**, over 1,973 copies in 23 weeks. That is not proven profitable. Keep stakes small and keep tracking results in TRADE_LOG.md.
+In the walk-forward backtest, v4 picks earned about **+5.5% ± 2.1 if resting orders fill at the trader's price** (an upper bound) and **−0.8% ± 2.1 as taker**, over 1,973 copies in 23 weeks. That is not proven profitable.
+
+The HomeRunHazard NBA-spread study (236 settled games, Oct 3 – Nov 11) is more encouraging **at his prices**: a full mirror was +4.3% and biggest-spread-only was +13.8%, and both 90% bootstrap ranges stayed positive. As a taker, the full mirror lost money. Live copies should rest as makers on the single largest spread, not take his whole book. Keep tracking results in TRADE_LOG.md.

@@ -1,4 +1,4 @@
-# Backtest summary (condensed, 2026-11-08)
+# Backtest summary (condensed, 2026-11-08; HRH NBA study added 2026-11-11)
 
 The full reports are `backtest_report.md` (v2→v3) and `sizing_report.md` (v4 ranking and sizing), kept in the operator workspace. Every study was read-only.
 
@@ -27,7 +27,7 @@ What went wrong:
 
 Going 2-6 on coin-flip prices happens about 14% of the time by luck alone.
 
-*Update:* the Browns-Saints Over 42.5 settled later as a **win**, so all settled bets stand at 3-6. The 49ers −9.5 is still open (see TRADE_LOG.md).
+*Update:* the Browns-Saints Over 42.5 and later the 49ers −9.5 both settled as **wins**, so that first batch finished 4-6. See TRADE_LOG.md for the live book after that.
 
 ## 2. Walk-forward test of copy rules (Aug 10 – Nov 8, 13 weeks, $5 flat, 215 wallets)
 | Rule | Copies | Hit | Taker ROI | Gross (maker) |
@@ -74,7 +74,9 @@ Bet size is measured as the size multiple x = stake / the wallet's median stake.
 - No wallet is a proven sizer today. Three pass p < 0.05, but none survives a Benjamini-Hochberg correction at FDR 10% across the 134 wallets tested.
 - Bigger bets did not win more often out of sample.
 
-## 5. Stake rule (base $5; √x scaling, clamped to $3-$12, for proven sizers only; daily cap 25% of $99)
+## 5. Stake rule (walk-forward run at base $5; √x scaling, clamped to $3-$12, for proven sizers only; daily cap 25% of $99)
+
+Live stakes were raised to about $10 on 2026-11-11. The table below is the original $5 walk-forward and is unchanged.
 | Pick set | Copies | Flat maker / taker | v4 rule | Capped (flat) maker / taker, PnL |
 |---|---|---|---|---|
 | P4 (v3) | 828 | +4.3% / −1.8% | identical | +4.1% / −1.8%, +$79 / −$34 on $1,915 |
@@ -89,3 +91,29 @@ Bet size is measured as the size multiple x = stake / the wallet's median stake.
 - Activity history was capped at 30k-90k records per wallet.
 - The maker numbers ignore fill risk and adverse selection.
 - Many esports and tennis markets in the data aren't listed on Polymarket US.
+
+
+## 6. HomeRunHazard NBA spread copy (2026-10-03 – 2026-11-11)
+
+Read-only study of how to copy HomeRunHazard's NBA spread books, including moneylines he holds on the same games. Positions came from the official activity cache plus a full v2 closed/open position pull. The main table is a 60-day lookback; the first NBA spread game in that window is Oct 3 (66 preseason-like games before Oct 20, 170 from opening night on). Last season's April–June playoff books were excluded. Four Nov 12 games were still unsettled and were left out. Stakes are a flat $10 per game. Taker fee is `0.095 × contracts × p × (1−p)`. Uncertainty is a 10,000-resample bootstrap 90% range on total P&L, by game.
+
+Usual size for the biggest-only rule is the median of the larger side of each of his NBA spread markets in this window: **$1,718.35** (the 1.2× gate is $2,062).
+
+| ID | Strategy | Games | Staked | P&L | ROI | Win rate | 90% total P&L |
+|----|----------|------:|-------:|----:|----:|---------:|---------------|
+| A | Full mirror at his prices, maker, no fee | 236 | $2,360 | +$101.97 | +4.3% | 56.8% | +$22 to +$182 |
+| B1t | Full mirror +1¢ taker | 236 | $2,360 | −$50.79 | −2.2% | 44.1% | −$129 to +$27 |
+| B2t | Full mirror +2¢ taker | 236 | $2,360 | −$94.02 | −4.0% | 41.5% | −$171 to −$17 |
+| C1t | Net-exposure +1¢ taker (clean one-way games only) | 21 | $210 | +$32.53 | +15.5% | 61.9% | −$45 to +$107 |
+| D0 | Biggest spread only, his entry, maker, ≥1.2× usual | 198 | $1,980 | +$274.11 | +13.8% | 57.6% | +$45 to +$501 |
+| D1t | Biggest-only +1¢ taker | 198 | $1,980 | +$139.39 | +7.0% | 57.6% | −$86 to +$362 |
+| E | D, but only if he holds no opposite-team position | 0 | $0 | — | — | — | — |
+
+What this means:
+- He had an opposite-team spread or moneyline on **every** game, so E is empty and a clean net (C) only applies to 21 of 236 games.
+- True same-line arbs (both sides bought for under $1) appeared in **95% of games**, at an average combined cost of **$0.972**. Middles (a margin window where opposite-team legs can both win) appeared in **every** game. Those structures are real, but he does not hold them as balanced matched contracts. A copy inherits a two-way leftover book, not a locked arb.
+- His own dollar-weighted book on these games was only **+1.4%** on $19.4M. Equal $10/game (A) did better. That supports keeping live copy stakes flat.
+- Execution drag vs A is about −$153 at +1¢ taker and −$196 at +2¢ taker. A full mirror as a taker is a loser here; the +2¢ taker 90% range is entirely negative.
+- Biggest-only at his prices (D0) has a clearly positive 90% range. D at +1¢ taker does not. A vs D0 ranges still overlap, so this sample cannot honestly declare a winner between those two copy rules.
+
+**Live rule taken from this study:** copy only his largest NBA spread, only at ≥ 1.2× usual size, as a fee-free resting order at or below his entry. Do not mirror the full two-sided book. The study is 236 games over 40 calendar days of clustered slates, including preseason, so treat the ranking as provisional.
