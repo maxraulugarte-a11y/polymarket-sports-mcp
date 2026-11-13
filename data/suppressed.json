@@ -1,1734 +1,2319 @@
 {
- "generated_at": "2026-11-08",
+ "generated_at": "2026-11-12",
  "rule": "profiled and not copied; recheck after 30 days",
- "count": 192,
+ "count": 257,
  "wallets": {
-  "0x1b47e9b128e6b671edebfb2cac23dd3efc40d814": {
-   "name": "sbsigner",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -19.8%; best segment mls|moneyline (59 bets, score +2.23%) below keep/watch bar",
-   "wallet_settled": 2382,
-   "own_roi": -0.1977,
-   "main_league": "epl"
-  },
-  "0xd6c913dfbae16a532f93f4a9385379a42696396d": {
-   "name": "brokemaxdegen",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "hold 68%; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 77,
-   "own_roi": 0.098,
-   "main_league": "ufc"
-  },
-  "0xd202bf6d89dc6bab1b9f00ead175f75466348973": {
-   "name": "meoooow",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -4.0%; best segment nba|total (60 bets, score +1.18%) below keep/watch bar",
-   "wallet_settled": 1749,
-   "own_roi": -0.04,
-   "main_league": "lol"
-  },
-  "0xd48a81db62f742c4e42d86dfc23a7ee345366e90": {
-   "name": "nehcnehc",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -2.2%; best segment nhl|total (359 bets, score +4.41%) below keep/watch bar",
-   "wallet_settled": 8448,
-   "own_roi": -0.0219,
-   "main_league": "mlb"
-  },
-  "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": {
-   "name": "0x2c335066FE58fe9237c3",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "history 15 days; best segment nba|spread (60 bets, score +0.49%) below keep/watch bar",
-   "wallet_settled": 1312,
-   "own_roi": 0.0388,
-   "main_league": "nba"
-  },
-  "0x80896d05a92082ac31ac4a6cd5568c8d3bbdf935": {
-   "name": "randypunt",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -11.1%; best segment ufc|moneyline (33 bets, score +0.18%) below keep/watch bar",
-   "wallet_settled": 271,
-   "own_roi": -0.1109,
-   "main_league": "ufc"
-  },
-  "0xe5f0ae9cc9aef77ae3c2a64c9e69caa3f335dc1d": {
-   "name": "0xE5F0AE9cc9aeF77ae3c2",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -0.8%; best segment mls|moneyline (41 bets, score +1.39%) below keep/watch bar",
-   "wallet_settled": 794,
-   "own_roi": -0.008,
-   "main_league": "nhl"
-  },
-  "0x5020e94877430aca70a641a807b4d2007c249f9f": {
-   "name": "Bozos14",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "history 47 days; best segment cfb|moneyline (34 bets, score +1.58%) below keep/watch bar",
-   "wallet_settled": 319,
-   "own_roi": 0.0096,
-   "main_league": "cfb"
-  },
-  "0x0af479ff5340e00ddd2a242637be3a79f31e6eab": {
-   "name": "FKMY",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "hold 56%; history 43 days; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 79,
-   "own_roi": 0.0937,
-   "main_league": "ufc"
-  },
-  "0x796fc6fda8f8e03c03e2a2d012155989960300f6": {
-   "name": "6512395314597884",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "history 24 days; best segment wta|moneyline (41 bets, score +0.81%) below keep/watch bar",
-   "wallet_settled": 5380,
-   "own_roi": 0.0077,
-   "main_league": "nba"
-  },
-  "0x8a260ebadf8ef07e693dd1b0be120b3330dd73c3": {
-   "name": "sinasinner",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -32.9%; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 97,
-   "own_roi": -0.3287,
-   "main_league": "nfl"
-  },
-  "0x85f031d069de300055900c4055c1baeb6bde3f67": {
-   "name": "RJW1",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -8.0%; no segment with positive credibility score",
-   "wallet_settled": 121,
-   "own_roi": -0.0802,
-   "main_league": "epl"
-  },
-  "0x6b123a3056bdfa9a6ab33f884e735deeb18ed642": {
-   "name": "sts22",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 155,
-   "own_roi": 0.0637,
-   "main_league": "ufc"
-  },
-  "0xdc41c39b95453c943174f369926018f6963bdd7e": {
-   "name": "nigiri99",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -6.6%; history 5 days; best segment cfb|moneyline (47 bets, score +0.04%) below keep/watch bar",
-   "wallet_settled": 959,
-   "own_roi": -0.0655,
-   "main_league": "nba"
-  },
-  "0x01e6e3c5cfe50943e7721398054cb1e22032e7e0": {
-   "name": "JustADonk",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -1.8%; best segment atp|moneyline (31 bets, score +1.20%) below keep/watch bar",
-   "wallet_settled": 1509,
-   "own_roi": -0.0177,
-   "main_league": "lol"
-  },
-  "0xc77604062aa8a9603ee31d13445b80556e571e92": {
-   "name": "b3908",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 54,
-   "own_roi": 0.0987,
-   "main_league": "fifwc"
-  },
-  "0x561e3d3da1b48d675a83f6c9637c538ae3275c0c": {
-   "name": "Sausesantana",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "hold 50%; history 3 days; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 2,
-   "own_roi": 0.2953,
-   "main_league": "nfl"
-  },
-  "0x291de54f32a3ee495ff0c624fa9bfeca23451f97": {
-   "name": "Dessssa",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -20.6%; no segment with positive credibility score",
-   "wallet_settled": 110,
-   "own_roi": -0.2058,
-   "main_league": "nhl"
-  },
-  "0x44c58184f89a5c2f699dc8943009cb3d75a08d45": {
-   "name": "JhonAlexanderHinestroz",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "hold 22%; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 679,
-   "own_roi": 0.0336,
-   "main_league": "fifwc"
-  },
-  "0x23f810419daedc0c9f859f6ae9147905cb6acd2f": {
-   "name": "lolzik",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "history 14 days; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 107,
-   "own_roi": 0.0325,
-   "main_league": "nba"
-  },
-  "0xc9ebeeb6fa7ce4d2a1d5ba3f5514823a5e393800": {
-   "name": "little-jerk",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "history 2 days; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 4,
-   "own_roi": 0.652,
-   "main_league": "epl"
-  },
-  "0xafef98246f384449a4e13aa779e7cb414d7ff50e": {
-   "name": "Accomplished-Framework",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -0.2%; hold 33%; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 656,
-   "own_roi": -0.002,
-   "main_league": "atp"
-  },
-  "0x5815db9fdf0e0ffdc1d1f759916b221339570ae7": {
-   "name": "nb1985",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "history 58 days; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 41,
-   "own_roi": 0.1685,
-   "main_league": "ucl"
-  },
-  "0x478e6032636bb01439dc8390381a49a7955e0c83": {
-   "name": "xiaoxiongxiong",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -0.9%; no segment with positive credibility score",
-   "wallet_settled": 348,
-   "own_roi": -0.0092,
-   "main_league": "nba"
-  },
-  "0xbfd40a4fcb43d80eb4fb425f75d4fa090c61526f": {
-   "name": "big8betz",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "hold 60%; history 15 days; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 93,
-   "own_roi": 0.0966,
-   "main_league": "nba"
-  },
-  "0x0a77bc0638f13892c8b1d1d2c13ba178540f9d74": {
-   "name": "0x0A77exmm",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -2.4%; best segment fifwc|moneyline (94 bets, score +2.73%) below keep/watch bar",
-   "wallet_settled": 2624,
-   "own_roi": -0.0236,
-   "main_league": "mlb"
-  },
-  "0xa3566f3411369de654e2c83e9fa10392b83bcb94": {
-   "name": "ubetteruuuu",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "history 34 days; best segment nba|moneyline (33 bets, score +0.46%) below keep/watch bar",
-   "wallet_settled": 431,
-   "own_roi": 0.0689,
-   "main_league": "lol"
-  },
-  "0x95c6c9a6727ed203e97230dda61ab19a020e1508": {
-   "name": "DelidelaDele",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "history 55 days; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 65,
-   "own_roi": 0.2717,
-   "main_league": "arg"
-  },
-  "0x2cc8cc54f50dbb45fe346612821ca93b6e93262b": {
-   "name": "0x2Cc8Cc54F50DbB45fE34",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -1.1%; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 466,
-   "own_roi": -0.0107,
-   "main_league": "lal"
-  },
-  "0xaa7789219c17e180dcb5933099c90d885f1d15a5": {
-   "name": "alaskabaked",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -6.1%; hold 57%; no segment with positive credibility score",
-   "wallet_settled": 968,
-   "own_roi": -0.0611,
-   "main_league": "mlb"
-  },
-  "0x72638c8d939fd0205925025b1183d8db4a360851": {
-   "name": "alpheclabs2",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "history 18 days; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 2561,
-   "own_roi": 0.0465,
-   "main_league": "itf"
-  },
-  "0x67ac9e1ad7d7e74ef0215d14fc8edb538e4fedf1": {
-   "name": "3648393489047",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -1.4%; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 1148,
-   "own_roi": -0.0136,
-   "main_league": "lol"
-  },
-  "0x0f4020972342a4f1b1d546491d59c6c39cd3567c": {
-   "name": "AltMind",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -8.5%; history 3 days; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 43,
-   "own_roi": -0.0854,
-   "main_league": "nba"
-  },
-  "0xdebbe89ceb32828a99648bca497684f5209ceedb": {
-   "name": "Lexington",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -0.7%; best segment wta|moneyline (44 bets, score +1.58%) below keep/watch bar",
-   "wallet_settled": 1129,
-   "own_roi": -0.0071,
-   "main_league": "fifwc"
-  },
-  "0x4c999cfdac664b015757d540653c30dc8e0720ea": {
-   "name": "ppku6298",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "history 44 days; best segment nba|spread (104 bets, score +2.20%) below keep/watch bar",
-   "wallet_settled": 240,
-   "own_roi": 0.0412,
-   "main_league": "nba"
-  },
-  "0x0259b2054f046fe0ee8f3e075fdb85fc3ba9769e": {
-   "name": "fantasy7788",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 271,
-   "own_roi": 0.0437,
-   "main_league": "cs2"
-  },
-  "0x48185887c8dc95de60ee89722f1d0ee7894cbf0b": {
-   "name": "Liquidifier",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "best segment ucl|moneyline (32 bets, score +2.53%) below keep/watch bar",
-   "wallet_settled": 493,
-   "own_roi": 0.0662,
-   "main_league": "epl"
-  },
-  "0x52d93dcf81444f793dda7fedc370f7a35101fb1a": {
-   "name": "LuckyLoo",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -1.4%; history 12 days; best segment nba|spread (47 bets, score +0.64%) below keep/watch bar",
-   "wallet_settled": 1745,
-   "own_roi": -0.0143,
-   "main_league": "ucl"
-  },
-  "0xa2a78bb796f56b1b174b29eff72af4f0c558627b": {
-   "name": "0x30E4E574AF95340e8734",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "hold 68%; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 34,
-   "own_roi": 0.3415,
-   "main_league": "sea"
-  },
-  "0x2117ae94a97d69b78cbc81b6680a62deb1955c26": {
-   "name": "Zzzz87",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -6.4%; best segment lol|map_handicap (146 bets, score +2.43%) below keep/watch bar",
-   "wallet_settled": 3100,
-   "own_roi": -0.0643,
-   "main_league": "lol"
-  },
-  "0x492442eab586f242b53bda933fd5de859c8a3782": {
-   "name": "0x492442EaB586F242B53b",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -1.0%; best segment nba|total (295 bets, score +4.87%) below keep/watch bar",
-   "wallet_settled": 1529,
-   "own_roi": -0.0096,
-   "main_league": "nba"
-  },
-  "0xebfdb8164f0e0748818d6c7a9ac85a323267fd63": {
-   "name": "robustmst",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "hold 43%; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 232,
-   "own_roi": 0.0626,
-   "main_league": "atp"
-  },
-  "0x496121ba250d47b62c2d84b3414a99aeeacade13": {
-   "name": "Anon455",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -0.1%; history 9 days; best segment nba|spread (77 bets, score +1.47%) below keep/watch bar",
-   "wallet_settled": 1178,
-   "own_roi": -0.001,
-   "main_league": "nba"
-  },
-  "0xe567267582b61b63b7f97be977abdd50c0e54fcb": {
-   "name": "TMingchan",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "history 7 days; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 51,
-   "own_roi": 0.1136,
-   "main_league": "nba"
-  },
-  "0x6d11cd749eb59c8ffa6d38be80ad0ad0a255c449": {
-   "name": "1xx2",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -2.7%; best segment epl|moneyline (43 bets, score +5.94%) below keep/watch bar",
-   "wallet_settled": 863,
-   "own_roi": -0.0266,
-   "main_league": "epl"
-  },
-  "0x927cf2bb94d15707993f954552e56c74eb6d6633": {
-   "name": "jarosbill",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -8.1%; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 852,
-   "own_roi": -0.081,
-   "main_league": "mlb"
-  },
-  "0x2b46bb71681777202368d095196f266944a1684d": {
-   "name": "betdge",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 4389,
-   "own_roi": 0.0321,
-   "main_league": "nba"
-  },
-  "0xb9c7d35d1f04d08624fabcfd3b6cee2d3c9baade": {
-   "name": "taylorsversion",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -10.5%; best segment nhl|moneyline (97 bets, score +1.96%) below keep/watch bar",
-   "wallet_settled": 290,
-   "own_roi": -0.105,
-   "main_league": "nhl"
-  },
-  "0xb5b60d821300cef591b7c2a7647fd38e5ecaca29": {
-   "name": "hgawx",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "best segment nba|spread (31 bets, score +0.98%) below keep/watch bar",
-   "wallet_settled": 105,
-   "own_roi": 0.0286,
-   "main_league": "nba"
-  },
-  "0xdb83e85ffd22faa4009273034770f96ffc5b1e50": {
-   "name": "sentrio",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "history 6 days; best segment nba|spread (121 bets, score +1.66%) below keep/watch bar",
-   "wallet_settled": 1260,
-   "own_roi": 0.0382,
-   "main_league": "nba"
-  },
-  "0x613bfbb81d9e5398bff208da4ae848e7a73e823a": {
-   "name": "FlamePyro",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -0.2%; no segment with positive credibility score",
-   "wallet_settled": 855,
-   "own_roi": -0.0016,
-   "main_league": "nba"
-  },
-  "0x9ee49c02ae1ade698bf9e06d4ca271f236b8697b": {
-   "name": "cosmicxbt",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -4.1%; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 41,
-   "own_roi": -0.0409,
-   "main_league": "nfl"
-  },
-  "0xf9dcbb0a9b740625738cdd7cf83db99c7deaaba7": {
-   "name": "ZetaKappaEpsilon",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "history 48 days; best segment unl|moneyline (93 bets, score +3.76%) below keep/watch bar",
-   "wallet_settled": 1530,
-   "own_roi": 0.0238,
-   "main_league": "sea"
-  },
-  "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": {
-   "name": "ferrariChampions2026",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -1.1%; history 5 days; best segment nba|total (47 bets, score +1.51%) below keep/watch bar",
-   "wallet_settled": 1233,
-   "own_roi": -0.0114,
-   "main_league": "atp"
-  },
-  "0x94d71d0d28709da91fd44c7d89da272fe86dbef5": {
-   "name": "JMMMMM",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -7.8%; hold 64%; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 355,
-   "own_roi": -0.0777,
-   "main_league": "nba"
-  },
-  "0x7d2f82da7ae8c910bd1e89475be705d313daef1a": {
-   "name": "TheOpportunist",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "hold 60%; no segment with positive credibility score",
-   "wallet_settled": 785,
-   "own_roi": 0.0003,
-   "main_league": "fifwc"
-  },
-  "0x241adda58ed48866f0deec7867731dd84c5ba9c8": {
-   "name": "0x241ADda58eD48866f0dE",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "best segment atp|moneyline (34 bets, score +0.62%) below keep/watch bar",
-   "wallet_settled": 318,
-   "own_roi": 0.0311,
-   "main_league": "atp"
-  },
-  "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": {
-   "name": "0x3DFb153c197D4C19D3B3",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -7.4%; best segment cfb|spread (148 bets, score +3.95%) below keep/watch bar",
-   "wallet_settled": 2664,
-   "own_roi": -0.0741,
-   "main_league": "mlb"
-  },
-  "0x0979bad57d7a1403db89cbcd9c52bf43f2138d9b": {
-   "name": "askilika",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "no segment with positive credibility score",
-   "wallet_settled": 536,
-   "own_roi": 0.0597,
-   "main_league": "atp"
-  },
-  "0xf1ef8705e9f63c790c6fffd6329aea7011718cd6": {
-   "name": "Outsid3rTrading",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -1.9%; best segment cbb|total (86 bets, score +2.86%) below keep/watch bar",
-   "wallet_settled": 1490,
-   "own_roi": -0.0193,
-   "main_league": "cs2"
-  },
-  "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": {
-   "name": "RN1",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "history 2 days; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 1784,
-   "own_roi": 0.0141,
-   "main_league": "cfb"
-  },
-  "0xc46661a5c720740d7c70fbf2cfc10c5de8c4b5cf": {
-   "name": "cavvvy",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -27.9%; history 10 days; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 36,
-   "own_roi": -0.2785,
-   "main_league": "nba"
-  },
-  "0x924379a79c64b77ad5816ad362122a5f6228658e": {
-   "name": "Kch-Temp",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "best segment nfl|total (30 bets, score +2.22%) below keep/watch bar",
-   "wallet_settled": 296,
-   "own_roi": 0.1568,
-   "main_league": "nfl"
-  },
-  "0x951634357346bb291df117f9ac410100feea2104": {
-   "name": "AppleTiiime",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "history 19 days; best segment nba|spread (35 bets, score +1.30%) below keep/watch bar",
-   "wallet_settled": 152,
-   "own_roi": 0.0761,
-   "main_league": "nba"
-  },
-  "0xa3fec54e1310fb6a05191420c9d44df4087caac5": {
-   "name": "tian888",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -6.0%; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 91,
-   "own_roi": -0.0604,
-   "main_league": "nba"
-  },
-  "0xe6bff499390d0988f81967d095925b44aad38380": {
-   "name": "CHACHA125655",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "best segment nba|spread (49 bets, score +2.10%) below keep/watch bar",
-   "wallet_settled": 263,
-   "own_roi": 0.0361,
-   "main_league": "wnba"
-  },
-  "0x92209ecf324c9d08fa7d91143863786ac5490fcb": {
-   "name": "RaulRosasJr",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -6.5%; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 124,
-   "own_roi": -0.0646,
-   "main_league": "ufc"
-  },
-  "0xe674dede25584b64a53d85517008530d2ab15e2b": {
-   "name": "ggA11xcr",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "history 5 days; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 13,
-   "own_roi": 0.6341,
-   "main_league": "nhl"
-  },
-  "0x99f0d31fdced5b3a0e5ee2867730a6644a6c9495": {
-   "name": "0x99F0d31fdced5B3A0e5E",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -7.9%; history 12 days; best segment atp|moneyline (112 bets, score +2.91%) below keep/watch bar",
-   "wallet_settled": 1056,
-   "own_roi": -0.079,
-   "main_league": "atp"
-  },
-  "0x5c720d41fe89ca907116f5629b5b1fda4a3d7e7e": {
-   "name": "pravica",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 390,
-   "own_roi": 0.0084,
-   "main_league": "cs2"
-  },
-  "0xc6ce4a5b5881c1e3ba74c221f0457a794734fc99": {
-   "name": "PollyPepperoni",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -32.9%; no segment with positive credibility score",
-   "wallet_settled": 94,
-   "own_roi": -0.3286,
-   "main_league": "ufc"
-  },
-  "0x84ec4b5b2dbf75d07041b7b89f0a82647e3a72c1": {
-   "name": "FeedTheBigBird",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -9.1%; history 33 days; best segment cs2|moneyline (35 bets, score +0.19%) below keep/watch bar",
-   "wallet_settled": 159,
-   "own_roi": -0.0913,
-   "main_league": "nba"
-  },
-  "0xfed13032babfdb49ad387b7136e6a6fbd746eedb": {
-   "name": "hang808",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -2.5%; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 230,
-   "own_roi": -0.025,
-   "main_league": "nba"
-  },
-  "0xfa204fd4ddff3c21233c381de7de9e028ff9a112": {
-   "name": "jodar",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "history 10 days; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 48,
-   "own_roi": 0.1979,
-   "main_league": "cs2"
-  },
-  "0x5b6331e7ff0831a3fe2ed12004747db1a9c911a4": {
-   "name": "neutralwave23",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -9.0%; hold 66%; history 8 days; no segment with positive credibility score",
-   "wallet_settled": 1472,
-   "own_roi": -0.0899,
-   "main_league": "lol"
-  },
-  "0xd6966eb1ae7b52320ba7ab1016680198c9e08a49": {
-   "name": "Painfulvoid",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -2.7%; best segment ufc|total (37 bets, score +3.95%) below keep/watch bar",
-   "wallet_settled": 4036,
-   "own_roi": -0.0266,
-   "main_league": "nba"
-  },
-  "0xac4773707daddd3792efed5a91f5ec7651a7d234": {
-   "name": "HBAFlover98",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -8.3%; no segment with positive credibility score",
-   "wallet_settled": 388,
-   "own_roi": -0.0826,
-   "main_league": "cs2"
-  },
-  "0xc95ed399d2fbaec9461f2abd70e0d96df1921288": {
-   "name": "Siddhartha1",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "history 52 days; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 117,
-   "own_roi": 0.0781,
-   "main_league": "unl"
-  },
-  "0x0e555ed11bc172565f9466e81c558f1e88e0ef17": {
-   "name": "hovistomaradona",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "history 16 days; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 36,
-   "own_roi": 0.0619,
-   "main_league": "epl"
-  },
-  "0x7c1b3a6db8a1d57de8ee5d7bca620dc0623185c8": {
-   "name": "cm2897",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 6096,
-   "own_roi": 0.0178,
-   "main_league": "cfb"
-  },
-  "0xa927cdfebebe4ba309386f12201f4fb0bccb8d9f": {
-   "name": "JabJabich",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "hold 56%; best segment cs2|moneyline (45 bets, score +1.22%) below keep/watch bar",
-   "wallet_settled": 576,
-   "own_roi": 0.0391,
-   "main_league": "cs2"
-  },
-  "0x497bf0f967320c70f77fb1c377a67e1376d3948b": {
-   "name": "pm13333",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "history 14 days; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 83,
-   "own_roi": 0.1272,
-   "main_league": "atp"
-  },
-  "0x9a933a2a83188b28efaf1d07d45228ea6ee82793": {
-   "name": "MigRodr",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "history 26 days; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 76,
-   "own_roi": 0.2123,
-   "main_league": "lal"
-  },
-  "0x032eb1bc893940263ad0b01889f262fc232f2a9e": {
-   "name": "purplegatto",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "history 24 days; best segment cfb|moneyline (89 bets, score +2.17%) below keep/watch bar",
-   "wallet_settled": 1259,
-   "own_roi": 0.0219,
-   "main_league": "nba"
-  },
-  "0x3a55b0c45449b955e43ec10734bd988bb5d1394e": {
-   "name": "0x3mf379C47E653dafa153",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -2.9%; hold 68%; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 751,
-   "own_roi": -0.0289,
-   "main_league": "nba"
-  },
-  "0x2879ded7fe05df00eddbb2fba412a0d30964411a": {
-   "name": "chongchong37",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "history 32 days; best segment nba|spread (72 bets, score +6.68%) below keep/watch bar",
-   "wallet_settled": 127,
-   "own_roi": 0.351,
-   "main_league": "nba"
-  },
-  "0x2dc13c6bda81b202281e796953a7323de675b33c": {
-   "name": "xifutloong3",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 318,
-   "own_roi": 0.0499,
-   "main_league": "mlb"
-  },
   "0x88a6c8e00c4752a8c70d24025fa781fa046a7e77": {
    "name": "999585",
-   "checked_at": "2026-11-08",
+   "checked_at": "2026-11-12",
    "recheck_after_days": 30,
    "reason": "hold 67%; history 15 days; no league+bet-type segment with >=30 clean bets",
    "wallet_settled": 106,
    "own_roi": 0.0128,
    "main_league": "cfb"
   },
-  "0xa2cced8bfae7d645f7f437fb76becf2fcbb70cbc": {
-   "name": "justwins",
-   "checked_at": "2026-11-08",
+  "0x709e8dcb133555794decc598e07f2c923b8366f5": {
+   "name": "0xd4aa6f8e91cfea29b66a48ebff52814",
+   "checked_at": "2026-11-12",
    "recheck_after_days": 30,
-   "reason": "own ROI -0.6%; best segment cfb|spread (54 bets, score +2.53%) below keep/watch bar",
-   "wallet_settled": 495,
-   "own_roi": -0.0061,
-   "main_league": "nba"
-  },
-  "0xb52e8b3afd9f0f0d502a5a76494b42816d67285c": {
-   "name": "1l2ihj34li12u34",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -6.0%; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 290,
-   "own_roi": -0.06,
-   "main_league": "uel"
-  },
-  "0x12ec6d71325afac2b4d25b3de94185e2c48d41ae": {
-   "name": "olegio",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -0.2%; hold 63%; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 935,
-   "own_roi": -0.0021,
-   "main_league": "nba"
-  },
-  "0x3e04fbc51adb75418129f6ce2091ae633070564d": {
-   "name": "roldy",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -0.6%; best segment nhl|moneyline (1210 bets, score +4.53%) below keep/watch bar",
-   "wallet_settled": 3842,
-   "own_roi": -0.0056,
-   "main_league": "nhl"
-  },
-  "0xd29312e2446a746bbd94408e1c475f1ec6d7d683": {
-   "name": "Kyn008",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "history 31 days; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 388,
-   "own_roi": 0.1404,
-   "main_league": "epl"
-  },
-  "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": {
-   "name": "mooseborzoi",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -5.0%; history 3 days; best segment cbb|spread (122 bets, score +3.42%) below keep/watch bar",
-   "wallet_settled": 1233,
-   "own_roi": -0.0498,
-   "main_league": "cfb"
-  },
-  "0xb985b597f5598a975c42032749386d765826b70d": {
-   "name": "0xB985b597F5598a975C42",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -12.8%; hold 44%; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 96,
-   "own_roi": -0.1282,
-   "main_league": "ucl"
-  },
-  "0x82307f44c9405e73dc1cff466073dcc505535121": {
-   "name": "zhiber",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 439,
-   "own_roi": 0.5992,
-   "main_league": "nba"
-  },
-  "0x0a30932f96f296421cf0cf124fd180e4db22e2ca": {
-   "name": "goldmyname",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -0.7%; history 26 days; no segment with positive credibility score",
-   "wallet_settled": 349,
-   "own_roi": -0.0071,
-   "main_league": "nba"
-  },
-  "0xd619b68e64f256f8ddd185b261c8679eacf0c461": {
-   "name": "CAcap",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "history 22 days; best segment nfl|spread (133 bets, score +3.94%) below keep/watch bar",
-   "wallet_settled": 4383,
-   "own_roi": 0.0213,
-   "main_league": "nhl"
-  },
-  "0x2b251efbc8e35233e87b76be09db0a03562571a6": {
-   "name": "plusti",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -2.1%; history 3 days; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 28,
-   "own_roi": -0.0211,
-   "main_league": "cs2"
-  },
-  "0x418d51e13d019913bb027db22ecc723fe1ad88a3": {
-   "name": "0x418D51e13d019913BB02",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "best segment mlb|moneyline (71 bets, score +1.74%) below keep/watch bar",
-   "wallet_settled": 542,
-   "own_roi": 0.0024,
-   "main_league": "nba"
-  },
-  "0x1a6692c85ec7ab4503ae10bd8a30da8e0ca4ae5e": {
-   "name": "fenglin5945",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -6.1%; best segment wnba|total (54 bets, score +2.38%) below keep/watch bar",
-   "wallet_settled": 503,
-   "own_roi": -0.0608,
-   "main_league": "nba"
-  },
-  "0xeecca68c6ba447d104fe8945aa143344dd858392": {
-   "name": "lightotunnel35",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "history 23 days; best segment cfb|spread (58 bets, score +9.13%) below keep/watch bar",
-   "wallet_settled": 223,
-   "own_roi": 0.094,
-   "main_league": "cfb"
-  },
-  "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6": {
-   "name": "suntori",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -9.6%; hold 58%; history 3 days; no segment with positive credibility score",
-   "wallet_settled": 1110,
-   "own_roi": -0.0956,
-   "main_league": "nba"
-  },
-  "0x1bc2900db79077f14d294dd24552020dfbe73391": {
-   "name": "0x1bc2900db79077f14d29",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "hold 27%; history 4 days; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 11,
-   "own_roi": 0.0581,
-   "main_league": "nba"
-  },
-  "0xdbdd45150249e229eb4ca8aa48a30dca21faa5de": {
-   "name": "0xdbdd45150249e229eB4c",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "history 25 days; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 5737,
-   "own_roi": 0.0211,
-   "main_league": "nba"
-  },
-  "0x664a25f165a0150ce687410470f3352f5783fc5f": {
-   "name": "itsonlyamatteroftime",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "history 15 days; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 567,
-   "own_roi": 0.0689,
-   "main_league": "nba"
-  },
-  "0xf5592765133941c40c77e52bc56bbe7ec167f462": {
-   "name": "0xf5592765133941c40C77",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -7.9%; best segment nba|spread (37 bets, score +0.66%) below keep/watch bar",
-   "wallet_settled": 627,
-   "own_roi": -0.0789,
-   "main_league": "cs2"
-  },
-  "0x6157d529ae129fe08f22a27ed42e741d2eaa9fb4": {
-   "name": "DaBossHogg",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "no segment with positive credibility score",
-   "wallet_settled": 414,
-   "own_roi": 0.0079,
-   "main_league": "mlb"
-  },
-  "0x31fb6a91f641ffb7c6fe71645975821def770ca6": {
-   "name": "marvelousmarvin",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "history 13 days; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 87,
-   "own_roi": 0.1782,
-   "main_league": "nba"
-  },
-  "0xebc6a80e75624ca2e5ec890606d8f4587d144608": {
-   "name": "0x6453Db824e2bFa4eAcE6",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 181,
-   "own_roi": 0.0778,
-   "main_league": "dota2"
-  },
-  "0xee586017922db8b2ff244c91ae6b66f661c3d209": {
-   "name": "glennyorkshire",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "hold 39%; history 40 days; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 465,
-   "own_roi": 0.0101,
-   "main_league": "nfl"
-  },
-  "0x87a146017e168286e1850c84bf2d054b2227b6ba": {
-   "name": "0x87a146017E168286E185",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "best segment sea|moneyline (38 bets, score +1.62%) below keep/watch bar",
-   "wallet_settled": 114,
-   "own_roi": 0.0084,
-   "main_league": "sea"
-  },
-  "0x81d972dbea298a5064d4ba51031e0386182fe9c9": {
-   "name": "ianf2026",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "history 19 days; best segment nba|spread (77 bets, score +7.54%) below keep/watch bar",
-   "wallet_settled": 136,
-   "own_roi": 0.3407,
-   "main_league": "nba"
-  },
-  "0x958bdb8aa30b8e5bd1fe4ee071f309c84e97f826": {
-   "name": "Multicoloured-Serf",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "history 10 days; best segment nba|moneyline (44 bets, score +2.92%) below keep/watch bar",
-   "wallet_settled": 938,
-   "own_roi": 0.0274,
-   "main_league": "cfb"
-  },
-  "0x46072f22bc5624f7ff43489d570fdc7e745ad542": {
-   "name": "0x46072f22bC5624f7Ff43",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "hold 67%; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 197,
-   "own_roi": 0.1569,
-   "main_league": "epl"
-  },
-  "0x79ae097215202b5d01f98e4479fb219102469a4a": {
-   "name": "CORGII",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -0.7%; no segment with positive credibility score",
-   "wallet_settled": 921,
-   "own_roi": -0.007,
-   "main_league": "cs2"
-  },
-  "0xc23dc0eca9e1c2e293de8911b9ac254f0bcd82c8": {
-   "name": "ZaiZoiBele",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "hold 55%; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 1144,
-   "own_roi": 0.0151,
-   "main_league": "lal"
-  },
-  "0xe7870d0e1bfc65a23e3d66caf00ca1b9129e5034": {
-   "name": "Kkunn",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -5.0%; hold 64%; no segment with positive credibility score",
-   "wallet_settled": 684,
-   "own_roi": -0.0499,
-   "main_league": "wta"
-  },
-  "0x5016c48436ab3efa2ab54b117d0c08fa1a4a1eeb": {
-   "name": "0x5016c48436AB3eFA2Ab5",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "best segment lal|moneyline (30 bets, score +3.47%) below keep/watch bar",
-   "wallet_settled": 598,
-   "own_roi": 0.0419,
+   "reason": "best segment fifwc|moneyline (41 bets, score +1.43%) below keep/watch bar",
+   "wallet_settled": 263,
+   "own_roi": 0.0462,
    "main_league": "fifwc"
-  },
-  "0x676c1bb692c76b57b06f1b93817515acfa5ce139": {
-   "name": "ChonkVision",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "history 46 days; best segment nhl|moneyline (91 bets, score +1.39%) below keep/watch bar",
-   "wallet_settled": 436,
-   "own_roi": 0.1378,
-   "main_league": "lol"
-  },
-  "0x5268527977f700f9bf9b6d5cd843859e4e70135d": {
-   "name": "HomeRunHazard",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "history 16 days; best segment cfb|total (351 bets, score +8.53%) below keep/watch bar",
-   "wallet_settled": 5584,
-   "own_roi": 0.0053,
-   "main_league": "nba"
-  },
-  "0xe07744c53c273de2acfd485a5212553bced6f5ee": {
-   "name": "BIess",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -7.9%; best segment mlb|moneyline (44 bets, score +1.87%) below keep/watch bar",
-   "wallet_settled": 745,
-   "own_roi": -0.079,
-   "main_league": "mlb"
-  },
-  "0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e": {
-   "name": "robloxgamblemaster-200",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -0.9%; best segment lol|child_moneyline (128 bets, score +2.45%) below keep/watch bar",
-   "wallet_settled": 1964,
-   "own_roi": -0.0088,
-   "main_league": "nba"
-  },
-  "0x7d787c72c8317046fda90814a93c87fc192529a5": {
-   "name": "MD14",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -12.3%; hold 45%; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 382,
-   "own_roi": -0.1235,
-   "main_league": "lol"
-  },
-  "0x9f2fe025f84839ca81dd8e0338892605702d2ca8": {
-   "name": "surfandturf",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -4.6%; history 50 days; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 221,
-   "own_roi": -0.0459,
-   "main_league": "nfl"
-  },
-  "0x051adea0d16c85df8a8a9c7e400e0655905d1db9": {
-   "name": "LightParadox",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "history 33 days; best segment cfb|spread (98 bets, score +0.97%) below keep/watch bar",
-   "wallet_settled": 2055,
-   "own_roi": 0.0213,
-   "main_league": "atp"
-  },
-  "0x61a3f1ef9c9618f532eb49f0cb260486c168e508": {
-   "name": "ch27er",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "hold 47%; history 8 days; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 87,
-   "own_roi": 0.1537,
-   "main_league": "nba"
-  },
-  "0xbe23032d56a012c531b372c7739bc1dbd4dfb587": {
-   "name": "Mastermoney",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -3.8%; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 400,
-   "own_roi": -0.0376,
-   "main_league": "cfb"
-  },
-  "0x856311dc0a68bc1204dbb35930e4884245c11eea": {
-   "name": "0x856311Dc0A68bc1204dB",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "hold 0%; history 0 days; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 1,
-   "own_roi": 0.5568,
-   "main_league": "epl"
-  },
-  "0x40338d42efb4d5e3789d003ffdc186f701957dce": {
-   "name": "bybit09",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -7.1%; history 7 days; no segment with positive credibility score",
-   "wallet_settled": 100,
-   "own_roi": -0.0708,
-   "main_league": "nba"
-  },
-  "0x2b344112f63e69a2e411b0cb7f200cbc0051176e": {
-   "name": "MAGATheeStallion",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "best segment cfb|spread (73 bets, score +5.87%) below keep/watch bar",
-   "wallet_settled": 600,
-   "own_roi": 0.0198,
-   "main_league": "mlb"
-  },
-  "0x350bd0431fdf0df5474a910b1627bc08b23bdf3b": {
-   "name": "thirdt1me",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "hold 47%; history 5 days; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 384,
-   "own_roi": 0.0346,
-   "main_league": "atp"
-  },
-  "0x16bb9951a36fce71e2ef57890b786145e0ba8492": {
-   "name": "0x16bb9951a36fce71e2ef",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -1.1%; best segment cfb|spread (161 bets, score +5.54%) below keep/watch bar",
-   "wallet_settled": 1726,
-   "own_roi": -0.0114,
-   "main_league": "mlb"
-  },
-  "0xc4a68d127318fd917a188c35e839a0707e374e4e": {
-   "name": "Raisuu",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "history 22 days; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 26,
-   "own_roi": 0.2972,
-   "main_league": "ufc"
-  },
-  "0x5fdd66ffd0325d4e8d1d86fbec50caa31770a747": {
-   "name": "juice-fruit",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "best segment cs2|moneyline (31 bets, score +0.25%) below keep/watch bar",
-   "wallet_settled": 98,
-   "own_roi": 0.1101,
-   "main_league": "cs2"
-  },
-  "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd": {
-   "name": "us391",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -3.6%; best segment mex|moneyline (43 bets, score +5.85%) below keep/watch bar",
-   "wallet_settled": 2250,
-   "own_roi": -0.036,
-   "main_league": "fifwc"
-  },
-  "0xb0e3fcbe0d7f17168fdce93f89c0168d3fa329eb": {
-   "name": "gagarin59",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -0.3%; best segment cfb|spread (88 bets, score +4.33%) below keep/watch bar",
-   "wallet_settled": 1626,
-   "own_roi": -0.0027,
-   "main_league": "nba"
-  },
-  "0xdd5ef115f801999575b03d78d0115ad8b2d59040": {
-   "name": "Forecastication2",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -7.8%; history 50 days; best segment nba|total (413 bets, score +5.96%) below keep/watch bar",
-   "wallet_settled": 4364,
-   "own_roi": -0.0785,
-   "main_league": "nba"
-  },
-  "0x97cc0cd39aa47cd03d085b36d5a514af4f59475b": {
-   "name": "misterblobby",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -4.7%; history 11 days; best segment nba|spread (41 bets, score +2.39%) below keep/watch bar",
-   "wallet_settled": 470,
-   "own_roi": -0.0466,
-   "main_league": "nba"
-  },
-  "0x958e910fa82c5d0f0825710817cf7635ba7cf76a": {
-   "name": "Zombie77",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "hold 50%; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 34,
-   "own_roi": 0.0453,
-   "main_league": "lal"
-  },
-  "0x82ffc6546ce2d53184cf9e4336fcc517774f6f16": {
-   "name": "0x82ffc6546ce2d53184cf",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "history 32 days; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 16,
-   "own_roi": 0.1319,
-   "main_league": "cfb"
-  },
-  "0xad494094e355999ad09bd07e51861c2a1541c53e": {
-   "name": "thetesterguy",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "hold 0%; history 14 days; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 8,
-   "own_roi": 0.1254,
-   "main_league": "ucl"
-  },
-  "0xa080dadd87036ad01dbf5e9c254b0c3dbdba234f": {
-   "name": "bands1",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "best segment nfl|moneyline (50 bets, score +0.70%) below keep/watch bar",
-   "wallet_settled": 527,
-   "own_roi": 0.0111,
-   "main_league": "nfl"
-  },
-  "0x054964a95e2cb3fc2105a62a1edf3da44979c052": {
-   "name": "COMEONDUDE",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "best segment nfl|spread (40 bets, score +1.27%) below keep/watch bar",
-   "wallet_settled": 219,
-   "own_roi": 0.0907,
-   "main_league": "nfl"
-  },
-  "0x0235dc24b38772bf3339a9e5ec5db3d3a05fcee5": {
-   "name": "darkumbreon88",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "history 43 days; best segment ucl|moneyline (72 bets, score +6.40%) below keep/watch bar",
-   "wallet_settled": 1780,
-   "own_roi": 0.0542,
-   "main_league": "sea"
-  },
-  "0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705": {
-   "name": "justaluckydude",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -2.1%; history 16 days; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 5444,
-   "own_roi": -0.0206,
-   "main_league": "nba"
-  },
-  "0x733d3dbeafe1b9017082223b41f8d72ac82d1ae7": {
-   "name": "IGBGMN",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -1.8%; best segment nhl|moneyline (98 bets, score +2.98%) below keep/watch bar",
-   "wallet_settled": 1000,
-   "own_roi": -0.0181,
-   "main_league": "nhl"
-  },
-  "0xd6220f3c7d9c8fea255e344ad50e2114b702c7ae": {
-   "name": "Mrnilson",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -5.2%; history 10 days; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 48,
-   "own_roi": -0.0519,
-   "main_league": "atp"
-  },
-  "0xfea31bc088000ff909be1dfd8d0e3f2c7ef2d227": {
-   "name": "ndb1",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "best segment nba|total (43 bets, score +4.31%) below keep/watch bar",
-   "wallet_settled": 745,
-   "own_roi": 0.0279,
-   "main_league": "nba"
-  },
-  "0x83720820a8aa6c3f20ad71850e7a1a17d16c5223": {
-   "name": "Jsram",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 56,
-   "own_roi": 0.1248,
-   "main_league": "epl"
-  },
-  "0xcf6c5492124794394dd9eac46498a8babbe47e66": {
-   "name": "one8tyfive",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "best segment atp|moneyline (86 bets, score +5.48%) below keep/watch bar",
-   "wallet_settled": 1570,
-   "own_roi": 0.034,
-   "main_league": "atp"
-  },
-  "0x1d1ade627d0bb0205758580b20d808573e720df6": {
-   "name": "Pwaddler",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -4.6%; best segment nfl|total (93 bets, score +6.23%) below keep/watch bar",
-   "wallet_settled": 1088,
-   "own_roi": -0.0457,
-   "main_league": "mlb"
-  },
-  "0x8002f0f179219531566886c539aaf83967a58b6c": {
-   "name": "Vladooos",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -4.1%; hold 55%; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 133,
-   "own_roi": -0.0408,
-   "main_league": "dota2"
-  },
-  "0x0a39b3b29ab3b7dd753aa96fde4ecab3f2dbb0b9": {
-   "name": "plonker2026",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -10.5%; no segment with positive credibility score",
-   "wallet_settled": 200,
-   "own_roi": -0.1047,
-   "main_league": "epl"
-  },
-  "0xc3744a19f42266ce6fa2736f52eae6e178b20f3e": {
-   "name": "JoeyAroyyOO",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "history 13 days; no segment with positive credibility score",
-   "wallet_settled": 269,
-   "own_roi": 0.0526,
-   "main_league": "nba"
-  },
-  "0x2d6ac4f70307102ac46e9e6ded67f3838ddf8add": {
-   "name": "GC-P",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "history 11 days; best segment ere|moneyline (30 bets, score +5.51%) below keep/watch bar",
-   "wallet_settled": 1689,
-   "own_roi": 0.0187,
-   "main_league": "nba"
-  },
-  "0x2559b5bae55fc693e15896e816aae2761d8eb2e3": {
-   "name": "Venusian",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "history 33 days; best segment nba|spread (76 bets, score +3.34%) below keep/watch bar",
-   "wallet_settled": 2157,
-   "own_roi": 0.0503,
-   "main_league": "atp"
-  },
-  "0xf62b709646bdf9bc15bedb094ee6ac062857844a": {
-   "name": "0xf62B709646bdf9bc15BE",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -7.2%; no segment with positive credibility score",
-   "wallet_settled": 440,
-   "own_roi": -0.0721,
-   "main_league": "nhl"
-  },
-  "0xccd81fbd3395dc43a0531f8484b21c2462daf4de": {
-   "name": "0F62",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -3.0%; no segment with positive credibility score",
-   "wallet_settled": 2010,
-   "own_roi": -0.03,
-   "main_league": "mlb"
-  },
-  "0x1aa20e9c2b2a3963dabb3bf8b36b39abbe2030cc": {
-   "name": "qinlaoban",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -0.8%; no segment with positive credibility score",
-   "wallet_settled": 894,
-   "own_roi": -0.0076,
-   "main_league": "nba"
-  },
-  "0xe015b5a2a299167be835a2fd1e86f09c49e06ffd": {
-   "name": "TAIWANNUMBERONE",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -1.2%; best segment lol|child_moneyline (391 bets, score +4.02%) below keep/watch bar",
-   "wallet_settled": 2844,
-   "own_roi": -0.0125,
-   "main_league": "lol"
-  },
-  "0xa6d188fb70c2e2e9ad411c42c02379ed3020286a": {
-   "name": "zhuz632",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -0.3%; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 201,
-   "own_roi": -0.0026,
-   "main_league": "fifwc"
-  },
-  "0x9d8c906108696d3e207a8ad378e613624c942799": {
-   "name": "sha12345",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "best segment nba|total (77 bets, score +3.44%) below keep/watch bar",
-   "wallet_settled": 1078,
-   "own_roi": 0.0044,
-   "main_league": "nba"
-  },
-  "0xcf7379b4b891c06d88807f6f70efa75378120215": {
-   "name": "NM-P",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "history 9 days; best segment nba|total (180 bets, score +4.36%) below keep/watch bar",
-   "wallet_settled": 1686,
-   "own_roi": 0.0228,
-   "main_league": "nba"
-  },
-  "0x8af212afcd98afb3ac28fa23d2b1a6f1081fdca8": {
-   "name": "Issacwong726",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 72,
-   "own_roi": 0.0069,
-   "main_league": "epl"
-  },
-  "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": {
-   "name": "Sassy-Bucket",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -6.3%; best segment mlb|moneyline (85 bets, score +2.70%) below keep/watch bar",
-   "wallet_settled": 731,
-   "own_roi": -0.0628,
-   "main_league": "cfb"
-  },
-  "0x1136368d7f6728e94ed14c532ab95a932f710c2e": {
-   "name": "arlanta",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -12.7%; no segment with positive credibility score",
-   "wallet_settled": 351,
-   "own_roi": -0.1269,
-   "main_league": "cs2"
-  },
-  "0x5152b2e40e8e98d8b6fad95157b37b8acacb200d": {
-   "name": "R2D2RS",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -44.5%; history 11 days; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 3,
-   "own_roi": -0.4454,
-   "main_league": "nfl"
-  },
-  "0x285faa3e3d1465cf3ff1bff1e1d14891f5b8495f": {
-   "name": "yabanci",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -1.1%; history 25 days; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 180,
-   "own_roi": -0.0111,
-   "main_league": "nba"
-  },
-  "0x983eedfbd75803602e4a6e6ea9aab6dc6b9c6748": {
-   "name": "3edmond.dantes",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -5.3%; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 48,
-   "own_roi": -0.0534,
-   "main_league": "epl"
-  },
-  "0x369f46433349a57cd6d08abf2819da737c09873e": {
-   "name": "kindar",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 10,
-   "own_roi": 0.2208,
-   "main_league": "nfl"
-  },
-  "0xe885f33c65fc6c244a297e9df9361b35975995b7": {
-   "name": "Bloodygoodrep1",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -8.8%; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 79,
-   "own_roi": -0.0883,
-   "main_league": "sea"
-  },
-  "0x72b40c0012682ef52228ad53ef955f9e4f177d67": {
-   "name": "nz7",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "no segment with positive credibility score",
-   "wallet_settled": 801,
-   "own_roi": 0.0114,
-   "main_league": "nba"
-  },
-  "0x760907c8840491c8c86fddb843d3f1d801786c4e": {
-   "name": "0x760907C8840491c8C86f",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -1.7%; best segment mlb|total (40 bets, score +1.89%) below keep/watch bar",
-   "wallet_settled": 3379,
-   "own_roi": -0.0167,
-   "main_league": "atp"
-  },
-  "0x0180046fa3137a7912d70995892b06687d29c6ee": {
-   "name": "fengdubisheng117",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 86,
-   "own_roi": 0.045,
-   "main_league": "cs2"
-  },
-  "0xcb987ce33f72146858d8da39b11d3f37b1e5b473": {
-   "name": "dartanyan150",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "own ROI -4.9%; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 26,
-   "own_roi": -0.0485,
-   "main_league": "epl"
-  },
-  "0x918b42a06ff25eaaa4a79eca9da6a9de46f4ea63": {
-   "name": "OhWhenTheReds",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 84,
-   "own_roi": 0.103,
-   "main_league": "mls"
-  },
-  "0x69ddcbd8237d53ed081dc586a184b27464931964": {
-   "name": "Poeloep",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "hold 45%; best segment ucl|moneyline (35 bets, score +0.16%) below keep/watch bar",
-   "wallet_settled": 871,
-   "own_roi": 0.0866,
-   "main_league": "fifwc"
-  },
-  "0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98": {
-   "name": "keeptheblueflagflyingh",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "history 19 days; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 4118,
-   "own_roi": 0.0372,
-   "main_league": "nba"
-  },
-  "0x9f237fe390894f2a7cd9c5e4a56837a0ae54dfdc": {
-   "name": "CornerGaming",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "history 8 days; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 44,
-   "own_roi": 0.0035,
-   "main_league": "epl"
   },
   "0x5c3a1a602848565bb16165fcd460b00c3d43020b": {
    "name": "FakeMadrid",
-   "checked_at": "2026-11-08",
+   "checked_at": "2026-11-12",
    "recheck_after_days": 30,
    "reason": "no league+bet-type segment with >=30 clean bets",
    "wallet_settled": 117,
    "own_roi": 0.0614,
    "main_league": "lal"
   },
-  "0xbc5667524756a01c1b57792326956fa1f00427b9": {
-   "name": "LmmmxYyqXz5221u",
-   "checked_at": "2026-11-08",
+  "0x12ec6d71325afac2b4d25b3de94185e2c48d41ae": {
+   "name": "olegio",
+   "checked_at": "2026-11-12",
    "recheck_after_days": 30,
-   "reason": "history 16 days; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 33,
-   "own_roi": 0.2773,
-   "main_league": "epl"
+   "reason": "hold 63%; no segment with positive credibility score",
+   "wallet_settled": 940,
+   "own_roi": 0.0069,
+   "main_league": "nba"
   },
-  "0xbb6418f9db6d1c765965dc4c9d48cd5b4d2bdb86": {
-   "name": "MadridTime",
-   "checked_at": "2026-11-08",
+  "0x95c6c9a6727ed203e97230dda61ab19a020e1508": {
+   "name": "DelidelaDele",
+   "checked_at": "2026-11-12",
    "recheck_after_days": 30,
-   "reason": "history 31 days; best segment nba|spread (58 bets, score +3.40%) below keep/watch bar",
-   "wallet_settled": 1867,
-   "own_roi": 0.0386,
-   "main_league": "atp"
+   "reason": "history 55 days; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 65,
+   "own_roi": 0.2717,
+   "main_league": "arg"
   },
-  "0xf5198df69e13937a40d1c76d6f72d9aa067d906b": {
-   "name": "sbimbg",
-   "checked_at": "2026-11-08",
+  "0x9d8c906108696d3e207a8ad378e613624c942799": {
+   "name": "sha12345",
+   "checked_at": "2026-11-12",
    "recheck_after_days": 30,
-   "reason": "own ROI -6.6%; no segment with positive credibility score",
-   "wallet_settled": 314,
-   "own_roi": -0.0664,
-   "main_league": "epl"
+   "reason": "own ROI -2.4%; best segment nba|total (95 bets, score +6.19%) below keep/watch bar",
+   "wallet_settled": 1208,
+   "own_roi": -0.0237,
+   "main_league": "nfl"
   },
-  "0xb4d250f58c26840e09723a83ce9c8149aa32ce99": {
-   "name": "alpheclabs",
-   "checked_at": "2026-11-08",
+  "0xa927cdfebebe4ba309386f12201f4fb0bccb8d9f": {
+   "name": "JabJabich",
+   "checked_at": "2026-11-12",
    "recheck_after_days": 30,
-   "reason": "own ROI -2.4%; history 25 days; best segment cs2|moneyline (55 bets, score +0.60%) below keep/watch bar",
-   "wallet_settled": 3270,
-   "own_roi": -0.0235,
-   "main_league": "atp"
+   "reason": "hold 56%; best segment cs2|moneyline (46 bets, score +2.54%) below keep/watch bar",
+   "wallet_settled": 599,
+   "own_roi": 0.0682,
+   "main_league": "cs2"
   },
-  "0xe5b70fd855af9258d9463992e4f1ed7987905ee3": {
-   "name": "EdZachary",
-   "checked_at": "2026-11-08",
+  "0x042e9bd0e9e0c50a9a7a516ea80d5542e11e462e": {
+   "name": "latvian.demon",
+   "checked_at": "2026-11-12",
    "recheck_after_days": 30,
    "reason": "no segment with positive credibility score",
-   "wallet_settled": 247,
-   "own_roi": 0.048,
-   "main_league": "nba"
+   "wallet_settled": 1406,
+   "own_roi": 0.0536,
+   "main_league": "cs2"
   },
-  "0xe4a57385a34b0b32fd86be72efd25cda41003cad": {
-   "name": "chubbytoro",
-   "checked_at": "2026-11-08",
+  "0x24ded84d901a743cfee095f8082b0f9f647183cb": {
+   "name": "arjennnnn",
+   "checked_at": "2026-11-12",
    "recheck_after_days": 30,
-   "reason": "own ROI -8.9%; history 42 days; no segment with positive credibility score",
-   "wallet_settled": 253,
-   "own_roi": -0.0887,
-   "main_league": "nhl"
+   "reason": "own ROI -0.4%; hold 65%; best segment lol|moneyline (34 bets, score +3.41%) below keep/watch bar",
+   "wallet_settled": 476,
+   "own_roi": -0.0037,
+   "main_league": "lol"
   },
-  "0xc6ecb0ba1ecc73d2fc61fb41884480ebd2d881c2": {
-   "name": "Scotty155",
-   "checked_at": "2026-11-08",
+  "0xf5592765133941c40c77e52bc56bbe7ec167f462": {
+   "name": "0xf5592765133941c40C77e52Bc56bbe7EC167F462-1755612447740",
+   "checked_at": "2026-11-12",
    "recheck_after_days": 30,
-   "reason": "no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 431,
-   "own_roi": 0.0217,
-   "main_league": "cfb"
-  },
-  "0x0b5e2874b65238b1f1d331e7c91aab4ae3af9367": {
-   "name": "luckycat888888",
-   "checked_at": "2026-11-08",
-   "recheck_after_days": 30,
-   "reason": "history 15 days; no league+bet-type segment with >=30 clean bets",
-   "wallet_settled": 250,
-   "own_roi": 0.0573,
-   "main_league": "nba"
+   "reason": "own ROI -8.0%; best segment nba|spread (43 bets, score +0.04%) below keep/watch bar",
+   "wallet_settled": 659,
+   "own_roi": -0.0801,
+   "main_league": "cs2"
   },
   "0xcd84d7f9262516865553555751609fb6f52abec6": {
    "name": "Donkey14",
-   "checked_at": "2026-11-08",
+   "checked_at": "2026-11-12",
    "recheck_after_days": 30,
-   "reason": "own ROI -3.0%; best segment cfb|moneyline (75 bets, score +3.88%) below keep/watch bar",
-   "wallet_settled": 710,
-   "own_roi": -0.0304,
+   "reason": "own ROI -5.2%; best segment cfb|moneyline (77 bets, score +5.40%) below keep/watch bar",
+   "wallet_settled": 734,
+   "own_roi": -0.0525,
    "main_league": "nfl"
+  },
+  "0xe40ecff63ec661d218a86c048186ac83389a9770": {
+   "name": "lllllllIlll",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -1.0%; best segment cs2|moneyline (414 bets, score +1.05%) below keep/watch bar",
+   "wallet_settled": 616,
+   "own_roi": -0.0099,
+   "main_league": "cs2"
+  },
+  "0x2b46bb71681777202368d095196f266944a1684d": {
+   "name": "betdge",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 4389,
+   "own_roi": 0.0321,
+   "main_league": "nba"
+  },
+  "0x52d93dcf81444f793dda7fedc370f7a35101fb1a": {
+   "name": "LuckyLoo",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -0.5%; history 17 days; best segment nba|spread (56 bets, score +0.52%) below keep/watch bar",
+   "wallet_settled": 2020,
+   "own_roi": -0.0047,
+   "main_league": "ucl"
+  },
+  "0x760907c8840491c8c86fddb843d3f1d801786c4e": {
+   "name": "0x760907C8840491c8C86fdDB843D3f1d801786C4e-1771959662080",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -1.4%; best segment nba|spread (305 bets, score +5.04%) below keep/watch bar",
+   "wallet_settled": 3995,
+   "own_roi": -0.0136,
+   "main_league": "atp"
+  },
+  "0xc9ebeeb6fa7ce4d2a1d5ba3f5514823a5e393800": {
+   "name": "little-jerk",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 2 days; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 4,
+   "own_roi": 0.652,
+   "main_league": "epl"
+  },
+  "0x5b6331e7ff0831a3fe2ed12004747db1a9c911a4": {
+   "name": "neutralwave23",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -3.7%; hold 68%; history 12 days; best segment nhl|moneyline (44 bets, score +1.64%) below keep/watch bar",
+   "wallet_settled": 2149,
+   "own_roi": -0.0367,
+   "main_league": "nba"
+  },
+  "0xdc40c985063d50aa00cc5f637f7e83203b3b89cf": {
+   "name": "Villson",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -4.7%; best segment cs2|map_handicap (70 bets, score +5.79%) below keep/watch bar",
+   "wallet_settled": 1128,
+   "own_roi": -0.0465,
+   "main_league": "dota2"
+  },
+  "0xcf6c5492124794394dd9eac46498a8babbe47e66": {
+   "name": "one8tyfive",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "best segment atp|moneyline (86 bets, score +8.59%) below keep/watch bar",
+   "wallet_settled": 1596,
+   "own_roi": 0.0346,
+   "main_league": "atp"
+  },
+  "0x0af479ff5340e00ddd2a242637be3a79f31e6eab": {
+   "name": "FKMY",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "hold 56%; history 43 days; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 79,
+   "own_roi": 0.0937,
+   "main_league": "ufc"
+  },
+  "0x559b850620cd9ee1136d48484c1f374fc5d44959": {
+   "name": "facaigege",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -2.1%; no segment with positive credibility score",
+   "wallet_settled": 956,
+   "own_roi": -0.0212,
+   "main_league": "lol"
+  },
+  "0x2b344112f63e69a2e411b0cb7f200cbc0051176e": {
+   "name": "MAGATheeStallion",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "best segment cfb|spread (73 bets, score +9.15%) below keep/watch bar",
+   "wallet_settled": 616,
+   "own_roi": 0.0246,
+   "main_league": "mlb"
+  },
+  "0x951634357346bb291df117f9ac410100feea2104": {
+   "name": "AppleTiiime",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 24 days; no segment with positive credibility score",
+   "wallet_settled": 193,
+   "own_roi": 0.0366,
+   "main_league": "nba"
+  },
+  "0xd48a81db62f742c4e42d86dfc23a7ee345366e90": {
+   "name": "nehcnehc",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -2.1%; best segment atp|moneyline (115 bets, score +6.39%) below keep/watch bar",
+   "wallet_settled": 8541,
+   "own_roi": -0.0212,
+   "main_league": "mlb"
+  },
+  "0x5020e94877430aca70a641a807b4d2007c249f9f": {
+   "name": "Bozos14",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -4.4%; history 51 days; best segment cfb|spread (77 bets, score +2.74%) below keep/watch bar",
+   "wallet_settled": 349,
+   "own_roi": -0.0437,
+   "main_league": "cfb"
+  },
+  "0x97cc0cd39aa47cd03d085b36d5a514af4f59475b": {
+   "name": "misterblobby",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -4.7%; history 16 days; best segment nba|spread (50 bets, score +4.74%) below keep/watch bar",
+   "wallet_settled": 545,
+   "own_roi": -0.0465,
+   "main_league": "nba"
+  },
+  "0xafef98246f384449a4e13aa779e7cb414d7ff50e": {
+   "name": "Accomplished-Framework",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -0.2%; hold 33%; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 656,
+   "own_roi": -0.002,
+   "main_league": "atp"
   },
   "0x6982049c65e98606f65a0ce71fdb9b61296da165": {
    "name": "0x6982049c65e98606f65A",
-   "checked_at": "2026-11-08",
+   "checked_at": "2026-11-12",
    "recheck_after_days": 30,
    "reason": "hold 47%; no league+bet-type segment with >=30 clean bets",
    "wallet_settled": 1317,
    "own_roi": 0.0504,
    "main_league": "atp"
   },
+  "0xa080dadd87036ad01dbf5e9c254b0c3dbdba234f": {
+   "name": "bands1",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "best segment nfl|moneyline (54 bets, score +1.17%) below keep/watch bar",
+   "wallet_settled": 562,
+   "own_roi": 0.0056,
+   "main_league": "nfl"
+  },
+  "0xb5b60d821300cef591b7c2a7647fd38e5ecaca29": {
+   "name": "hgawx",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -1.7%; best segment nba|spread (37 bets, score +1.04%) below keep/watch bar",
+   "wallet_settled": 118,
+   "own_roi": -0.0169,
+   "main_league": "nba"
+  },
+  "0xe549581668a5751c1972d3ad2d1991d900bd2d54": {
+   "name": "Allezpapa",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "best segment fifwc|moneyline (41 bets, score +4.50%) below keep/watch bar",
+   "wallet_settled": 44,
+   "own_roi": 0.2849,
+   "main_league": "fifwc"
+  },
+  "0x9c56304c8840621ef4c1e707b4c7d708d09878d1": {
+   "name": "GAMBLINGISCANCER69",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "best segment lol|child_moneyline (32 bets, score +6.45%) below keep/watch bar",
+   "wallet_settled": 86,
+   "own_roi": 0.4252,
+   "main_league": "lol"
+  },
+  "0xea2b4224411e723499a803ce3f4758779fb31fc6": {
+   "name": "frankfrankfrank",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "best segment ucl|moneyline (33 bets, score +6.14%) below keep/watch bar",
+   "wallet_settled": 833,
+   "own_roi": 0.125,
+   "main_league": "ucl"
+  },
+  "0x997cb45c25e94b4ee58c234ce1f211496a0d51f3": {
+   "name": "lonmi2511",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "best segment cs2|total (35 bets, score +0.02%) below keep/watch bar",
+   "wallet_settled": 1852,
+   "own_roi": 0.1267,
+   "main_league": "cs2"
+  },
+  "0x48185887c8dc95de60ee89722f1d0ee7894cbf0b": {
+   "name": "Liquidifier",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "best segment ucl|moneyline (32 bets, score +4.67%) below keep/watch bar",
+   "wallet_settled": 532,
+   "own_roi": 0.1132,
+   "main_league": "epl"
+  },
   "0xf28e42d20e4826f2b10a24bc952001697947cab2": {
    "name": "ethanaz",
-   "checked_at": "2026-11-08",
+   "checked_at": "2026-11-12",
    "recheck_after_days": 30,
    "reason": "no league+bet-type segment with >=30 clean bets",
    "wallet_settled": 1712,
    "own_roi": 0.0285,
+   "main_league": "nfl"
+  },
+  "0xa3fec54e1310fb6a05191420c9d44df4087caac5": {
+   "name": "tian888",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -6.0%; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 91,
+   "own_roi": -0.0604,
+   "main_league": "nba"
+  },
+  "0xbad26fe5458e6219cec3e40272760e275e835296": {
+   "name": "cocococococo",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -0.0%; best segment nhl|moneyline (965 bets, score +2.70%) below keep/watch bar",
+   "wallet_settled": 1625,
+   "own_roi": -0.0002,
+   "main_league": "nhl"
+  },
+  "0xe885f33c65fc6c244a297e9df9361b35975995b7": {
+   "name": "Bloodygoodrep1",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -8.8%; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 79,
+   "own_roi": -0.0883,
+   "main_league": "sea"
+  },
+  "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": {
+   "name": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -7.2%; best segment cfb|spread (148 bets, score +5.72%) below keep/watch bar",
+   "wallet_settled": 2739,
+   "own_roi": -0.0721,
+   "main_league": "mlb"
+  },
+  "0xb985b597f5598a975c42032749386d765826b70d": {
+   "name": "0xB985b597F5598a975C42",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -12.8%; hold 44%; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 96,
+   "own_roi": -0.1282,
+   "main_league": "ucl"
+  },
+  "0x1d2efa184454366ad3e79f3395d25396c20b896d": {
+   "name": "huli3882",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -11.2%; no segment with positive credibility score",
+   "wallet_settled": 666,
+   "own_roi": -0.1115,
+   "main_league": "lol"
+  },
+  "0x285faa3e3d1465cf3ff1bff1e1d14891f5b8495f": {
+   "name": "yabanci",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -1.1%; history 25 days; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 180,
+   "own_roi": -0.0111,
+   "main_league": "nba"
+  },
+  "0xdd5ef115f801999575b03d78d0115ad8b2d59040": {
+   "name": "Forecastication2",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -7.6%; history 55 days; best segment nba|total (471 bets, score +6.39%) below keep/watch bar",
+   "wallet_settled": 4774,
+   "own_roi": -0.0758,
+   "main_league": "nba"
+  },
+  "0xb4d250f58c26840e09723a83ce9c8149aa32ce99": {
+   "name": "alpheclabs",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -3.5%; history 30 days; best segment cs2|moneyline (69 bets, score +0.29%) below keep/watch bar",
+   "wallet_settled": 3698,
+   "own_roi": -0.0353,
+   "main_league": "itf"
+  },
+  "0xe18ecc345e00ee7c4f2d1f676f3dd2acb112f826": {
+   "name": "ArielFilipino",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 46 days; best segment nfl|spread (34 bets, score +6.74%) below keep/watch bar",
+   "wallet_settled": 177,
+   "own_roi": 0.2214,
+   "main_league": "cfb"
+  },
+  "0x1b47e9b128e6b671edebfb2cac23dd3efc40d814": {
+   "name": "sbsigner",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -19.8%; best segment mls|moneyline (59 bets, score +3.79%) below keep/watch bar",
+   "wallet_settled": 2505,
+   "own_roi": -0.1981,
+   "main_league": "nfl"
+  },
+  "0x028602e5b0909dd7864f884f899ff287a72cf61d": {
+   "name": "forsenxd",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -0.6%; best segment dota2|moneyline (296 bets, score +2.12%) below keep/watch bar",
+   "wallet_settled": 1561,
+   "own_roi": -0.0059,
+   "main_league": "dota2"
+  },
+  "0xbfd40a4fcb43d80eb4fb425f75d4fa090c61526f": {
+   "name": "big8betz",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "hold 60%; history 15 days; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 93,
+   "own_roi": 0.0966,
+   "main_league": "nba"
+  },
+  "0xd29312e2446a746bbd94408e1c475f1ec6d7d683": {
+   "name": "Kyn008",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 31 days; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 388,
+   "own_roi": 0.1404,
+   "main_league": "epl"
+  },
+  "0x83720820a8aa6c3f20ad71850e7a1a17d16c5223": {
+   "name": "Jsram",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 56,
+   "own_roi": 0.1248,
+   "main_league": "epl"
+  },
+  "0x478e6032636bb01439dc8390381a49a7955e0c83": {
+   "name": "xiaoxiongxiong",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -9.4%; no segment with positive credibility score",
+   "wallet_settled": 369,
+   "own_roi": -0.0941,
+   "main_league": "nba"
+  },
+  "0x9f237fe390894f2a7cd9c5e4a56837a0ae54dfdc": {
+   "name": "CornerGaming",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 8 days; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 44,
+   "own_roi": 0.0035,
+   "main_league": "epl"
+  },
+  "0xa2cced8bfae7d645f7f437fb76becf2fcbb70cbc": {
+   "name": "justwins",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "best segment cfb|spread (54 bets, score +4.36%) below keep/watch bar",
+   "wallet_settled": 516,
+   "own_roi": 0.0208,
+   "main_league": "nba"
+  },
+  "0x051adea0d16c85df8a8a9c7e400e0655905d1db9": {
+   "name": "LightParadox",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -0.4%; history 37 days; best segment cfb|total (34 bets, score +5.78%) below keep/watch bar",
+   "wallet_settled": 3218,
+   "own_roi": -0.0043,
+   "main_league": "atp"
+  },
+  "0x69ddcbd8237d53ed081dc586a184b27464931964": {
+   "name": "Poeloep",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "hold 45%; best segment ucl|moneyline (35 bets, score +0.72%) below keep/watch bar",
+   "wallet_settled": 873,
+   "own_roi": 0.1045,
+   "main_league": "fifwc"
+  },
+  "0x350bd0431fdf0df5474a910b1627bc08b23bdf3b": {
+   "name": "thirdt1me",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "hold 47%; history 5 days; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 384,
+   "own_roi": 0.0346,
+   "main_league": "atp"
+  },
+  "0x80bac5c17aec3f5b3d0f01166b639cd453a02e78": {
+   "name": "Wealthfreedom001",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -0.7%; best segment cs2|moneyline (89 bets, score +4.59%) below keep/watch bar",
+   "wallet_settled": 2553,
+   "own_roi": -0.0066,
+   "main_league": "dota2"
+  },
+  "0x1a6692c85ec7ab4503ae10bd8a30da8e0ca4ae5e": {
+   "name": "fenglin5945",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -8.0%; best segment wnba|total (54 bets, score +4.13%) below keep/watch bar",
+   "wallet_settled": 514,
+   "own_roi": -0.08,
+   "main_league": "nba"
+  },
+  "0x918b42a06ff25eaaa4a79eca9da6a9de46f4ea63": {
+   "name": "OhWhenTheReds",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 84,
+   "own_roi": 0.103,
+   "main_league": "mls"
+  },
+  "0x216050de6080fac3926226b2b8ce3d5544784c78": {
+   "name": "iWasEnough",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -4.0%; history 18 days; best segment nba|total (43 bets, score +5.22%) below keep/watch bar",
+   "wallet_settled": 2902,
+   "own_roi": -0.0401,
+   "main_league": "cs2"
+  },
+  "0x23f810419daedc0c9f859f6ae9147905cb6acd2f": {
+   "name": "lolzik",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 14 days; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 107,
+   "own_roi": 0.0325,
+   "main_league": "nba"
+  },
+  "0x676c1bb692c76b57b06f1b93817515acfa5ce139": {
+   "name": "ChonkVision",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 50 days; best segment nhl|moneyline (109 bets, score +2.03%) below keep/watch bar",
+   "wallet_settled": 466,
+   "own_roi": 0.1304,
+   "main_league": "lol"
+  },
+  "0xf3a6ac44c5c90ff2b4afa4459f71acc2e57971bd": {
+   "name": "scootergene",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "best segment mlb|total (61 bets, score +2.91%) below keep/watch bar",
+   "wallet_settled": 694,
+   "own_roi": 0.0135,
+   "main_league": "mlb"
+  },
+  "0x5152b2e40e8e98d8b6fad95157b37b8acacb200d": {
+   "name": "R2D2RS",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -44.5%; history 11 days; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 3,
+   "own_roi": -0.4454,
+   "main_league": "nfl"
+  },
+  "0x2117ae94a97d69b78cbc81b6680a62deb1955c26": {
+   "name": "Zzzz87",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -3.3%; best segment lol|map_handicap (148 bets, score +3.85%) below keep/watch bar",
+   "wallet_settled": 3238,
+   "own_roi": -0.0329,
+   "main_league": "lol"
+  },
+  "0x958e910fa82c5d0f0825710817cf7635ba7cf76a": {
+   "name": "Zombie77",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "hold 50%; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 34,
+   "own_roi": 0.0453,
+   "main_league": "lal"
+  },
+  "0x927cf2bb94d15707993f954552e56c74eb6d6633": {
+   "name": "jarosbill",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -8.1%; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 852,
+   "own_roi": -0.081,
+   "main_league": "mlb"
+  },
+  "0xcf7379b4b891c06d88807f6f70efa75378120215": {
+   "name": "NM-P",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 13 days; best segment nba|total (287 bets, score +10.77%) below keep/watch bar",
+   "wallet_settled": 2224,
+   "own_roi": 0.0173,
+   "main_league": "nba"
+  },
+  "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": {
+   "name": "RN1",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 6 days; best segment atp|moneyline (37 bets, score +1.08%) below keep/watch bar",
+   "wallet_settled": 4387,
+   "own_roi": 0.0124,
+   "main_league": "atp"
+  },
+  "0xfa8850079e893d6b86d90e73672810a543af85a5": {
+   "name": "dodsterbot",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "hold 69%; no segment with positive credibility score",
+   "wallet_settled": 1484,
+   "own_roi": 0.0139,
+   "main_league": "dota2"
+  },
+  "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6": {
+   "name": "suntori",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -5.4%; hold 59%; history 7 days; best segment nba|total (86 bets, score +1.47%) below keep/watch bar",
+   "wallet_settled": 2372,
+   "own_roi": -0.054,
+   "main_league": "nba"
+  },
+  "0x8af212afcd98afb3ac28fa23d2b1a6f1081fdca8": {
+   "name": "Issacwong726",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 72,
+   "own_roi": 0.0069,
+   "main_league": "epl"
+  },
+  "0xbb6418f9db6d1c765965dc4c9d48cd5b4d2bdb86": {
+   "name": "MadridTime",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -0.7%; history 36 days; best segment nba|spread (152 bets, score +8.59%) below keep/watch bar",
+   "wallet_settled": 3016,
+   "own_roi": -0.0067,
+   "main_league": "atp"
+  },
+  "0xcd30f4698c6f5f3829893e68e183a8e5ea18f316": {
+   "name": "SPCEXBUYER",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "best segment cs2|moneyline (44 bets, score +4.70%) below keep/watch bar",
+   "wallet_settled": 481,
+   "own_roi": 0.1125,
+   "main_league": "lol"
+  },
+  "0x5388bc8cb72eb19a3bec0e8f3db6a77f7cd54d5a": {
+   "name": "TeemuTeemuTeemu",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "best segment dota2|moneyline (81 bets, score +8.07%) below keep/watch bar",
+   "wallet_settled": 850,
+   "own_roi": 0.1354,
+   "main_league": "lol"
+  },
+  "0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98": {
+   "name": "keeptheblueflagflyinghigh",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 24 days; no segment with positive credibility score",
+   "wallet_settled": 5576,
+   "own_roi": 0.0271,
+   "main_league": "nba"
+  },
+  "0xee00ba338c59557141789b127927a55f5cc5cea1": {
+   "name": "S-Works",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "best segment cs2|moneyline (38 bets, score +1.15%) below keep/watch bar",
+   "wallet_settled": 918,
+   "own_roi": 0.0401,
+   "main_league": "cs2"
+  },
+  "0x57cd939930fd119067ca9dc42b22b3e15708a0fb": {
+   "name": "Supah9ga",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "best segment epl|moneyline (80 bets, score +5.88%) below keep/watch bar",
+   "wallet_settled": 637,
+   "own_roi": 0.2239,
+   "main_league": "epl"
+  },
+  "0x0259b2054f046fe0ee8f3e075fdb85fc3ba9769e": {
+   "name": "fantasy7788",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 271,
+   "own_roi": 0.0437,
+   "main_league": "cs2"
+  },
+  "0xe015b5a2a299167be835a2fd1e86f09c49e06ffd": {
+   "name": "PacersThreeandahalf",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -0.3%; best segment lol|child_moneyline (391 bets, score +5.28%) below keep/watch bar",
+   "wallet_settled": 2938,
+   "own_roi": -0.0033,
+   "main_league": "lol"
+  },
+  "0xf68a281980f8c13828e84e147e3822381d6e5b1b": {
+   "name": "CUTJALENHURTS",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "best segment cs2|moneyline (41 bets, score +2.54%) below keep/watch bar",
+   "wallet_settled": 2614,
+   "own_roi": 0.0343,
+   "main_league": "nfl"
+  },
+  "0x2cc8cc54f50dbb45fe346612821ca93b6e93262b": {
+   "name": "0x2Cc8Cc54F50DbB45fE34",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -1.1%; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 466,
+   "own_roi": -0.0107,
+   "main_league": "lal"
+  },
+  "0x496121ba250d47b62c2d84b3414a99aeeacade13": {
+   "name": "Anon455",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 13 days; best segment nba|moneyline (52 bets, score +2.31%) below keep/watch bar",
+   "wallet_settled": 1906,
+   "own_roi": 0.0055,
+   "main_league": "nba"
+  },
+  "0x99e42eb9038705165b22f821e27659c1dc41e4c4": {
+   "name": "acorp",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -4.2%; best segment nba|moneyline (126 bets, score +2.85%) below keep/watch bar",
+   "wallet_settled": 1696,
+   "own_roi": -0.0421,
+   "main_league": "cs2"
+  },
+  "0x8fbb3c32496d4bcff8f456c3342f90edaaa09a17": {
+   "name": "ipop00",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -10.4%; no segment with positive credibility score",
+   "wallet_settled": 246,
+   "own_roi": -0.1044,
+   "main_league": "fifwc"
+  },
+  "0xa3566f3411369de654e2c83e9fa10392b83bcb94": {
+   "name": "ubetteruuuu",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 38 days; best segment nfl|spread (41 bets, score +8.49%) below keep/watch bar",
+   "wallet_settled": 532,
+   "own_roi": 0.0584,
+   "main_league": "lol"
+  },
+  "0xd619b68e64f256f8ddd185b261c8679eacf0c461": {
+   "name": "CAcap",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 26 days; best segment nhl|total (168 bets, score +5.39%) below keep/watch bar",
+   "wallet_settled": 5048,
+   "own_roi": 0.0221,
+   "main_league": "nhl"
+  },
+  "0x0a39b3b29ab3b7dd753aa96fde4ecab3f2dbb0b9": {
+   "name": "plonker2026",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -10.1%; no segment with positive credibility score",
+   "wallet_settled": 202,
+   "own_roi": -0.1012,
+   "main_league": "epl"
+  },
+  "0x7c37b52eb226bcb9411375ec48b0169663fb6aeb": {
+   "name": "Diabolical-Prize",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "best segment cs2|moneyline (90 bets, score +0.98%) below keep/watch bar",
+   "wallet_settled": 389,
+   "own_roi": 0.0454,
+   "main_league": "cs2"
+  },
+  "0x6157d529ae129fe08f22a27ed42e741d2eaa9fb4": {
+   "name": "DaBossHogg",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "no segment with positive credibility score",
+   "wallet_settled": 426,
+   "own_roi": 0.0025,
+   "main_league": "mlb"
+  },
+  "0xe674dede25584b64a53d85517008530d2ab15e2b": {
+   "name": "ggA11xcr",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 5 days; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 13,
+   "own_roi": 0.6341,
+   "main_league": "nhl"
+  },
+  "0x0e555ed11bc172565f9466e81c558f1e88e0ef17": {
+   "name": "hovistomaradona",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 16 days; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 36,
+   "own_roi": 0.0619,
+   "main_league": "epl"
+  },
+  "0xf1c9a36fd5e982f27337a8692c78b2b1b2e3363f": {
+   "name": "rookie765",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "best segment lol|map_handicap (36 bets, score +4.71%) below keep/watch bar",
+   "wallet_settled": 186,
+   "own_roi": 0.0209,
+   "main_league": "lol"
+  },
+  "0x5268527977f700f9bf9b6d5cd843859e4e70135d": {
+   "name": "HomeRunHazard",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 21 days; best segment cfb|total (371 bets, score +10.18%) below keep/watch bar",
+   "wallet_settled": 7068,
+   "own_roi": 0.018,
+   "main_league": "nba"
+  },
+  "0x82ffc6546ce2d53184cf9e4336fcc517774f6f16": {
+   "name": "0x82ffc6546ce2d53184cf",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 32 days; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 16,
+   "own_roi": 0.1319,
+   "main_league": "cfb"
+  },
+  "0x561e3d3da1b48d675a83f6c9637c538ae3275c0c": {
+   "name": "Sausesantana",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "hold 50%; history 3 days; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 2,
+   "own_roi": 0.2953,
+   "main_league": "nfl"
+  },
+  "0xf62b709646bdf9bc15bedb094ee6ac062857844a": {
+   "name": "0xf62B709646bdf9bc15BEDB094eE6AC062857844A-1763873985459",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -0.8%; best segment cbb|moneyline (58 bets, score +0.05%) below keep/watch bar",
+   "wallet_settled": 459,
+   "own_roi": -0.0078,
+   "main_league": "nhl"
+  },
+  "0x796fc6fda8f8e03c03e2a2d012155989960300f6": {
+   "name": "6512395314597884",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 28 days; best segment atp|moneyline (68 bets, score +1.98%) below keep/watch bar",
+   "wallet_settled": 6913,
+   "own_roi": 0.0108,
+   "main_league": "nba"
+  },
+  "0xb3dda8a76f79f132b6f1a4b3c89f47474ea4a7e0": {
+   "name": "BK9496",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "best segment dota2|moneyline (58 bets, score +2.97%) below keep/watch bar",
+   "wallet_settled": 339,
+   "own_roi": 0.1015,
+   "main_league": "lol"
+  },
+  "0x1d1ade627d0bb0205758580b20d808573e720df6": {
+   "name": "Pwaddler",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -4.6%; best segment nfl|total (96 bets, score +8.14%) below keep/watch bar",
+   "wallet_settled": 1119,
+   "own_roi": -0.0462,
+   "main_league": "mlb"
+  },
+  "0xdc5bd11896bfb0fb335dad88d99a7e9a6bc3f102": {
+   "name": "ztao",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -0.1%; best segment ucl|other (64 bets, score +7.03%) below keep/watch bar",
+   "wallet_settled": 6473,
+   "own_roi": -0.0014,
+   "main_league": "cs2"
+  },
+  "0x65e4246d770fd503ea97caa47e84db7fb5aba3bd": {
+   "name": "0x75dd80d38fa3c36c4b55836eb8cdfbde35f8b19",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "no segment with positive credibility score",
+   "wallet_settled": 108,
+   "own_roi": 0.1167,
+   "main_league": "mlb"
+  },
+  "0xd6c913dfbae16a532f93f4a9385379a42696396d": {
+   "name": "brokemaxdegen",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "hold 68%; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 77,
+   "own_roi": 0.098,
+   "main_league": "ufc"
+  },
+  "0xdbdd45150249e229eb4ca8aa48a30dca21faa5de": {
+   "name": "0xdbdd45150249e229eB4c",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 25 days; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 5737,
+   "own_roi": 0.0211,
+   "main_league": "nba"
+  },
+  "0x8a260ebadf8ef07e693dd1b0be120b3330dd73c3": {
+   "name": "sinasinner",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -32.9%; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 97,
+   "own_roi": -0.3287,
+   "main_league": "nfl"
+  },
+  "0x7c1b3a6db8a1d57de8ee5d7bca620dc0623185c8": {
+   "name": "cm2897",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 6096,
+   "own_roi": 0.0178,
+   "main_league": "cfb"
+  },
+  "0x99f0d31fdced5b3a0e5ee2867730a6644a6c9495": {
+   "name": "0x99F0d31fdced5B3A0e5Ee2867730A6644a6C9495-1779037126382",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 16 days; best segment atp|moneyline (169 bets, score +7.04%) below keep/watch bar",
+   "wallet_settled": 1406,
+   "own_roi": 0.1157,
+   "main_league": "atp"
+  },
+  "0xd6966eb1ae7b52320ba7ab1016680198c9e08a49": {
+   "name": "Painfulvoid",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -2.8%; best segment ufc|total (37 bets, score +6.75%) below keep/watch bar",
+   "wallet_settled": 4047,
+   "own_roi": -0.0281,
+   "main_league": "nba"
+  },
+  "0x3f2c106ce6f2b22c5db52feba19be7dabc45db9d": {
+   "name": "syh3186",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 30 days; best segment cs2|map_handicap (32 bets, score +0.02%) below keep/watch bar",
+   "wallet_settled": 518,
+   "own_roi": 0.1119,
+   "main_league": "lol"
+  },
+  "0xc95ed399d2fbaec9461f2abd70e0d96df1921288": {
+   "name": "Siddhartha1",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 56 days; no segment with positive credibility score",
+   "wallet_settled": 168,
+   "own_roi": 0.1071,
+   "main_league": "nfl"
+  },
+  "0x876426b52898c295848f56760dd24b55eda2604a": {
+   "name": "0x876426B52898C295848f56760dd24B55Eda2604a-1770663426746",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "best segment nba|total (49 bets, score +14.02%) below keep/watch bar",
+   "wallet_settled": 74,
+   "own_roi": 0.3957,
+   "main_league": "nba"
+  },
+  "0x983eedfbd75803602e4a6e6ea9aab6dc6b9c6748": {
+   "name": "3edmond.dantes",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -5.3%; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 48,
+   "own_roi": -0.0534,
+   "main_league": "epl"
+  },
+  "0x66e530fb5dfee92bb9be9b7519d2dcc8a84dd3c7": {
+   "name": "zywoo2026",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -2.0%; hold 52%; best segment fifwc|moneyline (33 bets, score +5.48%) below keep/watch bar",
+   "wallet_settled": 1718,
+   "own_roi": -0.0196,
+   "main_league": "lol"
+  },
+  "0xe567267582b61b63b7f97be977abdd50c0e54fcb": {
+   "name": "TMingchan",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 12 days; best segment nba|total (38 bets, score +3.24%) below keep/watch bar",
+   "wallet_settled": 88,
+   "own_roi": 0.0543,
+   "main_league": "nba"
+  },
+  "0xa6d188fb70c2e2e9ad411c42c02379ed3020286a": {
+   "name": "zhuz632",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -0.3%; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 201,
+   "own_roi": -0.0026,
+   "main_league": "fifwc"
+  },
+  "0x72b40c0012682ef52228ad53ef955f9e4f177d67": {
+   "name": "nz7",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "no segment with positive credibility score",
+   "wallet_settled": 801,
+   "own_roi": 0.0114,
+   "main_league": "nba"
+  },
+  "0x5fdd66ffd0325d4e8d1d86fbec50caa31770a747": {
+   "name": "juice-fruit",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "best segment cs2|moneyline (31 bets, score +0.86%) below keep/watch bar",
+   "wallet_settled": 108,
+   "own_roi": 0.118,
+   "main_league": "cs2"
+  },
+  "0xb0e3fcbe0d7f17168fdce93f89c0168d3fa329eb": {
+   "name": "gagarin59",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -1.6%; best segment cfb|spread (88 bets, score +6.84%) below keep/watch bar",
+   "wallet_settled": 1782,
+   "own_roi": -0.016,
+   "main_league": "nba"
+  },
+  "0xdc41c39b95453c943174f369926018f6963bdd7e": {
+   "name": "nigiri99",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 9 days; best segment nhl|spread (67 bets, score +2.36%) below keep/watch bar",
+   "wallet_settled": 1946,
+   "own_roi": 0.0189,
+   "main_league": "nba"
+  },
+  "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd": {
+   "name": "us391",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -3.7%; best segment mex|moneyline (44 bets, score +10.15%) below keep/watch bar",
+   "wallet_settled": 2277,
+   "own_roi": -0.0371,
+   "main_league": "fifwc"
+  },
+  "0x958bdb8aa30b8e5bd1fe4ee071f309c84e97f826": {
+   "name": "Multicoloured-Serf",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 15 days; best segment cfb|spread (142 bets, score +4.09%) below keep/watch bar",
+   "wallet_settled": 1270,
+   "own_roi": 0.0137,
+   "main_league": "nba"
+  },
+  "0x006cc834cc092684f1b56626e23bedb3835c16ea": {
+   "name": "0x006cc834Cc092684F1B56626E23BEdB3835c16ea-1729683673397",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "no segment with positive credibility score",
+   "wallet_settled": 343,
+   "own_roi": 0.1616,
+   "main_league": "cbb"
+  },
+  "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": {
+   "name": "mooseborzoi",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -5.5%; history 7 days; best segment nfl|spread (149 bets, score +8.26%) below keep/watch bar",
+   "wallet_settled": 2337,
+   "own_roi": -0.055,
+   "main_league": "nba"
+  },
+  "0x492442eab586f242b53bda933fd5de859c8a3782": {
+   "name": "0x492442EaB586F242B53bDa933fD5dE859c8A3782-1766317541188",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -0.7%; best segment nba|total (297 bets, score +6.74%) below keep/watch bar",
+   "wallet_settled": 1548,
+   "own_roi": -0.0069,
+   "main_league": "nba"
+  },
+  "0x58776759ee5c70a915138706a1308add8bc5d894": {
+   "name": "Donghui",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -0.3%; no segment with positive credibility score",
+   "wallet_settled": 483,
+   "own_roi": -0.0026,
+   "main_league": "nba"
+  },
+  "0x461f3e886dca22e561eee224d283e08b8fb47a07": {
+   "name": "HyperLiquid0xb",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "no segment with positive credibility score",
+   "wallet_settled": 120,
+   "own_roi": 0.0717,
+   "main_league": "mlb"
+  },
+  "0x7523cafcee7bcf2db9a79d80e0d79b88a9a54c4c": {
+   "name": "DonaldinhoTrumpito",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -24.5%; no segment with positive credibility score",
+   "wallet_settled": 113,
+   "own_roi": -0.2449,
+   "main_league": "atp"
+  },
+  "0x3657862e57070b82a289b5887ec943a7c2166b14": {
+   "name": "Mayuravarma",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -6.4%; no segment with positive credibility score",
+   "wallet_settled": 143,
+   "own_roi": -0.0641,
+   "main_league": "nhl"
+  },
+  "0x3e04fbc51adb75418129f6ce2091ae633070564d": {
+   "name": "roldy",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -0.5%; best segment nhl|moneyline (1235 bets, score +4.74%) below keep/watch bar",
+   "wallet_settled": 3879,
+   "own_roi": -0.005,
+   "main_league": "nhl"
+  },
+  "0x1136368d7f6728e94ed14c532ab95a932f710c2e": {
+   "name": "arlanta",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -12.7%; no segment with positive credibility score",
+   "wallet_settled": 351,
+   "own_roi": -0.1269,
+   "main_league": "cs2"
+  },
+  "0x1aa20e9c2b2a3963dabb3bf8b36b39abbe2030cc": {
+   "name": "qinlaoban",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -0.7%; no segment with positive credibility score",
+   "wallet_settled": 915,
+   "own_roi": -0.0067,
+   "main_league": "nba"
+  },
+  "0x82307f44c9405e73dc1cff466073dcc505535121": {
+   "name": "zhiber",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 439,
+   "own_roi": 0.5992,
+   "main_league": "nba"
+  },
+  "0x446884aa55e3dcf7123d9a3d6243c4e34b70b165": {
+   "name": "0x446884aa55e3dCF7123D9A3D6243c4E34B70B165-1791060354625",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 40 days; best segment cs2|moneyline (54 bets, score +6.93%) below keep/watch bar",
+   "wallet_settled": 224,
+   "own_roi": 0.1036,
+   "main_league": "cs2"
+  },
+  "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": {
+   "name": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 20 days; best segment nba|total (33 bets, score +4.51%) below keep/watch bar",
+   "wallet_settled": 1672,
+   "own_roi": 0.0468,
+   "main_league": "nba"
+  },
+  "0xc23dc0eca9e1c2e293de8911b9ac254f0bcd82c8": {
+   "name": "ZaiZoiBele",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "hold 55%; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 1144,
+   "own_roi": 0.0151,
+   "main_league": "lal"
+  },
+  "0x87da2f16cf98af9b3e2f6ba6d9c4c470815b53d1": {
+   "name": "GeorgeRe",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "hold 52%; no segment with positive credibility score",
+   "wallet_settled": 2219,
+   "own_roi": 0.0262,
+   "main_league": "dota2"
+  },
+  "0x0979bad57d7a1403db89cbcd9c52bf43f2138d9b": {
+   "name": "askilika",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "no segment with positive credibility score",
+   "wallet_settled": 536,
+   "own_roi": 0.0597,
+   "main_league": "atp"
+  },
+  "0xc3744a19f42266ce6fa2736f52eae6e178b20f3e": {
+   "name": "JoeyAroyyOO",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -7.3%; history 17 days; best segment nba|total (342 bets, score +0.60%) below keep/watch bar",
+   "wallet_settled": 384,
+   "own_roi": -0.0733,
+   "main_league": "nba"
+  },
+  "0xeecca68c6ba447d104fe8945aa143344dd858392": {
+   "name": "lightotunnel35",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 28 days; best segment cfb|spread (64 bets, score +15.57%) below keep/watch bar",
+   "wallet_settled": 249,
+   "own_roi": 0.0704,
+   "main_league": "cfb"
+  },
+  "0xfed13032babfdb49ad387b7136e6a6fbd746eedb": {
+   "name": "hang808",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -2.5%; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 230,
+   "own_roi": -0.025,
+   "main_league": "nba"
+  },
+  "0x2b251efbc8e35233e87b76be09db0a03562571a6": {
+   "name": "plusti",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -2.1%; history 3 days; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 28,
+   "own_roi": -0.0211,
+   "main_league": "cs2"
+  },
+  "0x84ec4b5b2dbf75d07041b7b89f0a82647e3a72c1": {
+   "name": "FeedTheBigBird",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -4.8%; history 37 days; best segment cs2|moneyline (45 bets, score +0.30%) below keep/watch bar",
+   "wallet_settled": 193,
+   "own_roi": -0.0477,
+   "main_league": "cs2"
+  },
+  "0x7d787c72c8317046fda90814a93c87fc192529a5": {
+   "name": "MD14",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -12.3%; hold 45%; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 382,
+   "own_roi": -0.1235,
+   "main_league": "lol"
+  },
+  "0xe4a57385a34b0b32fd86be72efd25cda41003cad": {
+   "name": "chubbytoro",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -6.9%; history 47 days; no segment with positive credibility score",
+   "wallet_settled": 301,
+   "own_roi": -0.0688,
+   "main_league": "nhl"
+  },
+  "0x856311dc0a68bc1204dbb35930e4884245c11eea": {
+   "name": "0x856311Dc0A68bc1204dB",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "hold 0%; history 0 days; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 1,
+   "own_roi": 0.5568,
+   "main_league": "epl"
+  },
+  "0x7d2f82da7ae8c910bd1e89475be705d313daef1a": {
+   "name": "TheOpportunist",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "hold 60%; no segment with positive credibility score",
+   "wallet_settled": 785,
+   "own_roi": 0.0003,
+   "main_league": "fifwc"
+  },
+  "0xc46661a5c720740d7c70fbf2cfc10c5de8c4b5cf": {
+   "name": "cavvvy",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -27.9%; history 10 days; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 36,
+   "own_roi": -0.2785,
+   "main_league": "nba"
+  },
+  "0x0180046fa3137a7912d70995892b06687d29c6ee": {
+   "name": "fengdubisheng117",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 86,
+   "own_roi": 0.045,
+   "main_league": "cs2"
+  },
+  "0x40338d42efb4d5e3789d003ffdc186f701957dce": {
+   "name": "bybit09",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -7.1%; history 11 days; no segment with positive credibility score",
+   "wallet_settled": 100,
+   "own_roi": -0.0708,
+   "main_league": "nba"
+  },
+  "0x291de54f32a3ee495ff0c624fa9bfeca23451f97": {
+   "name": "Dessssa",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -23.2%; no segment with positive credibility score",
+   "wallet_settled": 123,
+   "own_roi": -0.2321,
+   "main_league": "nhl"
+  },
+  "0xac4773707daddd3792efed5a91f5ec7651a7d234": {
+   "name": "HBAFlover98",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -7.5%; no segment with positive credibility score",
+   "wallet_settled": 390,
+   "own_roi": -0.0753,
+   "main_league": "cs2"
+  },
+  "0x80896d05a92082ac31ac4a6cd5568c8d3bbdf935": {
+   "name": "randypunt",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -11.2%; best segment ufc|moneyline (33 bets, score +0.76%) below keep/watch bar",
+   "wallet_settled": 274,
+   "own_roi": -0.1117,
+   "main_league": "ufc"
+  },
+  "0x16bb9951a36fce71e2ef57890b786145e0ba8492": {
+   "name": "0x16bb9951a36fce71e2ef57890b786145e0ba8492",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -1.5%; best segment cfb|spread (161 bets, score +7.82%) below keep/watch bar",
+   "wallet_settled": 1734,
+   "own_roi": -0.0153,
+   "main_league": "mlb"
+  },
+  "0xc6ce4a5b5881c1e3ba74c221f0457a794734fc99": {
+   "name": "PollyPepperoni",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -32.9%; no segment with positive credibility score",
+   "wallet_settled": 94,
+   "own_roi": -0.3286,
+   "main_league": "ufc"
+  },
+  "0xdebbe89ceb32828a99648bca497684f5209ceedb": {
+   "name": "Lexington",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -1.3%; best segment wta|moneyline (44 bets, score +3.01%) below keep/watch bar",
+   "wallet_settled": 1141,
+   "own_roi": -0.0128,
+   "main_league": "fifwc"
+  },
+  "0x87a146017e168286e1850c84bf2d054b2227b6ba": {
+   "name": "0x87a146017E168286E1850c84Bf2d054b2227B6Ba-1770129622472",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "best segment sea|moneyline (38 bets, score +2.95%) below keep/watch bar",
+   "wallet_settled": 114,
+   "own_roi": 0.0084,
+   "main_league": "sea"
+  },
+  "0x0f4020972342a4f1b1d546491d59c6c39cd3567c": {
+   "name": "AltMind",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -8.5%; history 3 days; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 43,
+   "own_roi": -0.0854,
+   "main_league": "nba"
+  },
+  "0xc44f432b014f36679e13615f95996eac32bbd49f": {
+   "name": "Zywoo123",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "best segment nba|total (136 bets, score +8.30%) below keep/watch bar",
+   "wallet_settled": 2027,
+   "own_roi": 0.0135,
+   "main_league": "lol"
+  },
+  "0xbc5667524756a01c1b57792326956fa1f00427b9": {
+   "name": "LmmmxYyqXz5221u",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 16 days; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 33,
+   "own_roi": 0.2773,
+   "main_league": "epl"
+  },
+  "0x4c999cfdac664b015757d540653c30dc8e0720ea": {
+   "name": "ppku6298",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -1.7%; history 48 days; best segment nba|spread (120 bets, score +1.36%) below keep/watch bar",
+   "wallet_settled": 273,
+   "own_roi": -0.0173,
+   "main_league": "nba"
+  },
+  "0x369f46433349a57cd6d08abf2819da737c09873e": {
+   "name": "kindar",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 10,
+   "own_roi": 0.2208,
+   "main_league": "nfl"
+  },
+  "0x733d3dbeafe1b9017082223b41f8d72ac82d1ae7": {
+   "name": "IGBGMN",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -1.7%; best segment nhl|moneyline (98 bets, score +4.84%) below keep/watch bar",
+   "wallet_settled": 1002,
+   "own_roi": -0.0173,
+   "main_league": "nhl"
+  },
+  "0x497bf0f967320c70f77fb1c377a67e1376d3948b": {
+   "name": "pm13333",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 14 days; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 83,
+   "own_roi": 0.1272,
+   "main_league": "atp"
+  },
+  "0x6d11cd749eb59c8ffa6d38be80ad0ad0a255c449": {
+   "name": "1xx2",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -2.7%; best segment epl|moneyline (43 bets, score +10.11%) below keep/watch bar",
+   "wallet_settled": 870,
+   "own_roi": -0.0266,
+   "main_league": "epl"
+  },
+  "0x8a8685a792c184e5c2ee8c7d4d4baba7c2c94998": {
+   "name": "BrotherObama",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -3.2%; best segment lol|moneyline (83 bets, score +3.18%) below keep/watch bar",
+   "wallet_settled": 728,
+   "own_roi": -0.0325,
+   "main_league": "lol"
+  },
+  "0x9ee49c02ae1ade698bf9e06d4ca271f236b8697b": {
+   "name": "cosmicxbt",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -4.1%; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 41,
+   "own_roi": -0.0409,
+   "main_league": "nfl"
+  },
+  "0xe6bff499390d0988f81967d095925b44aad38380": {
+   "name": "CHACHA125655",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "best segment wnba|spread (54 bets, score +2.16%) below keep/watch bar",
+   "wallet_settled": 286,
+   "own_roi": 0.0116,
+   "main_league": "nba"
+  },
+  "0x72638c8d939fd0205925025b1183d8db4a360851": {
+   "name": "alpheclabs2",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 23 days; best segment cs2|moneyline (30 bets, score +0.22%) below keep/watch bar",
+   "wallet_settled": 3023,
+   "own_roi": 0.0493,
+   "main_league": "nba"
+  },
+  "0x241adda58ed48866f0deec7867731dd84c5ba9c8": {
+   "name": "0x241ADda58eD48866f0dEeC7867731dD84c5BA9C8-1763470351516",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "best segment atp|moneyline (38 bets, score +2.52%) below keep/watch bar",
+   "wallet_settled": 349,
+   "own_roi": 0.0264,
+   "main_league": "atp"
+  },
+  "0xebc6a80e75624ca2e5ec890606d8f4587d144608": {
+   "name": "0x6453Db824e2bFa4eAcE6",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 181,
+   "own_roi": 0.0778,
+   "main_league": "dota2"
+  },
+  "0x67ac9e1ad7d7e74ef0215d14fc8edb538e4fedf1": {
+   "name": "3648393489047",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -1.4%; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 1148,
+   "own_roi": -0.0136,
+   "main_league": "lol"
+  },
+  "0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705": {
+   "name": "justaluckydude",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -2.1%; history 16 days; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 5444,
+   "own_roi": -0.0206,
+   "main_league": "nba"
+  },
+  "0xa9878e59934ab507f9039bcb917c1bae0451141d": {
+   "name": "ilovecircle",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "best segment mlb|moneyline (53 bets, score +7.03%) below keep/watch bar",
+   "wallet_settled": 693,
+   "own_roi": 0.0922,
+   "main_league": "nfl"
+  },
+  "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": {
+   "name": "Sassy-Bucket",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -8.9%; best segment mlb|moneyline (85 bets, score +4.54%) below keep/watch bar",
+   "wallet_settled": 778,
+   "own_roi": -0.0891,
+   "main_league": "cfb"
+  },
+  "0xb52e8b3afd9f0f0d502a5a76494b42816d67285c": {
+   "name": "1l2ihj34li12u34",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -6.0%; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 290,
+   "own_roi": -0.06,
+   "main_league": "uel"
+  },
+  "0x0a77bc0638f13892c8b1d1d2c13ba178540f9d74": {
+   "name": "0x0A77exmm",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -2.5%; best segment fifwc|moneyline (94 bets, score +4.37%) below keep/watch bar",
+   "wallet_settled": 2725,
+   "own_roi": -0.0251,
+   "main_league": "mlb"
+  },
+  "0x054964a95e2cb3fc2105a62a1edf3da44979c052": {
+   "name": "COMEONDUDE",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "best segment nfl|spread (41 bets, score +2.87%) below keep/watch bar",
+   "wallet_settled": 221,
+   "own_roi": 0.1033,
+   "main_league": "nfl"
+  },
+  "0x5815db9fdf0e0ffdc1d1f759916b221339570ae7": {
+   "name": "nb1985",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 58 days; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 41,
+   "own_roi": 0.1685,
+   "main_league": "ucl"
+  },
+  "0x5966db1fe50763c9e3c014d756369bad07e1f804": {
+   "name": "0x5966Db1fE50763C9e3C014d756369BAd07E1F804-1777648534241",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "best segment cs2|moneyline (30 bets, score +3.03%) below keep/watch bar",
+   "wallet_settled": 145,
+   "own_roi": 0.2354,
+   "main_league": "fifwc"
+  },
+  "0x14964aefa2cd7caff7878b3820a690a03c5aa429": {
+   "name": "gmpm",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "best segment nba|spread (37 bets, score +2.74%) below keep/watch bar",
+   "wallet_settled": 295,
+   "own_roi": 0.0362,
+   "main_league": "nfl"
+  },
+  "0xd3911bd5e070c9ad9a9519c966347802d8f3b109": {
+   "name": "lfg100k",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "best segment lol|moneyline (50 bets, score +1.34%) below keep/watch bar",
+   "wallet_settled": 790,
+   "own_roi": 0.0313,
+   "main_league": "lol"
+  },
+  "0x924379a79c64b77ad5816ad362122a5f6228658e": {
+   "name": "Kch-Temp",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "best segment nfl|total (32 bets, score +3.93%) below keep/watch bar",
+   "wallet_settled": 309,
+   "own_roi": 0.1251,
+   "main_league": "nfl"
+  },
+  "0x3990e456f5a7e80368219ec137f57974f5143401": {
+   "name": "NeverLoseBet",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -15.7%; history 51 days; no segment with positive credibility score",
+   "wallet_settled": 204,
+   "own_roi": -0.1567,
+   "main_league": "cs2"
+  },
+  "0xa2a78bb796f56b1b174b29eff72af4f0c558627b": {
+   "name": "0x30E4E574AF95340e8734",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "hold 68%; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 34,
+   "own_roi": 0.3415,
+   "main_league": "sea"
+  },
+  "0x0c154c190e293b7e5f8d453b5f690c4dc9599a45": {
+   "name": "0x0c154c190E293B7e5F8D453b5F690C4dC9599A45-1775083003603",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -8.8%; best segment wnba|total (49 bets, score +1.85%) below keep/watch bar",
+   "wallet_settled": 440,
+   "own_roi": -0.0875,
+   "main_league": "nba"
+  },
+  "0xbe23032d56a012c531b372c7739bc1dbd4dfb587": {
+   "name": "Mastermoney",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -3.8%; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 400,
+   "own_roi": -0.0376,
+   "main_league": "cfb"
+  },
+  "0xde0a3c61ef2c9d98794e388274857d45f904f102": {
+   "name": "473game",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -3.0%; no segment with positive credibility score",
+   "wallet_settled": 551,
+   "own_roi": -0.0303,
+   "main_league": "lol"
+  },
+  "0x103721386ec40df5ab93df0bd0964e8fe70b5b09": {
+   "name": "equalsignificance",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "no segment with positive credibility score",
+   "wallet_settled": 398,
+   "own_roi": 0.0817,
+   "main_league": "dota2"
+  },
+  "0xf9dcbb0a9b740625738cdd7cf83db99c7deaaba7": {
+   "name": "ZetaKappaEpsilon",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 53 days; best segment ere|moneyline (35 bets, score +5.75%) below keep/watch bar",
+   "wallet_settled": 1611,
+   "own_roi": 0.0254,
+   "main_league": "sea"
+  },
+  "0x2dc13c6bda81b202281e796953a7323de675b33c": {
+   "name": "xifutloong3",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 318,
+   "own_roi": 0.0499,
+   "main_league": "mlb"
+  },
+  "0x343d4466dc323b850e5249394894c7381d91456e": {
+   "name": "tazcot",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "best segment mlb|moneyline (31 bets, score +4.08%) below keep/watch bar",
+   "wallet_settled": 33,
+   "own_roi": 0.6485,
+   "main_league": "mlb"
+  },
+  "0xbc43c8bfbc4d77c2fc9011adad38ba43b88996d3": {
+   "name": "0xBc43c8bfBC4d77c2FC9011adaD38Ba43b88996d3-1765231687816",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -5.1%; best segment atp|moneyline (257 bets, score +2.98%) below keep/watch bar",
+   "wallet_settled": 1243,
+   "own_roi": -0.051,
+   "main_league": "nfl"
+  },
+  "0xf1ef8705e9f63c790c6fffd6329aea7011718cd6": {
+   "name": "Outsid3rTrading",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -1.8%; best segment cbb|total (86 bets, score +4.67%) below keep/watch bar",
+   "wallet_settled": 1503,
+   "own_roi": -0.018,
+   "main_league": "cs2"
+  },
+  "0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e": {
+   "name": "robloxgamblemaster-2008-10-18",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -1.1%; best segment lol|child_moneyline (128 bets, score +3.98%) below keep/watch bar",
+   "wallet_settled": 2033,
+   "own_roi": -0.0111,
+   "main_league": "nba"
+  },
+  "0x85f031d069de300055900c4055c1baeb6bde3f67": {
+   "name": "RJW1",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -7.3%; best segment nba|spread (42 bets, score +0.97%) below keep/watch bar",
+   "wallet_settled": 145,
+   "own_roi": -0.0727,
+   "main_league": "nba"
+  },
+  "0x61a3f1ef9c9618f532eb49f0cb260486c168e508": {
+   "name": "ch27er",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "hold 47%; history 8 days; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 87,
+   "own_roi": 0.1537,
+   "main_league": "nba"
+  },
+  "0xad494094e355999ad09bd07e51861c2a1541c53e": {
+   "name": "thetesterguy",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "hold 0%; history 14 days; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 8,
+   "own_roi": 0.1254,
+   "main_league": "ucl"
+  },
+  "0xb9c7d35d1f04d08624fabcfd3b6cee2d3c9baade": {
+   "name": "taylorsversion",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -11.2%; best segment nhl|moneyline (104 bets, score +3.20%) below keep/watch bar",
+   "wallet_settled": 316,
+   "own_roi": -0.1124,
+   "main_league": "nhl"
+  },
+  "0xdb83e85ffd22faa4009273034770f96ffc5b1e50": {
+   "name": "sentrio",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 11 days; best segment nba|total (158 bets, score +3.55%) below keep/watch bar",
+   "wallet_settled": 2118,
+   "own_roi": 0.0274,
+   "main_league": "nba"
+  },
+  "0xe07744c53c273de2acfd485a5212553bced6f5ee": {
+   "name": "BIess",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -6.7%; best segment mlb|moneyline (44 bets, score +3.42%) below keep/watch bar",
+   "wallet_settled": 761,
+   "own_roi": -0.0668,
+   "main_league": "mlb"
+  },
+  "0x7a8885c8dc075f0578b648f29fa233408a7d41cc": {
+   "name": "stackingsats",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -0.5%; best segment mlb|moneyline (311 bets, score +2.13%) below keep/watch bar",
+   "wallet_settled": 828,
+   "own_roi": -0.005,
+   "main_league": "mlb"
+  },
+  "0xd202bf6d89dc6bab1b9f00ead175f75466348973": {
+   "name": "meoooow",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -3.5%; best segment wnba|total (43 bets, score +2.07%) below keep/watch bar",
+   "wallet_settled": 1772,
+   "own_roi": -0.0352,
+   "main_league": "lol"
+  },
+  "0x2d6ac4f70307102ac46e9e6ded67f3838ddf8add": {
+   "name": "GC-P",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 15 days; best segment ere|moneyline (33 bets, score +8.41%) below keep/watch bar",
+   "wallet_settled": 2198,
+   "own_roi": 0.012,
+   "main_league": "nba"
+  },
+  "0x6b123a3056bdfa9a6ab33f884e735deeb18ed642": {
+   "name": "sts22",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 155,
+   "own_roi": 0.0637,
+   "main_league": "ufc"
+  },
+  "0xf5198df69e13937a40d1c76d6f72d9aa067d906b": {
+   "name": "sbimbg",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -6.1%; no segment with positive credibility score",
+   "wallet_settled": 327,
+   "own_roi": -0.0609,
+   "main_league": "epl"
+  },
+  "0x79ae097215202b5d01f98e4479fb219102469a4a": {
+   "name": "CORGII",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -0.2%; no segment with positive credibility score",
+   "wallet_settled": 931,
+   "own_roi": -0.0016,
+   "main_league": "cs2"
+  },
+  "0x6d98d93b9fa0684f21fa1a2ab475c8ca8b97efe9": {
+   "name": "fatfatcat",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 49 days; best segment nba|spread (60 bets, score +6.86%) below keep/watch bar",
+   "wallet_settled": 108,
+   "own_roi": 0.1583,
+   "main_league": "nba"
+  },
+  "0x1bc2900db79077f14d294dd24552020dfbe73391": {
+   "name": "0x1bc2900db79077f14d29",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "hold 27%; history 4 days; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 11,
+   "own_roi": 0.0581,
+   "main_league": "nba"
+  },
+  "0xaa7789219c17e180dcb5933099c90d885f1d15a5": {
+   "name": "alaskabaked",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -6.1%; hold 57%; no segment with positive credibility score",
+   "wallet_settled": 970,
+   "own_roi": -0.0611,
+   "main_league": "mlb"
+  },
+  "0x9052a5f2324b8efa264a2a37e942770284143c2d": {
+   "name": "YEEES-but-why",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -12.2%; no segment with positive credibility score",
+   "wallet_settled": 174,
+   "own_roi": -0.1224,
+   "main_league": "nfl"
+  },
+  "0x5016c48436ab3efa2ab54b117d0c08fa1a4a1eeb": {
+   "name": "0x5016c48436AB3eFA2Ab54b117d0C08fa1a4a1eEB-1778328420816",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "best segment lal|moneyline (30 bets, score +5.58%) below keep/watch bar",
+   "wallet_settled": 602,
+   "own_roi": 0.0471,
+   "main_league": "fifwc"
+  },
+  "0xf4c95b636c71243531dfc82a97565a94c106f88c": {
+   "name": "milkteaboba",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -6.6%; history 35 days; best segment nfl|spread (30 bets, score +0.88%) below keep/watch bar",
+   "wallet_settled": 75,
+   "own_roi": -0.0657,
+   "main_league": "nfl"
+  },
+  "0xde9f7f4e77a1595623ceb58e469f776257ccd43c": {
+   "name": "tradecraft",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 44 days; best segment wta|moneyline (66 bets, score +5.30%) below keep/watch bar",
+   "wallet_settled": 4015,
+   "own_roi": 0.0631,
+   "main_league": "wta"
+  },
+  "0x9a933a2a83188b28efaf1d07d45228ea6ee82793": {
+   "name": "MigRodr",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 26 days; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 76,
+   "own_roi": 0.2123,
+   "main_league": "lal"
+  },
+  "0x5c720d41fe89ca907116f5629b5b1fda4a3d7e7e": {
+   "name": "pravica",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 390,
+   "own_roi": 0.0084,
+   "main_league": "cs2"
+  },
+  "0xe7870d0e1bfc65a23e3d66caf00ca1b9129e5034": {
+   "name": "Kkunn",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -4.7%; hold 63%; no segment with positive credibility score",
+   "wallet_settled": 732,
+   "own_roi": -0.0469,
+   "main_league": "wta"
+  },
+  "0x2c8d4bed2950e9238137a6ec3dc1ad486a4165e7": {
+   "name": "Fund01",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "no segment with positive credibility score",
+   "wallet_settled": 109,
+   "own_roi": 0.1106,
+   "main_league": "cs2"
+  },
+  "0x418d51e13d019913bb027db22ecc723fe1ad88a3": {
+   "name": "0x418D51e13d019913BB027DB22ECc723fe1AD88A3-1720918577961",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -0.4%; best segment mlb|moneyline (71 bets, score +2.93%) below keep/watch bar",
+   "wallet_settled": 582,
+   "own_roi": -0.0035,
+   "main_league": "nba"
+  },
+  "0xc6ecb0ba1ecc73d2fc61fb41884480ebd2d881c2": {
+   "name": "Scotty155",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 431,
+   "own_roi": 0.0217,
+   "main_league": "cfb"
+  },
+  "0x92209ecf324c9d08fa7d91143863786ac5490fcb": {
+   "name": "RaulRosasJr",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -6.5%; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 124,
+   "own_roi": -0.0646,
+   "main_league": "ufc"
+  },
+  "0x44c58184f89a5c2f699dc8943009cb3d75a08d45": {
+   "name": "JhonAlexanderHinestroz",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "hold 22%; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 679,
+   "own_roi": 0.0336,
+   "main_league": "fifwc"
+  },
+  "0xc4a68d127318fd917a188c35e839a0707e374e4e": {
+   "name": "Raisuu",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 22 days; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 26,
+   "own_roi": 0.2972,
+   "main_league": "ufc"
+  },
+  "0x613bfbb81d9e5398bff208da4ae848e7a73e823a": {
+   "name": "FlamePyro",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -0.1%; no segment with positive credibility score",
+   "wallet_settled": 861,
+   "own_roi": -0.0006,
+   "main_league": "nba"
+  },
+  "0xebfdb8164f0e0748818d6c7a9ac85a323267fd63": {
+   "name": "robustmst",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "hold 43%; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 232,
+   "own_roi": 0.0626,
+   "main_league": "atp"
+  },
+  "0xc29a02c2d0683d9cc1e5ef810cdf48a9e2c67816": {
+   "name": "charlie5492",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -11.6%; no segment with positive credibility score",
+   "wallet_settled": 94,
+   "own_roi": -0.1163,
+   "main_league": "nhl"
+  },
+  "0xc77604062aa8a9603ee31d13445b80556e571e92": {
+   "name": "b3908",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 54,
+   "own_roi": 0.0987,
+   "main_league": "fifwc"
+  },
+  "0x0a30932f96f296421cf0cf124fd180e4db22e2ca": {
+   "name": "goldmyname",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -1.3%; history 31 days; no segment with positive credibility score",
+   "wallet_settled": 431,
+   "own_roi": -0.0129,
+   "main_league": "nba"
+  },
+  "0x8002f0f179219531566886c539aaf83967a58b6c": {
+   "name": "Vladooos",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -4.1%; hold 55%; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 133,
+   "own_roi": -0.0408,
+   "main_league": "dota2"
+  },
+  "0x94d71d0d28709da91fd44c7d89da272fe86dbef5": {
+   "name": "JMMMMM",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -7.8%; hold 64%; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 355,
+   "own_roi": -0.0777,
+   "main_league": "nba"
+  },
+  "0xd106952ebf30a3125affd8a23b6c1f30c35fc79c": {
+   "name": "Herdonia",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 23 days; best segment cfb|moneyline (74 bets, score +8.43%) below keep/watch bar",
+   "wallet_settled": 1273,
+   "own_roi": 0.0182,
+   "main_league": "nba"
+  },
+  "0xfea31bc088000ff909be1dfd8d0e3f2c7ef2d227": {
+   "name": "ndb1",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "best segment nba|total (43 bets, score +7.62%) below keep/watch bar",
+   "wallet_settled": 746,
+   "own_roi": 0.0295,
+   "main_league": "nba"
+  },
+  "0x46072f22bc5624f7ff43489d570fdc7e745ad542": {
+   "name": "0x46072f22bC5624f7Ff43",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "hold 67%; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 197,
+   "own_roi": 0.1569,
+   "main_league": "epl"
+  },
+  "0x0235dc24b38772bf3339a9e5ec5db3d3a05fcee5": {
+   "name": "darkumbreon88",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 47 days; best segment ucl|moneyline (72 bets, score +10.22%) below keep/watch bar",
+   "wallet_settled": 2022,
+   "own_roi": 0.0568,
+   "main_league": "sea"
+  },
+  "0xf070207d315d47fd07870e464d3ded9151f5ac55": {
+   "name": "SuperMegaMan",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -3.9%; best segment wnba|total (65 bets, score +0.31%) below keep/watch bar",
+   "wallet_settled": 1787,
+   "own_roi": -0.0385,
+   "main_league": "lol"
+  },
+  "0xe5b70fd855af9258d9463992e4f1ed7987905ee3": {
+   "name": "EdZachary",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "best segment cfb|spread (33 bets, score +6.47%) below keep/watch bar",
+   "wallet_settled": 274,
+   "own_roi": 0.023,
+   "main_league": "nba"
+  },
+  "0xd6220f3c7d9c8fea255e344ad50e2114b702c7ae": {
+   "name": "Mrnilson",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -5.2%; history 10 days; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 48,
+   "own_roi": -0.0519,
+   "main_league": "atp"
+  },
+  "0x0b5e2874b65238b1f1d331e7c91aab4ae3af9367": {
+   "name": "luckycat888888",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 15 days; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 250,
+   "own_roi": 0.0573,
+   "main_league": "nba"
+  },
+  "0x01e6e3c5cfe50943e7721398054cb1e22032e7e0": {
+   "name": "JustADonk",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -2.1%; best segment wta|moneyline (33 bets, score +1.71%) below keep/watch bar",
+   "wallet_settled": 1558,
+   "own_roi": -0.0208,
+   "main_league": "lol"
+  },
+  "0xee586017922db8b2ff244c91ae6b66f661c3d209": {
+   "name": "glennyorkshire",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "hold 47%; history 44 days; best segment itf|moneyline (48 bets, score +9.46%) below keep/watch bar",
+   "wallet_settled": 763,
+   "own_roi": 0.0648,
+   "main_league": "nfl"
+  },
+  "0x032eb1bc893940263ad0b01889f262fc232f2a9e": {
+   "name": "purplegatto",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 29 days; best segment cfb|moneyline (91 bets, score +4.16%) below keep/watch bar",
+   "wallet_settled": 1433,
+   "own_roi": 0.0432,
+   "main_league": "nba"
+  },
+  "0x31fb6a91f641ffb7c6fe71645975821def770ca6": {
+   "name": "marvelousmarvin",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 13 days; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 87,
+   "own_roi": 0.1782,
+   "main_league": "nba"
+  },
+  "0xccd81fbd3395dc43a0531f8484b21c2462daf4de": {
+   "name": "0F62",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -2.8%; no segment with positive credibility score",
+   "wallet_settled": 2063,
+   "own_roi": -0.0284,
+   "main_league": "mlb"
+  },
+  "0xcb987ce33f72146858d8da39b11d3f37b1e5b473": {
+   "name": "dartanyan150",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -4.9%; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 26,
+   "own_roi": -0.0485,
+   "main_league": "epl"
+  },
+  "0xfa204fd4ddff3c21233c381de7de9e028ff9a112": {
+   "name": "jodar",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 10 days; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 48,
+   "own_roi": 0.1979,
+   "main_league": "cs2"
+  },
+  "0x43d4482a0a69d9bcfea8ce6432629b26c19a13a2": {
+   "name": "wooter",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "no segment with positive credibility score",
+   "wallet_settled": 301,
+   "own_roi": 0.0574,
+   "main_league": "nba"
+  },
+  "0x664a25f165a0150ce687410470f3352f5783fc5f": {
+   "name": "itsonlyamatteroftime",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 15 days; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 567,
+   "own_roi": 0.0689,
+   "main_league": "nba"
+  },
+  "0x20d6436849f930584892730c7f96ebb2ac763856": {
+   "name": "0x20D6436849F930584892730C7F96eBB2Ac763856-1768642056357",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "best segment mlb|moneyline (55 bets, score +7.29%) below keep/watch bar",
+   "wallet_settled": 592,
+   "own_roi": 0.0264,
+   "main_league": "nba"
+  },
+  "0xe16d3f2a5807999b358affd9445c3a09e45e5e30": {
+   "name": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -2.0%; best segment dota2|child_moneyline (463 bets, score +4.73%) below keep/watch bar",
+   "wallet_settled": 1719,
+   "own_roi": -0.0198,
+   "main_league": "dota2"
+  },
+  "0x5116ee15e86bc8878b90ac8a8514e38511eb58c4": {
+   "name": "ElonSpam",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "no segment with positive credibility score",
+   "wallet_settled": 1136,
+   "own_roi": 0.0021,
+   "main_league": "nba"
+  },
+  "0x3a55b0c45449b955e43ec10734bd988bb5d1394e": {
+   "name": "0x3mf379C47E653dafa153",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -2.9%; hold 68%; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 751,
+   "own_roi": -0.0289,
+   "main_league": "nba"
+  },
+  "0x43372356634781eea88d61bbdd7824cdce958882": {
+   "name": "Anjun",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "best segment lol|kill_over_under_game (52 bets, score +4.73%) below keep/watch bar",
+   "wallet_settled": 989,
+   "own_roi": 0.0153,
+   "main_league": "lol"
+  },
+  "0xe5f0ae9cc9aef77ae3c2a64c9e69caa3f335dc1d": {
+   "name": "0xE5F0AE9cc9aeF77ae3c2A64c9E69caa3F335dc1d-1773531520731",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -1.2%; best segment mls|moneyline (41 bets, score +2.84%) below keep/watch bar",
+   "wallet_settled": 811,
+   "own_roi": -0.012,
+   "main_league": "nhl"
+  },
+  "0x2559b5bae55fc693e15896e816aae2761d8eb2e3": {
+   "name": "Venusian",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "history 37 days; best segment nba|spread (181 bets, score +1.89%) below keep/watch bar",
+   "wallet_settled": 3328,
+   "own_roi": 0.0065,
+   "main_league": "atp"
+  },
+  "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": {
+   "name": "ferrariChampions2026",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -0.4%; history 10 days; best segment nba|total (63 bets, score +4.13%) below keep/watch bar",
+   "wallet_settled": 1528,
+   "own_roi": -0.0042,
+   "main_league": "atp"
+  },
+  "0x3b5c629f114098b0dee345fb78b7a3a013c7126e": {
+   "name": "SMCAOMCRL",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -2.0%; best segment lal|moneyline (58 bets, score +4.28%) below keep/watch bar",
+   "wallet_settled": 783,
+   "own_roi": -0.0203,
+   "main_league": "atp"
+  },
+  "0x9f2fe025f84839ca81dd8e0338892605702d2ca8": {
+   "name": "surfandturf",
+   "checked_at": "2026-11-12",
+   "recheck_after_days": 30,
+   "reason": "own ROI -4.6%; history 50 days; no league+bet-type segment with >=30 clean bets",
+   "wallet_settled": 221,
+   "own_roi": -0.0459,
    "main_league": "nfl"
   }
  }

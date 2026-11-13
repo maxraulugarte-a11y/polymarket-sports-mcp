@@ -1,274 +1,652 @@
 {
- "generated_at": "2026-11-08",
+ "generated_at": "2026-11-12",
  "rule": "v4 keep/watch (see docs/STRATEGY.md)",
- "count": 23,
+ "count": 51,
  "wallets": {
-  "0x21f333307ac6d2e65ac82f014b3dd2b64cbc35e3": {
-   "name": "hi774c",
-   "tier": "watch",
-   "checked_at": "2026-11-08",
+  "0x1bdd0465aeb11a771950c8d44c71b60f600d23dc": {
+   "name": "0x1bdd0465AEb11A771950C8d44C71B60f600d23dc-1771877952086",
+   "tier": "keep",
+   "checked_at": "2026-11-12",
    "segments": [
     {
-     "segment": "atp|moneyline",
-     "status": "watch",
-     "bets": 608,
-     "flat_roi": 0.1648,
-     "shrunk_score": 0.0703
+     "segment": "lol|moneyline",
+     "status": "keep",
+     "manual": null,
+     "bets": 90,
+     "flat_roi": 0.3598,
+     "shrunk_score": 0.1281
     },
     {
-     "segment": "cbb|spread",
-     "status": "watch",
-     "bets": 402,
-     "flat_roi": 0.0629,
-     "shrunk_score": 0.0353
-    },
-    {
-     "segment": "cfb|spread",
-     "status": "watch",
-     "bets": 336,
-     "flat_roi": 0.032,
-     "shrunk_score": 0.0156
-    },
-    {
-     "segment": "cfb|moneyline",
-     "status": "watch",
-     "bets": 128,
-     "flat_roi": 0.1087,
-     "shrunk_score": 0.0123
-    },
-    {
-     "segment": "mlb|moneyline",
-     "status": "watch",
-     "bets": 609,
-     "flat_roi": 0.0186,
-     "shrunk_score": 0.0116
-    },
-    {
-     "segment": "nhl|moneyline",
-     "status": "watch",
-     "bets": 281,
-     "flat_roi": 0.0185,
-     "shrunk_score": 0.008
-    },
-    {
-     "segment": "mls|moneyline",
-     "status": "watch",
-     "bets": 102,
-     "flat_roi": 0.0448,
-     "shrunk_score": 0.0079
-    },
-    {
-     "segment": "ufc|moneyline",
-     "status": "watch",
-     "bets": 161,
-     "flat_roi": 0.0254,
-     "shrunk_score": 0.0032
-    },
-    {
-     "segment": "mlb|spread",
-     "status": "watch",
-     "bets": 356,
-     "flat_roi": 0.0054,
-     "shrunk_score": 0.0022
-    },
-    {
-     "segment": "wnba|spread",
-     "status": "watch",
-     "bets": 203,
-     "flat_roi": 0.0029,
-     "shrunk_score": 0.0001
+     "segment": "lol|child_moneyline",
+     "status": "keep",
+     "manual": null,
+     "bets": 53,
+     "flat_roi": 0.2244,
+     "shrunk_score": 0.0568
     }
    ],
-   "wallet_settled": 11273,
-   "own_roi": 0.005,
-   "hold": 1.0,
-   "main_league": "mlb",
-   "conc": 0.262,
-   "age_days": 269,
-   "clv": 0.0019,
-   "median_stake": 500.0,
+   "wallet_settled": 203,
+   "own_roi": 0.172,
+   "hold": 0.975,
+   "main_league": "lol",
+   "conc": 1.0,
+   "age_days": 262,
+   "clv": 0.0074,
+   "median_stake": 5017.53,
+   "proven_sizer": false
+  },
+  "0xc65ca4755436f82d8eb461e65781584b8cadea39": {
+   "name": "greyoctober",
+   "tier": "watch",
+   "checked_at": "2026-11-12",
+   "segments": [
+    {
+     "segment": "val|moneyline",
+     "status": "watch",
+     "manual": null,
+     "bets": 157,
+     "flat_roi": 0.2726,
+     "shrunk_score": 0.1217
+    },
+    {
+     "segment": "lol|moneyline",
+     "status": "watch",
+     "manual": null,
+     "bets": 119,
+     "flat_roi": 0.1381,
+     "shrunk_score": 0.0595
+    }
+   ],
+   "wallet_settled": 1074,
+   "own_roi": 0.0157,
+   "hold": 0.998,
+   "main_league": "nba",
+   "conc": 0.191,
+   "age_days": 325,
+   "clv": 0.0096,
+   "median_stake": 4043.88,
+   "proven_sizer": false
+  },
+  "0x2879ded7fe05df00eddbb2fba412a0d30964411a": {
+   "name": "chongchong37",
+   "tier": "watch",
+   "checked_at": "2026-11-12",
+   "segments": [
+    {
+     "segment": "nba|spread",
+     "status": "watch",
+     "manual": "manual trial",
+     "bets": 72,
+     "flat_roi": 0.3314,
+     "shrunk_score": 0.1052
+    }
+   ],
+   "wallet_settled": 127,
+   "own_roi": 0.351,
+   "hold": 0.984,
+   "main_league": "nba",
+   "conc": 0.957,
+   "age_days": 37,
+   "clv": -0.0031,
+   "median_stake": 7497.43,
    "proven_sizer": false
   },
   "0x38337de21ff0bb0a11a40761507d51e318d633d1": {
    "name": "SineNooneEI",
    "tier": "watch",
-   "checked_at": "2026-11-08",
+   "checked_at": "2026-11-12",
    "segments": [
     {
      "segment": "lol|moneyline",
      "status": "watch",
-     "bets": 163,
-     "flat_roi": 0.2454,
-     "shrunk_score": 0.0651
+     "manual": null,
+     "bets": 164,
+     "flat_roi": 0.2485,
+     "shrunk_score": 0.0999
     }
    ],
-   "wallet_settled": 1916,
-   "own_roi": 0.0437,
+   "wallet_settled": 1936,
+   "own_roi": 0.0432,
    "hold": 0.999,
    "main_league": "lol",
-   "conc": 0.49,
-   "age_days": 278,
-   "clv": -0.0098,
-   "median_stake": 7210.19,
+   "conc": 0.473,
+   "age_days": 283,
+   "clv": -0.009,
+   "median_stake": 7283.61,
    "proven_sizer": false
   },
-  "0x27f738fe203827445690339104aae35b20bc44b0": {
-   "name": "ic4cream",
+  "0x21f333307ac6d2e65ac82f014b3dd2b64cbc35e3": {
+   "name": "hi774c",
    "tier": "watch",
-   "checked_at": "2026-11-08",
+   "checked_at": "2026-11-12",
    "segments": [
+    {
+     "segment": "atp|moneyline",
+     "status": "watch",
+     "manual": null,
+     "bets": 618,
+     "flat_roi": 0.1703,
+     "shrunk_score": 0.0991
+    },
+    {
+     "segment": "cbb|spread",
+     "status": "watch",
+     "manual": null,
+     "bets": 456,
+     "flat_roi": 0.068,
+     "shrunk_score": 0.05
+    },
     {
      "segment": "cfb|spread",
      "status": "watch",
-     "bets": 248,
-     "flat_roi": 0.1393,
-     "shrunk_score": 0.0644
-    },
-    {
-     "segment": "nba|moneyline",
-     "status": "watch",
-     "bets": 161,
-     "flat_roi": 0.1354,
-     "shrunk_score": 0.0515
+     "manual": null,
+     "bets": 345,
+     "flat_roi": 0.0333,
+     "shrunk_score": 0.0226
     },
     {
      "segment": "cfb|moneyline",
      "status": "watch",
-     "bets": 109,
-     "flat_roi": 0.1793,
-     "shrunk_score": 0.0348
+     "manual": null,
+     "bets": 132,
+     "flat_roi": 0.0908,
+     "shrunk_score": 0.0203
     },
     {
-     "segment": "atp|moneyline",
+     "segment": "nfl|spread",
      "status": "watch",
-     "bets": 139,
-     "flat_roi": 0.1074,
-     "shrunk_score": 0.0204
+     "manual": null,
+     "bets": 114,
+     "flat_roi": 0.0401,
+     "shrunk_score": 0.0175
     },
     {
      "segment": "nhl|moneyline",
      "status": "watch",
-     "bets": 101,
-     "flat_roi": 0.0336,
-     "shrunk_score": 0.0078
+     "manual": null,
+     "bets": 290,
+     "flat_roi": 0.0239,
+     "shrunk_score": 0.0158
+    },
+    {
+     "segment": "mls|moneyline",
+     "status": "watch",
+     "manual": null,
+     "bets": 102,
+     "flat_roi": 0.0448,
+     "shrunk_score": 0.0155
     },
     {
      "segment": "mlb|moneyline",
      "status": "watch",
-     "bets": 449,
-     "flat_roi": 0.013,
-     "shrunk_score": 0.0076
+     "manual": null,
+     "bets": 609,
+     "flat_roi": 0.0186,
+     "shrunk_score": 0.0148
     },
     {
-     "segment": "wnba|moneyline",
+     "segment": "ufc|moneyline",
      "status": "watch",
-     "bets": 176,
-     "flat_roi": 0.0102,
-     "shrunk_score": 0.0037
+     "manual": null,
+     "bets": 161,
+     "flat_roi": 0.0254,
+     "shrunk_score": 0.0087
     },
     {
-     "segment": "nba|spread",
+     "segment": "mlb|spread",
      "status": "watch",
-     "bets": 185,
-     "flat_roi": 0.0079,
-     "shrunk_score": 0.0022
+     "manual": null,
+     "bets": 356,
+     "flat_roi": 0.0054,
+     "shrunk_score": 0.0043
+    },
+    {
+     "segment": "wnba|spread",
+     "status": "watch",
+     "manual": null,
+     "bets": 203,
+     "flat_roi": 0.0029,
+     "shrunk_score": 0.0025
     }
    ],
-   "wallet_settled": 4559,
-   "own_roi": 0.0395,
+   "wallet_settled": 11667,
+   "own_roi": 0.0083,
    "hold": 1.0,
    "main_league": "mlb",
-   "conc": 0.257,
-   "age_days": 215,
-   "clv": 0.0004,
-   "median_stake": 994.48,
+   "conc": 0.25,
+   "age_days": 274,
+   "clv": 0.0019,
+   "median_stake": 511.47,
+   "proven_sizer": false
+  },
+  "0xda3407bec4c1f26d40afceb442de75b8260b01a8": {
+   "name": "JohnnyWins",
+   "tier": "keep",
+   "checked_at": "2026-11-12",
+   "segments": [
+    {
+     "segment": "cs2|moneyline",
+     "status": "keep",
+     "manual": null,
+     "bets": 215,
+     "flat_roi": 0.2884,
+     "shrunk_score": 0.0954
+    }
+   ],
+   "wallet_settled": 349,
+   "own_roi": 0.1501,
+   "hold": 1.0,
+   "main_league": "cs2",
+   "conc": 0.617,
+   "age_days": 302,
+   "clv": 0.0079,
+   "median_stake": 1518.41,
+   "proven_sizer": false
+  },
+  "0x58f8f1138be2192696378629fc9aa23c7910dc70": {
+   "name": "bloodmaster",
+   "tier": "watch",
+   "checked_at": "2026-11-12",
+   "segments": [
+    {
+     "segment": "lol|moneyline",
+     "status": "watch",
+     "manual": null,
+     "bets": 258,
+     "flat_roi": 0.1207,
+     "shrunk_score": 0.0934
+    },
+    {
+     "segment": "lol|child_moneyline",
+     "status": "watch",
+     "manual": null,
+     "bets": 228,
+     "flat_roi": 0.0977,
+     "shrunk_score": 0.0774
+    }
+   ],
+   "wallet_settled": 2581,
+   "own_roi": 0.0426,
+   "hold": 0.976,
+   "main_league": "lol",
+   "conc": 0.865,
+   "age_days": 273,
+   "clv": -0.004,
+   "median_stake": 770.22,
+   "proven_sizer": false
+  },
+  "0xda3a9b7afff7b44ad4fd75308723194e0a11381f": {
+   "name": "Gooooooollllllllll",
+   "tier": "keep",
+   "checked_at": "2026-11-12",
+   "segments": [
+    {
+     "segment": "lol|kill_over_under_game",
+     "status": "keep",
+     "manual": null,
+     "bets": 199,
+     "flat_roi": 0.1697,
+     "shrunk_score": 0.0931
+    },
+    {
+     "segment": "lol|map_handicap",
+     "status": "keep",
+     "manual": null,
+     "bets": 255,
+     "flat_roi": 0.1359,
+     "shrunk_score": 0.0779
+    },
+    {
+     "segment": "lol|child_moneyline",
+     "status": "keep",
+     "manual": null,
+     "bets": 232,
+     "flat_roi": 0.0721,
+     "shrunk_score": 0.0395
+    },
+    {
+     "segment": "lol|moneyline",
+     "status": "keep",
+     "manual": null,
+     "bets": 300,
+     "flat_roi": 0.0316,
+     "shrunk_score": 0.0188
+    },
+    {
+     "segment": "cs2|moneyline",
+     "status": "watch",
+     "manual": null,
+     "bets": 228,
+     "flat_roi": 0.0275,
+     "shrunk_score": 0.0153
+    }
+   ],
+   "wallet_settled": 1765,
+   "own_roi": 0.0744,
+   "hold": 0.995,
+   "main_league": "lol",
+   "conc": 0.519,
+   "age_days": 171,
+   "clv": 0.0001,
+   "median_stake": 1627.5,
    "proven_sizer": false
   },
   "0x6b97ebe911d7f2e5e3e8c4a0faad4a5c7c0b8d30": {
    "name": "vibing123",
    "tier": "watch",
-   "checked_at": "2026-11-08",
+   "checked_at": "2026-11-12",
    "segments": [
     {
      "segment": "cs2|map_handicap",
      "status": "watch",
-     "bets": 171,
-     "flat_roi": 0.163,
-     "shrunk_score": 0.0638
+     "manual": null,
+     "bets": 176,
+     "flat_roi": 0.1696,
+     "shrunk_score": 0.0928
     },
     {
      "segment": "val|moneyline",
      "status": "watch",
+     "manual": null,
      "bets": 138,
      "flat_roi": 0.1394,
-     "shrunk_score": 0.0434
+     "shrunk_score": 0.0643
     },
     {
      "segment": "lol|map_handicap",
      "status": "watch",
+     "manual": null,
      "bets": 126,
      "flat_roi": 0.1141,
-     "shrunk_score": 0.0364
+     "shrunk_score": 0.054
     },
     {
      "segment": "lol|moneyline",
      "status": "watch",
-     "bets": 201,
-     "flat_roi": 0.0726,
-     "shrunk_score": 0.0274
+     "manual": null,
+     "bets": 202,
+     "flat_roi": 0.0762,
+     "shrunk_score": 0.0416
     }
    ],
-   "wallet_settled": 2117,
-   "own_roi": 0.0332,
-   "hold": 0.991,
+   "wallet_settled": 2243,
+   "own_roi": 0.0311,
+   "hold": 0.992,
    "main_league": "cs2",
-   "conc": 0.507,
-   "age_days": 110,
-   "clv": -0.0006,
-   "median_stake": 2982.42,
+   "conc": 0.502,
+   "age_days": 115,
+   "clv": -0.0007,
+   "median_stake": 2880.14,
+   "proven_sizer": false
+  },
+  "0xb4f978be63cdf75554b0b46a4262a6db597cc9a7": {
+   "name": "0xb4F978BE63cDF75554b0B46a4262a6dB597cc9A7-1779258330186",
+   "tier": "watch",
+   "checked_at": "2026-11-12",
+   "segments": [
+    {
+     "segment": "cfb|spread",
+     "status": "watch",
+     "manual": null,
+     "bets": 137,
+     "flat_roi": 0.1839,
+     "shrunk_score": 0.0907
+    }
+   ],
+   "wallet_settled": 1277,
+   "own_roi": 0.0379,
+   "hold": 0.987,
+   "main_league": "nfl",
+   "conc": 0.309,
+   "age_days": 175,
+   "clv": -0.0015,
+   "median_stake": 2009.61,
+   "proven_sizer": false
+  },
+  "0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3": {
+   "name": "0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3",
+   "tier": "watch",
+   "checked_at": "2026-11-12",
+   "segments": [
+    {
+     "segment": "atp|moneyline",
+     "status": "watch",
+     "manual": null,
+     "bets": 387,
+     "flat_roi": 0.1632,
+     "shrunk_score": 0.0888
+    },
+    {
+     "segment": "mlb|nrfi",
+     "status": "watch",
+     "manual": null,
+     "bets": 286,
+     "flat_roi": 0.0402,
+     "shrunk_score": 0.0248
+    },
+    {
+     "segment": "atp|tennis_set_handicap",
+     "status": "watch",
+     "manual": null,
+     "bets": 191,
+     "flat_roi": 0.0275,
+     "shrunk_score": 0.0119
+    }
+   ],
+   "wallet_settled": 4707,
+   "own_roi": 0.0594,
+   "hold": 0.953,
+   "main_league": "nba",
+   "conc": 0.153,
+   "age_days": 142,
+   "clv": 0.0067,
+   "median_stake": 389.06,
    "proven_sizer": false
   },
   "0xe963d57ab09233f3cb2bf1546660a1b4638e6753": {
    "name": "imjustkenisghey",
    "tier": "watch",
-   "checked_at": "2026-11-08",
+   "checked_at": "2026-11-12",
    "segments": [
     {
      "segment": "cfb|moneyline",
      "status": "watch",
-     "bets": 202,
-     "flat_roi": 0.2267,
-     "shrunk_score": 0.0614
+     "manual": null,
+     "bets": 206,
+     "flat_roi": 0.213,
+     "shrunk_score": 0.0878
     },
     {
      "segment": "mlb|moneyline",
      "status": "watch",
+     "manual": null,
      "bets": 121,
      "flat_roi": 0.1185,
-     "shrunk_score": 0.0274
+     "shrunk_score": 0.0441
     }
    ],
-   "wallet_settled": 1066,
-   "own_roi": 0.0494,
-   "hold": 0.718,
+   "wallet_settled": 1129,
+   "own_roi": 0.0299,
+   "hold": 0.714,
    "main_league": "cfb",
-   "conc": 0.481,
-   "age_days": 90,
+   "conc": 0.451,
+   "age_days": 95,
    "clv": 0.0001,
-   "median_stake": 1597.21,
+   "median_stake": 1682.68,
+   "proven_sizer": false
+  },
+  "0x27f738fe203827445690339104aae35b20bc44b0": {
+   "name": "ic4cream",
+   "tier": "watch",
+   "checked_at": "2026-11-12",
+   "segments": [
+    {
+     "segment": "cfb|spread",
+     "status": "watch",
+     "manual": null,
+     "bets": 249,
+     "flat_roi": 0.1424,
+     "shrunk_score": 0.0876
+    },
+    {
+     "segment": "nba|moneyline",
+     "status": "watch",
+     "manual": null,
+     "bets": 164,
+     "flat_roi": 0.1413,
+     "shrunk_score": 0.0761
+    },
+    {
+     "segment": "cfb|moneyline",
+     "status": "watch",
+     "manual": null,
+     "bets": 109,
+     "flat_roi": 0.1793,
+     "shrunk_score": 0.0566
+    },
+    {
+     "segment": "atp|moneyline",
+     "status": "watch",
+     "manual": null,
+     "bets": 140,
+     "flat_roi": 0.115,
+     "shrunk_score": 0.0373
+    },
+    {
+     "segment": "nhl|moneyline",
+     "status": "watch",
+     "manual": null,
+     "bets": 105,
+     "flat_roi": 0.0319,
+     "shrunk_score": 0.0141
+    },
+    {
+     "segment": "mlb|moneyline",
+     "status": "watch",
+     "manual": null,
+     "bets": 449,
+     "flat_roi": 0.013,
+     "shrunk_score": 0.0103
+    },
+    {
+     "segment": "wnba|moneyline",
+     "status": "watch",
+     "manual": null,
+     "bets": 176,
+     "flat_roi": 0.0102,
+     "shrunk_score": 0.0069
+    },
+    {
+     "segment": "mlb|spread",
+     "status": "watch",
+     "manual": null,
+     "bets": 119,
+     "flat_roi": 0.0031,
+     "shrunk_score": 0.0026
+    },
+    {
+     "segment": "wnba|spread",
+     "status": "watch",
+     "manual": null,
+     "bets": 135,
+     "flat_roi": -0.0002,
+     "shrunk_score": 0.001
+    }
+   ],
+   "wallet_settled": 4632,
+   "own_roi": 0.0397,
+   "hold": 1.0,
+   "main_league": "mlb",
+   "conc": 0.255,
+   "age_days": 219,
+   "clv": 0.0002,
+   "median_stake": 975.97,
+   "proven_sizer": false
+  },
+  "0x709179e7392e59922ab2d73cb1141698b30096f8": {
+   "name": "0x709179E7392e59922Ab2D73cb1141698b30096f8-1773173619816",
+   "tier": "watch",
+   "checked_at": "2026-11-12",
+   "segments": [
+    {
+     "segment": "lol|map_handicap",
+     "status": "watch",
+     "manual": null,
+     "bets": 102,
+     "flat_roi": 0.2376,
+     "shrunk_score": 0.0856
+    },
+    {
+     "segment": "atp|moneyline",
+     "status": "watch",
+     "manual": null,
+     "bets": 455,
+     "flat_roi": 0.1282,
+     "shrunk_score": 0.0745
+    },
+    {
+     "segment": "cfb|moneyline",
+     "status": "watch",
+     "manual": null,
+     "bets": 182,
+     "flat_roi": 0.1321,
+     "shrunk_score": 0.0531
+    },
+    {
+     "segment": "epl|moneyline",
+     "status": "watch",
+     "manual": null,
+     "bets": 104,
+     "flat_roi": 0.1354,
+     "shrunk_score": 0.0496
+    },
+    {
+     "segment": "wta|moneyline",
+     "status": "watch",
+     "manual": null,
+     "bets": 273,
+     "flat_roi": 0.0895,
+     "shrunk_score": 0.0434
+    },
+    {
+     "segment": "lol|child_moneyline",
+     "status": "watch",
+     "manual": null,
+     "bets": 105,
+     "flat_roi": 0.0454,
+     "shrunk_score": 0.018
+    },
+    {
+     "segment": "ucl|moneyline",
+     "status": "watch",
+     "manual": null,
+     "bets": 105,
+     "flat_roi": 0.0012,
+     "shrunk_score": 0.0019
+    }
+   ],
+   "wallet_settled": 7289,
+   "own_roi": 0.051,
+   "hold": 0.993,
+   "main_league": "lol",
+   "conc": 0.223,
+   "age_days": 75,
+   "clv": -0.0042,
+   "median_stake": 158.43,
    "proven_sizer": false
   },
   "0xed107a85a4585a381e48c7f7ca4144909e7dd2e5": {
    "name": "elmcap2",
    "tier": "watch",
-   "checked_at": "2026-11-08",
+   "checked_at": "2026-11-12",
    "segments": [
     {
      "segment": "ufc|moneyline",
      "status": "watch",
+     "manual": null,
      "bets": 207,
      "flat_roi": 0.1166,
-     "shrunk_score": 0.0601
+     "shrunk_score": 0.0775
     }
    ],
    "wallet_settled": 395,
@@ -276,498 +654,1073 @@
    "hold": 0.959,
    "main_league": "ufc",
    "conc": 0.884,
-   "age_days": 597,
-   "clv": -0.0144,
+   "age_days": 601,
+   "clv": -0.0126,
    "median_stake": 1239.95,
-   "proven_sizer": false
-  },
-  "0xda3407bec4c1f26d40afceb442de75b8260b01a8": {
-   "name": "JohnnyWins",
-   "tier": "keep",
-   "checked_at": "2026-11-08",
-   "segments": [
-    {
-     "segment": "cs2|moneyline",
-     "status": "keep",
-     "bets": 213,
-     "flat_roi": 0.2808,
-     "shrunk_score": 0.0586
-    }
-   ],
-   "wallet_settled": 347,
-   "own_roi": 0.1426,
-   "hold": 1.0,
-   "main_league": "cs2",
-   "conc": 0.611,
-   "age_days": 298,
-   "clv": 0.008,
-   "median_stake": 1503.59,
-   "proven_sizer": false
-  },
-  "0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3": {
-   "name": "0x9f15613ebf1f36d4bc67",
-   "tier": "watch",
-   "checked_at": "2026-11-08",
-   "segments": [
-    {
-     "segment": "atp|moneyline",
-     "status": "watch",
-     "bets": 378,
-     "flat_roi": 0.1377,
-     "shrunk_score": 0.053
-    },
-    {
-     "segment": "mlb|nrfi",
-     "status": "watch",
-     "bets": 286,
-     "flat_roi": 0.0402,
-     "shrunk_score": 0.0174
-    },
-    {
-     "segment": "atp|tennis_set_handicap",
-     "status": "watch",
-     "bets": 186,
-     "flat_roi": 0.03,
-     "shrunk_score": 0.0064
-    }
-   ],
-   "wallet_settled": 4544,
-   "own_roi": 0.0579,
-   "hold": 0.956,
-   "main_league": "mlb",
-   "conc": 0.154,
-   "age_days": 138,
-   "clv": 0.0068,
-   "median_stake": 385.57,
    "proven_sizer": false
   },
   "0xf5a3504ad3a8b079974620b3aa4fcca3f7579e12": {
    "name": "pltrkr111",
    "tier": "watch",
-   "checked_at": "2026-11-08",
+   "checked_at": "2026-11-12",
    "segments": [
     {
      "segment": "lol|moneyline",
      "status": "watch",
-     "bets": 184,
-     "flat_roi": 0.1802,
-     "shrunk_score": 0.0518
+     "manual": null,
+     "bets": 186,
+     "flat_roi": 0.1735,
+     "shrunk_score": 0.0754
     },
     {
      "segment": "lol|child_moneyline",
      "status": "watch",
-     "bets": 105,
-     "flat_roi": 0.1392,
-     "shrunk_score": 0.0443
+     "manual": null,
+     "bets": 106,
+     "flat_roi": 0.1285,
+     "shrunk_score": 0.0604
     },
     {
      "segment": "atp|moneyline",
      "status": "watch",
-     "bets": 289,
-     "flat_roi": 0.0723,
-     "shrunk_score": 0.0316
+     "manual": null,
+     "bets": 293,
+     "flat_roi": 0.071,
+     "shrunk_score": 0.0432
     }
    ],
-   "wallet_settled": 1499,
-   "own_roi": 0.0112,
+   "wallet_settled": 1569,
+   "own_roi": 0.0076,
    "hold": 1.0,
    "main_league": "atp",
-   "conc": 0.232,
-   "age_days": 81,
-   "clv": -0.0083,
+   "conc": 0.227,
+   "age_days": 86,
+   "clv": -0.0085,
    "median_stake": 1000.0,
    "proven_sizer": false
   },
-  "0xfb681e23db8d1cca8a6b7e2a70a29e000ddfa240": {
-   "name": "royalestake",
+  "0x81d972dbea298a5064d4ba51031e0386182fe9c9": {
+   "name": "ianf2026",
    "tier": "watch",
-   "checked_at": "2026-11-08",
+   "checked_at": "2026-11-12",
    "segments": [
     {
-     "segment": "nhl|moneyline",
+     "segment": "nba|spread",
      "status": "watch",
-     "bets": 525,
-     "flat_roi": 0.0803,
-     "shrunk_score": 0.0478
+     "manual": "manual trial",
+     "bets": 92,
+     "flat_roi": 0.2012,
+     "shrunk_score": 0.0746
     }
    ],
-   "wallet_settled": 973,
-   "own_roi": 0.0781,
-   "hold": 0.964,
-   "main_league": "nhl",
-   "conc": 0.783,
-   "age_days": 443,
-   "clv": -0.0009,
-   "median_stake": 2549.74,
+   "wallet_settled": 173,
+   "own_roi": 0.1796,
+   "hold": 0.936,
+   "main_league": "nba",
+   "conc": 0.997,
+   "age_days": 24,
+   "clv": 0.0008,
+   "median_stake": 3793.69,
    "proven_sizer": false
   },
   "0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029": {
    "name": "primm",
    "tier": "watch",
-   "checked_at": "2026-11-08",
+   "checked_at": "2026-11-12",
    "segments": [
     {
      "segment": "nfl|moneyline",
      "status": "watch",
-     "bets": 100,
-     "flat_roi": 0.3142,
-     "shrunk_score": 0.0458
+     "manual": null,
+     "bets": 104,
+     "flat_roi": 0.2872,
+     "shrunk_score": 0.0728
     },
     {
      "segment": "cfb|spread",
      "status": "watch",
-     "bets": 256,
-     "flat_roi": 0.0652,
-     "shrunk_score": 0.0286
+     "manual": null,
+     "bets": 265,
+     "flat_roi": 0.0431,
+     "shrunk_score": 0.0268
     }
    ],
-   "wallet_settled": 3428,
-   "own_roi": 0.1592,
+   "wallet_settled": 3650,
+   "own_roi": 0.1501,
    "hold": 1.0,
    "main_league": "cfb",
-   "conc": 0.504,
-   "age_days": 442,
-   "clv": -0.0039,
-   "median_stake": 1658.26,
+   "conc": 0.498,
+   "age_days": 447,
+   "clv": -0.0035,
+   "median_stake": 1704.8,
    "proven_sizer": false
   },
-  "0x684baa57c338c2549aec0aa3f034f695d72a8409": {
-   "name": "monkeymashingkeyboard",
+  "0x32ed517a571c01b6e9adecf61ba81ca48ff2f960": {
+   "name": "sportmaster777",
    "tier": "watch",
-   "checked_at": "2026-11-08",
+   "checked_at": "2026-11-12",
    "segments": [
     {
-     "segment": "mlb|moneyline",
+     "segment": "cs2|moneyline",
      "status": "watch",
-     "bets": 349,
-     "flat_roi": 0.0755,
-     "shrunk_score": 0.0417
-    }
-   ],
-   "wallet_settled": 1310,
-   "own_roi": 0.0678,
-   "hold": 0.999,
-   "main_league": "nba",
-   "conc": 0.35,
-   "age_days": 121,
-   "clv": 0.0031,
-   "median_stake": 8725.0,
-   "proven_sizer": false
-  },
-  "0xc660ae71765d0d9eaf5fa8328c1c959841d2bd28": {
-   "name": "BoggsFromShawshank",
-   "tier": "watch",
-   "checked_at": "2026-11-08",
-   "segments": [
+     "manual": null,
+     "bets": 206,
+     "flat_roi": 0.1813,
+     "shrunk_score": 0.0704
+    },
     {
-     "segment": "mlb|moneyline",
+     "segment": "lol|moneyline",
      "status": "watch",
-     "bets": 179,
-     "flat_roi": 0.1054,
-     "shrunk_score": 0.038
+     "manual": null,
+     "bets": 156,
+     "flat_roi": 0.1154,
+     "shrunk_score": 0.029
     },
     {
      "segment": "nba|spread",
      "status": "watch",
-     "bets": 283,
-     "flat_roi": 0.0372,
-     "shrunk_score": 0.0174
-    },
-    {
-     "segment": "nhl|moneyline",
-     "status": "watch",
-     "bets": 388,
-     "flat_roi": 0.0284,
-     "shrunk_score": 0.0152
-    },
-    {
-     "segment": "cfb|spread",
-     "status": "watch",
-     "bets": 197,
-     "flat_roi": 0.0372,
-     "shrunk_score": 0.0137
+     "manual": null,
+     "bets": 152,
+     "flat_roi": 0.005,
+     "shrunk_score": 0.0035
     }
    ],
-   "wallet_settled": 2334,
-   "own_roi": 0.0063,
-   "hold": 0.994,
-   "main_league": "nba",
-   "conc": 0.282,
-   "age_days": 363,
-   "clv": 0.0041,
-   "median_stake": 9840.0,
+   "wallet_settled": 4709,
+   "own_roi": 0.0252,
+   "hold": 1.0,
+   "main_league": "mlb",
+   "conc": 0.663,
+   "age_days": 160,
+   "clv": -0.002,
+   "median_stake": 174.39,
    "proven_sizer": false
   },
-  "0x5e6e2c3f06686f2607b86c90e35f536e81a1be00": {
-   "name": "drainedandpoor",
+  "0xf184bff6a9217f1a76dcba7c0c4888351ebbc2d7": {
+   "name": "drunkdegenerate",
    "tier": "keep",
-   "checked_at": "2026-11-08",
+   "checked_at": "2026-11-12",
    "segments": [
+    {
+     "segment": "lol|moneyline",
+     "status": "keep",
+     "manual": null,
+     "bets": 178,
+     "flat_roi": 0.1334,
+     "shrunk_score": 0.0661
+    }
+   ],
+   "wallet_settled": 377,
+   "own_roi": 0.0625,
+   "hold": 0.997,
+   "main_league": "lol",
+   "conc": 0.882,
+   "age_days": 141,
+   "clv": 0.0026,
+   "median_stake": 4199.97,
+   "proven_sizer": false
+  },
+  "0xb91aeb5accc33a5f9a8615b8ed6b2d352e913987": {
+   "name": "afghj2421",
+   "tier": "keep",
+   "checked_at": "2026-11-12",
+   "segments": [
+    {
+     "segment": "mlb|moneyline",
+     "status": "keep",
+     "manual": null,
+     "bets": 57,
+     "flat_roi": 0.2383,
+     "shrunk_score": 0.0646
+    }
+   ],
+   "wallet_settled": 135,
+   "own_roi": 0.2165,
+   "hold": 1.0,
+   "main_league": "mlb",
+   "conc": 1.0,
+   "age_days": 185,
+   "clv": 0.0007,
+   "median_stake": 56889.48,
+   "proven_sizer": false
+  },
+  "0x30c7ac0158499ddc6761047f7f69bcf7d036ac3b": {
+   "name": "Wiretransferxyz",
+   "tier": "keep",
+   "checked_at": "2026-11-12",
+   "segments": [
+    {
+     "segment": "val|moneyline",
+     "status": "watch",
+     "manual": null,
+     "bets": 131,
+     "flat_roi": 0.1188,
+     "shrunk_score": 0.062
+    },
     {
      "segment": "cs2|map_handicap",
      "status": "keep",
-     "bets": 84,
-     "flat_roi": 0.1774,
-     "shrunk_score": 0.0341
+     "manual": null,
+     "bets": 147,
+     "flat_roi": 0.0754,
+     "shrunk_score": 0.0344
     },
     {
      "segment": "cs2|moneyline",
      "status": "keep",
-     "bets": 312,
-     "flat_roi": 0.0688,
-     "shrunk_score": 0.028
+     "manual": null,
+     "bets": 695,
+     "flat_roi": 0.0424,
+     "shrunk_score": 0.0344
     }
    ],
-   "wallet_settled": 861,
-   "own_roi": 0.0533,
-   "hold": 0.926,
+   "wallet_settled": 1163,
+   "own_roi": 0.0607,
+   "hold": 1.0,
    "main_league": "cs2",
-   "conc": 0.634,
-   "age_days": 192,
-   "clv": 0.0028,
-   "median_stake": 9800.0,
+   "conc": 0.872,
+   "age_days": 133,
+   "clv": 0.0018,
+   "median_stake": 7000.21,
    "proven_sizer": false
   },
-  "0xbc43c8bfbc4d77c2fc9011adad38ba43b88996d3": {
-   "name": "0xBc43c8bfBC4d77c2FC90",
+  "0xdd58b7e8b989f2cd20ccd903ecc4a997ff3618f9": {
+   "name": "texastechbooster",
    "tier": "keep",
-   "checked_at": "2026-11-08",
+   "checked_at": "2026-11-12",
    "segments": [
     {
-     "segment": "nfl|spread",
+     "segment": "lol|moneyline",
      "status": "keep",
-     "bets": 162,
-     "flat_roi": 0.1372,
-     "shrunk_score": 0.0262
+     "manual": null,
+     "bets": 121,
+     "flat_roi": 0.2246,
+     "shrunk_score": 0.0618
     },
     {
-     "segment": "nfl|moneyline",
+     "segment": "lol|map_handicap",
      "status": "keep",
-     "bets": 33,
-     "flat_roi": 0.2111,
-     "shrunk_score": 0.0112
-    },
-    {
-     "segment": "atp|moneyline",
-     "status": "watch",
-     "bets": 237,
-     "flat_roi": 0.0286,
-     "shrunk_score": 0.0109
+     "manual": null,
+     "bets": 44,
+     "flat_roi": 0.1129,
+     "shrunk_score": 0.0246
     }
    ],
-   "wallet_settled": 1169,
-   "own_roi": 0.0092,
+   "wallet_settled": 292,
+   "own_roi": 0.0835,
    "hold": 1.0,
-   "main_league": "nfl",
-   "conc": 0.581,
-   "age_days": 288,
-   "clv": 0.0049,
-   "median_stake": 3764.81,
+   "main_league": "lol",
+   "conc": 0.791,
+   "age_days": 406,
+   "clv": 0.0064,
+   "median_stake": 2407.78,
+   "proven_sizer": false
+  },
+  "0xba389f76b0119aed07c53c9029852664bd97e406": {
+   "name": "joblessfinalboss",
+   "tier": "keep",
+   "checked_at": "2026-11-12",
+   "segments": [
+    {
+     "segment": "val|moneyline",
+     "status": "keep",
+     "manual": null,
+     "bets": 215,
+     "flat_roi": 0.1141,
+     "shrunk_score": 0.0595
+    }
+   ],
+   "wallet_settled": 829,
+   "own_roi": 0.1224,
+   "hold": 0.996,
+   "main_league": "val",
+   "conc": 0.607,
+   "age_days": 234,
+   "clv": 0.0054,
+   "median_stake": 1867.18,
+   "proven_sizer": false
+  },
+  "0xb70c4f38ce25d986a9da3f3190cbae87660934ca": {
+   "name": "freeman123",
+   "tier": "watch",
+   "checked_at": "2026-11-12",
+   "segments": [
+    {
+     "segment": "lol|moneyline",
+     "status": "watch",
+     "manual": null,
+     "bets": 270,
+     "flat_roi": 0.0701,
+     "shrunk_score": 0.0591
+    }
+   ],
+   "wallet_settled": 769,
+   "own_roi": 0.0097,
+   "hold": 0.904,
+   "main_league": "lol",
+   "conc": 0.919,
+   "age_days": 259,
+   "clv": -0.0168,
+   "median_stake": 515.47,
    "proven_sizer": false
   },
   "0xf0318c32136c2db7fec88b84869aee6a1106c80c": {
    "name": "BreakTheBank",
    "tier": "watch",
-   "checked_at": "2026-11-08",
+   "checked_at": "2026-11-12",
    "segments": [
     {
      "segment": "nfl|spread",
      "status": "watch",
-     "bets": 148,
-     "flat_roi": 0.0942,
-     "shrunk_score": 0.026
+     "manual": null,
+     "bets": 179,
+     "flat_roi": 0.1196,
+     "shrunk_score": 0.0569
     }
    ],
-   "wallet_settled": 801,
-   "own_roi": 0.0696,
-   "hold": 0.995,
+   "wallet_settled": 899,
+   "own_roi": 0.0633,
+   "hold": 0.996,
    "main_league": "nfl",
-   "conc": 0.34,
-   "age_days": 118,
+   "conc": 0.359,
+   "age_days": 122,
    "clv": 0.003,
-   "median_stake": 21666.09,
+   "median_stake": 21650.48,
    "proven_sizer": false
   },
-  "0xbad26fe5458e6219cec3e40272760e275e835296": {
-   "name": "cocococococo",
+  "0xfb681e23db8d1cca8a6b7e2a70a29e000ddfa240": {
+   "name": "royalestake",
    "tier": "watch",
-   "checked_at": "2026-11-08",
+   "checked_at": "2026-11-12",
    "segments": [
     {
      "segment": "nhl|moneyline",
      "status": "watch",
-     "bets": 950,
-     "flat_roi": 0.0342,
-     "shrunk_score": 0.0255
+     "manual": null,
+     "bets": 547,
+     "flat_roi": 0.0761,
+     "shrunk_score": 0.0567
     }
    ],
-   "wallet_settled": 1607,
-   "own_roi": 0.0031,
-   "hold": 0.895,
+   "wallet_settled": 1005,
+   "own_roi": 0.0743,
+   "hold": 0.965,
    "main_league": "nhl",
-   "conc": 0.781,
-   "age_days": 412,
-   "clv": -0.0027,
-   "median_stake": 577.74,
+   "conc": 0.792,
+   "age_days": 447,
+   "clv": -0.0005,
+   "median_stake": 2571.01,
+   "proven_sizer": false
+  },
+  "0x5e6e2c3f06686f2607b86c90e35f536e81a1be00": {
+   "name": "drainedandpoor",
+   "tier": "keep",
+   "checked_at": "2026-11-12",
+   "segments": [
+    {
+     "segment": "cs2|map_handicap",
+     "status": "keep",
+     "manual": null,
+     "bets": 90,
+     "flat_roi": 0.1707,
+     "shrunk_score": 0.0563
+    },
+    {
+     "segment": "cs2|moneyline",
+     "status": "keep",
+     "manual": null,
+     "bets": 319,
+     "flat_roi": 0.0642,
+     "shrunk_score": 0.0372
+    }
+   ],
+   "wallet_settled": 904,
+   "own_roi": 0.0489,
+   "hold": 0.924,
+   "main_league": "cs2",
+   "conc": 0.624,
+   "age_days": 197,
+   "clv": 0.003,
+   "median_stake": 9800.0,
+   "proven_sizer": false
+  },
+  "0xb7271c112cbd83eb4c1ef1b554ff963604ae2a9d": {
+   "name": "Elaran1993",
+   "tier": "watch",
+   "checked_at": "2026-11-12",
+   "segments": [
+    {
+     "segment": "mlb|nrfi",
+     "status": "watch",
+     "manual": null,
+     "bets": 137,
+     "flat_roi": 0.1285,
+     "shrunk_score": 0.0552
+    }
+   ],
+   "wallet_settled": 395,
+   "own_roi": 0.1474,
+   "hold": 0.972,
+   "main_league": "mlb",
+   "conc": 0.292,
+   "age_days": 117,
+   "clv": -0.0071,
+   "median_stake": 4045.93,
+   "proven_sizer": false
+  },
+  "0xc660ae71765d0d9eaf5fa8328c1c959841d2bd28": {
+   "name": "BoggsFromShawshank",
+   "tier": "watch",
+   "checked_at": "2026-11-12",
+   "segments": [
+    {
+     "segment": "mlb|moneyline",
+     "status": "watch",
+     "manual": null,
+     "bets": 179,
+     "flat_roi": 0.1054,
+     "shrunk_score": 0.0546
+    },
+    {
+     "segment": "nhl|moneyline",
+     "status": "watch",
+     "manual": null,
+     "bets": 392,
+     "flat_roi": 0.0343,
+     "shrunk_score": 0.0245
+    },
+    {
+     "segment": "cfb|spread",
+     "status": "watch",
+     "manual": null,
+     "bets": 198,
+     "flat_roi": 0.042,
+     "shrunk_score": 0.0236
+    },
+    {
+     "segment": "nba|spread",
+     "status": "watch",
+     "manual": null,
+     "bets": 292,
+     "flat_roi": 0.0327,
+     "shrunk_score": 0.0216
+    }
+   ],
+   "wallet_settled": 2360,
+   "own_roi": 0.0073,
+   "hold": 0.994,
+   "main_league": "nba",
+   "conc": 0.285,
+   "age_days": 367,
+   "clv": 0.0041,
+   "median_stake": 9850.97,
+   "proven_sizer": false
+  },
+  "0xc49fe658479db29e1a2fefebf0735f657dca9e05": {
+   "name": "ExoticApple12",
+   "tier": "watch",
+   "checked_at": "2026-11-12",
+   "segments": [
+    {
+     "segment": "cs2|moneyline",
+     "status": "watch",
+     "manual": null,
+     "bets": 206,
+     "flat_roi": 0.1067,
+     "shrunk_score": 0.0532
+    },
+    {
+     "segment": "nhl|moneyline",
+     "status": "watch",
+     "manual": null,
+     "bets": 138,
+     "flat_roi": 0.0136,
+     "shrunk_score": 0.0074
+    }
+   ],
+   "wallet_settled": 1653,
+   "own_roi": 0.0351,
+   "hold": 0.992,
+   "main_league": "cs2",
+   "conc": 0.223,
+   "age_days": 275,
+   "clv": 0.002,
+   "median_stake": 3493.88,
+   "proven_sizer": false
+  },
+  "0x684baa57c338c2549aec0aa3f034f695d72a8409": {
+   "name": "monkeymashingkeyboard",
+   "tier": "watch",
+   "checked_at": "2026-11-12",
+   "segments": [
+    {
+     "segment": "mlb|moneyline",
+     "status": "watch",
+     "manual": null,
+     "bets": 349,
+     "flat_roi": 0.0755,
+     "shrunk_score": 0.053
+    }
+   ],
+   "wallet_settled": 1389,
+   "own_roi": 0.0694,
+   "hold": 0.999,
+   "main_league": "nba",
+   "conc": 0.357,
+   "age_days": 125,
+   "clv": 0.0038,
+   "median_stake": 8600.29,
+   "proven_sizer": false
+  },
+  "0x73e3fec494611d73c170cb2f23850fd998b21be9": {
+   "name": "mmklop",
+   "tier": "keep",
+   "checked_at": "2026-11-12",
+   "segments": [
+    {
+     "segment": "cs2|moneyline",
+     "status": "keep",
+     "manual": null,
+     "bets": 285,
+     "flat_roi": 0.0812,
+     "shrunk_score": 0.0527
+    }
+   ],
+   "wallet_settled": 392,
+   "own_roi": 0.0837,
+   "hold": 0.98,
+   "main_league": "cs2",
+   "conc": 1.0,
+   "age_days": 162,
+   "clv": 0.0006,
+   "median_stake": 19937.91,
+   "proven_sizer": false
+  },
+  "0x21ecbb95a15822bbdd4ab71345385a6056d95348": {
+   "name": "0x21eCbb95a15822bBdD4Ab71345385a6056D95348-1763085902493",
+   "tier": "keep",
+   "checked_at": "2026-11-12",
+   "segments": [
+    {
+     "segment": "cs2|map_handicap",
+     "status": "keep",
+     "manual": null,
+     "bets": 34,
+     "flat_roi": 0.3768,
+     "shrunk_score": 0.051
+    },
+    {
+     "segment": "cs2|moneyline",
+     "status": "keep",
+     "manual": null,
+     "bets": 412,
+     "flat_roi": 0.0397,
+     "shrunk_score": 0.0291
+    },
+    {
+     "segment": "cs2|child_moneyline",
+     "status": "keep",
+     "manual": null,
+     "bets": 80,
+     "flat_roi": 0.0741,
+     "shrunk_score": 0.0253
+    }
+   ],
+   "wallet_settled": 828,
+   "own_roi": 0.1012,
+   "hold": 0.961,
+   "main_league": "cs2",
+   "conc": 0.986,
+   "age_days": 364,
+   "clv": 0.0114,
+   "median_stake": 3999.97,
+   "proven_sizer": false
+  },
+  "0x65c18d740c8246af3353741c0b32e4b6da552988": {
+   "name": "casualbet2020",
+   "tier": "keep",
+   "checked_at": "2026-11-12",
+   "segments": [
+    {
+     "segment": "val|child_moneyline",
+     "status": "keep",
+     "manual": null,
+     "bets": 48,
+     "flat_roi": 0.2126,
+     "shrunk_score": 0.0495
+    },
+    {
+     "segment": "val|moneyline",
+     "status": "keep",
+     "manual": null,
+     "bets": 131,
+     "flat_roi": 0.1115,
+     "shrunk_score": 0.0459
+    }
+   ],
+   "wallet_settled": 410,
+   "own_roi": 0.078,
+   "hold": 1.0,
+   "main_league": "val",
+   "conc": 0.528,
+   "age_days": 175,
+   "clv": 0.0118,
+   "median_stake": 3128.63,
+   "proven_sizer": false
+  },
+  "0x866056133a70de9282a080758858d1a0c8b393ed": {
+   "name": "esportsbetter1",
+   "tier": "watch",
+   "checked_at": "2026-11-12",
+   "segments": [
+    {
+     "segment": "val|moneyline",
+     "status": "watch",
+     "manual": null,
+     "bets": 178,
+     "flat_roi": 0.1059,
+     "shrunk_score": 0.048
+    }
+   ],
+   "wallet_settled": 412,
+   "own_roi": 0.0119,
+   "hold": 0.993,
+   "main_league": "val",
+   "conc": 0.591,
+   "age_days": 169,
+   "clv": -0.0004,
+   "median_stake": 9872.8,
+   "proven_sizer": false
+  },
+  "0x6e82b93eb57b01a63027bd0c6d2f3f04934a752c": {
+   "name": "0x6e82b93eb57b01a63027bd0c6d2f3f04934a752c",
+   "tier": "keep",
+   "checked_at": "2026-11-12",
+   "segments": [
+    {
+     "segment": "nba|moneyline",
+     "status": "keep",
+     "manual": null,
+     "bets": 625,
+     "flat_roi": 0.0571,
+     "shrunk_score": 0.0439
+    },
+    {
+     "segment": "nba|spread",
+     "status": "keep",
+     "manual": null,
+     "bets": 251,
+     "flat_roi": 0.0491,
+     "shrunk_score": 0.0319
+    }
+   ],
+   "wallet_settled": 1378,
+   "own_roi": 0.0548,
+   "hold": 0.993,
+   "main_league": "nba",
+   "conc": 0.913,
+   "age_days": 737,
+   "clv": 0.0214,
+   "median_stake": 5740.86,
+   "proven_sizer": false
+  },
+  "0x5c035da7d3df55a0458706830c542eda097a31bb": {
+   "name": "Novelty8",
+   "tier": "watch",
+   "checked_at": "2026-11-12",
+   "segments": [
+    {
+     "segment": "atp|moneyline",
+     "status": "watch",
+     "manual": null,
+     "bets": 131,
+     "flat_roi": 0.0878,
+     "shrunk_score": 0.0419
+    }
+   ],
+   "wallet_settled": 830,
+   "own_roi": 0.0003,
+   "hold": 0.999,
+   "main_league": "atp",
+   "conc": 0.486,
+   "age_days": 174,
+   "clv": -0.0105,
+   "median_stake": 1575.61,
+   "proven_sizer": false
+  },
+  "0xac75b6e590720a394364f2a1580b68a2fbe51319": {
+   "name": "dribblingbanana69",
+   "tier": "watch",
+   "checked_at": "2026-11-12",
+   "segments": [
+    {
+     "segment": "lol|moneyline",
+     "status": "watch",
+     "manual": null,
+     "bets": 192,
+     "flat_roi": 0.0841,
+     "shrunk_score": 0.0346
+    },
+    {
+     "segment": "cs2|moneyline",
+     "status": "watch",
+     "manual": null,
+     "bets": 180,
+     "flat_roi": 0.0376,
+     "shrunk_score": 0.0176
+    }
+   ],
+   "wallet_settled": 1019,
+   "own_roi": 0.0894,
+   "hold": 0.997,
+   "main_league": "lol",
+   "conc": 0.366,
+   "age_days": 401,
+   "clv": 0.0038,
+   "median_stake": 3300.0,
+   "proven_sizer": false
+  },
+  "0x7986576408b65a9805ac85553be33ad0b044baa5": {
+   "name": "0x7986576408b65a9805AC85553Be33Ad0B044BAa5-1781719173927",
+   "tier": "keep",
+   "checked_at": "2026-11-12",
+   "segments": [
+    {
+     "segment": "lol|child_moneyline",
+     "status": "keep",
+     "manual": null,
+     "bets": 39,
+     "flat_roi": 0.2602,
+     "shrunk_score": 0.034
+    }
+   ],
+   "wallet_settled": 505,
+   "own_roi": 0.0551,
+   "hold": 0.806,
+   "main_league": "lol",
+   "conc": 0.995,
+   "age_days": 142,
+   "clv": 0.0248,
+   "median_stake": 1698.43,
+   "proven_sizer": false
+  },
+  "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee": {
+   "name": "kch123",
+   "tier": "keep",
+   "checked_at": "2026-11-12",
+   "segments": [
+    {
+     "segment": "nhl|moneyline",
+     "status": "keep",
+     "manual": null,
+     "bets": 48,
+     "flat_roi": 0.1493,
+     "shrunk_score": 0.0339
+    }
+   ],
+   "wallet_settled": 267,
+   "own_roi": 0.07,
+   "hold": 1.0,
+   "main_league": "nhl",
+   "conc": 0.745,
+   "age_days": 228,
+   "clv": 0.0019,
+   "median_stake": 17075.33,
    "proven_sizer": false
   },
   "0xe8c4d68aff65b38cac46987b9b65e01eb47d395d": {
    "name": "JAMJAMJAM4",
    "tier": "watch",
-   "checked_at": "2026-11-08",
+   "checked_at": "2026-11-12",
    "segments": [
     {
      "segment": "mlb|moneyline",
      "status": "watch",
+     "manual": null,
      "bets": 305,
      "flat_roi": 0.0469,
-     "shrunk_score": 0.0236
+     "shrunk_score": 0.0315
     },
     {
      "segment": "atp|moneyline",
      "status": "watch",
-     "bets": 473,
-     "flat_roi": 0.0419,
-     "shrunk_score": 0.0225
+     "manual": null,
+     "bets": 476,
+     "flat_roi": 0.0406,
+     "shrunk_score": 0.0287
     },
     {
      "segment": "lol|moneyline",
      "status": "watch",
+     "manual": null,
      "bets": 215,
      "flat_roi": 0.0224,
-     "shrunk_score": 0.0094
+     "shrunk_score": 0.0143
     }
    ],
-   "wallet_settled": 3619,
-   "own_roi": 0.0072,
+   "wallet_settled": 3654,
+   "own_roi": 0.001,
    "hold": 0.998,
    "main_league": "mlb",
-   "conc": 0.268,
-   "age_days": 131,
-   "clv": -0.0075,
-   "median_stake": 630.86,
+   "conc": 0.262,
+   "age_days": 136,
+   "clv": -0.0078,
+   "median_stake": 639.84,
+   "proven_sizer": false
+  },
+  "0xc257ea7e3a81ca8e16df8935d44d513959fa358e": {
+   "name": "YT-JuicySlots",
+   "tier": "watch",
+   "checked_at": "2026-11-12",
+   "segments": [
+    {
+     "segment": "cs2|moneyline",
+     "status": "watch",
+     "manual": null,
+     "bets": 147,
+     "flat_roi": 0.0626,
+     "shrunk_score": 0.0261
+    }
+   ],
+   "wallet_settled": 745,
+   "own_roi": 0.0107,
+   "hold": 0.977,
+   "main_league": "cs2",
+   "conc": 0.443,
+   "age_days": 271,
+   "clv": 0.0047,
+   "median_stake": 30629.55,
    "proven_sizer": false
   },
   "0x885ffdf360e5b0b6e6acb963fb3f8ba2344c8ed9": {
    "name": "forecastication4",
    "tier": "watch",
-   "checked_at": "2026-11-08",
+   "checked_at": "2026-11-12",
    "segments": [
     {
      "segment": "mlb|spread",
      "status": "watch",
+     "manual": null,
      "bets": 127,
      "flat_roi": 0.0425,
-     "shrunk_score": 0.011
+     "shrunk_score": 0.0189
     },
     {
      "segment": "nfl|spread",
      "status": "watch",
-     "bets": 110,
-     "flat_roi": 0.0481,
-     "shrunk_score": 0.0061
+     "manual": null,
+     "bets": 114,
+     "flat_roi": 0.042,
+     "shrunk_score": 0.0121
+    },
+    {
+     "segment": "nba|points",
+     "status": "watch",
+     "manual": null,
+     "bets": 204,
+     "flat_roi": 0.0086,
+     "shrunk_score": 0.0059
+    },
+    {
+     "segment": "nba|spread",
+     "status": "watch",
+     "manual": null,
+     "bets": 197,
+     "flat_roi": 0.0056,
+     "shrunk_score": 0.0039
     }
    ],
-   "wallet_settled": 2611,
-   "own_roi": 0.0687,
+   "wallet_settled": 2889,
+   "own_roi": 0.0656,
    "hold": 0.998,
-   "main_league": "mlb",
-   "conc": 0.205,
-   "age_days": 111,
-   "clv": 0.0058,
-   "median_stake": 119.62,
+   "main_league": "nba",
+   "conc": 0.22,
+   "age_days": 116,
+   "clv": 0.0053,
+   "median_stake": 113.22,
+   "proven_sizer": false
+  },
+  "0x4762c329459b5bbf87e9fc9f65749efc7086ba70": {
+   "name": "1of1bray",
+   "tier": "keep",
+   "checked_at": "2026-11-12",
+   "segments": [
+    {
+     "segment": "val|moneyline",
+     "status": "keep",
+     "manual": null,
+     "bets": 89,
+     "flat_roi": 0.0437,
+     "shrunk_score": 0.0148
+    }
+   ],
+   "wallet_settled": 268,
+   "own_roi": 0.2288,
+   "hold": 0.821,
+   "main_league": "val",
+   "conc": 0.611,
+   "age_days": 712,
+   "clv": 0.0093,
+   "median_stake": 1483.94,
+   "proven_sizer": false
+  },
+  "0xc9bfc7986767173b4f1c3fc9b2c6b255fc7381c0": {
+   "name": "0xC9BFc7986767173b4f1c3FC9B2c6b255F",
+   "tier": "watch",
+   "checked_at": "2026-11-12",
+   "segments": [
+    {
+     "segment": "cs2|child_moneyline",
+     "status": "watch",
+     "manual": null,
+     "bets": 131,
+     "flat_roi": 0.0288,
+     "shrunk_score": 0.0144
+    },
+    {
+     "segment": "cs2|map_handicap",
+     "status": "watch",
+     "manual": null,
+     "bets": 163,
+     "flat_roi": 0.018,
+     "shrunk_score": 0.0108
+    },
+    {
+     "segment": "cs2|moneyline",
+     "status": "watch",
+     "manual": null,
+     "bets": 326,
+     "flat_roi": 0.0007,
+     "shrunk_score": 0.0012
+    }
+   ],
+   "wallet_settled": 685,
+   "own_roi": 0.1912,
+   "hold": 1.0,
+   "main_league": "cs2",
+   "conc": 1.0,
+   "age_days": 168,
+   "clv": -0.0134,
+   "median_stake": 830.12,
    "proven_sizer": false
   },
   "0x9cb990f1862568a63d8601efeebe0304225c32f2": {
    "name": "jtwyslljy",
    "tier": "watch",
-   "checked_at": "2026-11-08",
+   "checked_at": "2026-11-12",
    "segments": [
     {
      "segment": "wta|moneyline",
      "status": "watch",
-     "bets": 133,
-     "flat_roi": 0.0399,
-     "shrunk_score": 0.0082
+     "manual": null,
+     "bets": 135,
+     "flat_roi": 0.0358,
+     "shrunk_score": 0.0143
     }
    ],
-   "wallet_settled": 1529,
-   "own_roi": 0.0296,
-   "hold": 0.78,
+   "wallet_settled": 1615,
+   "own_roi": 0.0202,
+   "hold": 0.779,
    "main_league": "atp",
-   "conc": 0.251,
-   "age_days": 152,
-   "clv": 0.0199,
-   "median_stake": 3753.98,
+   "conc": 0.25,
+   "age_days": 157,
+   "clv": 0.0178,
+   "median_stake": 3672.0,
+   "proven_sizer": false
+  },
+  "0xf163625aa894e79b73629926992e142b740eca34": {
+   "name": "newwman",
+   "tier": "keep",
+   "checked_at": "2026-11-12",
+   "segments": [
+    {
+     "segment": "lol|moneyline",
+     "status": "keep",
+     "manual": null,
+     "bets": 163,
+     "flat_roi": 0.0101,
+     "shrunk_score": 0.0057
+    }
+   ],
+   "wallet_settled": 2793,
+   "own_roi": 0.0545,
+   "hold": 0.835,
+   "main_league": "lol",
+   "conc": 0.996,
+   "age_days": 294,
+   "clv": 0.0355,
+   "median_stake": 521.71,
    "proven_sizer": false
   },
   "0x3413c803c3a6efc8d963afbce2dcee48d3738ff2": {
    "name": "CyberScore.live",
    "tier": "keep",
-   "checked_at": "2026-11-08",
+   "checked_at": "2026-11-12",
    "segments": [
     {
      "segment": "dota2|moneyline",
      "status": "keep",
+     "manual": null,
      "bets": 36,
      "flat_roi": 0.0331,
-     "shrunk_score": 0.0007
+     "shrunk_score": 0.0057
     }
    ],
-   "wallet_settled": 928,
-   "own_roi": 0.0153,
+   "wallet_settled": 991,
+   "own_roi": 0.0174,
    "hold": 0.94,
    "main_league": "dota2",
-   "conc": 0.983,
-   "age_days": 156,
-   "clv": 0.0154,
-   "median_stake": 5581.06,
+   "conc": 0.982,
+   "age_days": 161,
+   "clv": 0.0135,
+   "median_stake": 5785.07,
    "proven_sizer": false
   },
   "0x64c4a7437742d07356774cad6d55dcd9cf411018": {
-   "name": "LooksMaxxingx",
+   "name": "rafaleaoo",
    "tier": "watch",
-   "checked_at": "2026-11-08",
+   "checked_at": "2026-11-12",
    "segments": [
     {
      "segment": "lol|moneyline",
      "status": "watch",
+     "manual": null,
      "bets": 126,
      "flat_roi": 0.0103,
-     "shrunk_score": 0.0006
+     "shrunk_score": 0.0045
     }
    ],
-   "wallet_settled": 1573,
-   "own_roi": 0.0285,
-   "hold": 0.916,
+   "wallet_settled": 1627,
+   "own_roi": 0.0313,
+   "hold": 0.917,
    "main_league": "lol",
-   "conc": 0.526,
-   "age_days": 184,
-   "clv": -0.0011,
-   "median_stake": 1230.0,
+   "conc": 0.508,
+   "age_days": 189,
+   "clv": -0.0018,
+   "median_stake": 1254.0,
    "proven_sizer": false
   },
   "0x67542c3219b37fd1610aad290676ff91cdbfe3bc": {
    "name": "gmpm2",
    "tier": "watch",
-   "checked_at": "2026-11-08",
+   "checked_at": "2026-11-12",
    "segments": [
     {
      "segment": "cfb|spread",
      "status": "watch",
+     "manual": null,
      "bets": 121,
      "flat_roi": 0.0059,
-     "shrunk_score": 0.0006
+     "shrunk_score": 0.0037
     }
    ],
-   "wallet_settled": 651,
-   "own_roi": 0.0349,
+   "wallet_settled": 679,
+   "own_roi": 0.0328,
    "hold": 0.92,
    "main_league": "fifwc",
-   "conc": 0.646,
-   "age_days": 148,
+   "conc": 0.63,
+   "age_days": 152,
    "clv": -0.0021,
-   "median_stake": 16248.03,
+   "median_stake": 16416.92,
    "proven_sizer": false
   }
  }
