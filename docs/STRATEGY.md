@@ -1,6 +1,6 @@
 # Copy-trading strategy: Polymarket sports specialists → Polymarket US
 
-This document stands on its own, so another LLM or a person can follow how picks are made. Last updated 2026-11-11 (pipeline v4, with the HomeRunHazard NBA-spread rule and $10 flat stakes). Code lives outside this repo in the operator's workspace. The rules here are the spec.
+This document stands on its own, so another LLM or a person can follow how picks are made. Last updated 2026-11-12 (pipeline v4: fresh rankings, manual-trial overrides, conditional-edge analysis; HomeRunHazard NBA-spread rule; $10 flat stakes). Code lives outside this repo in the operator's workspace. The rules here are the spec.
 
 ## Goal
 Copy pre-game sports bets that **reliably profitable specialist wallets** on global Polymarket hold, and place small bets (about $10) on the matching **Polymarket US** market. A human approves every pick before it is placed.
@@ -8,7 +8,7 @@ Copy pre-game sports bets that **reliably profitable specialist wallets** on glo
 ## 1. Data sources (global Polymarket, public, no key)
 | Purpose | Endpoint |
 |---|---|
-| Candidate pool | `GET https://data-api.polymarket.com/v2/leaderboard?category=sports&limit=50` (also `window=1m`; paginate with `cursor`) |
+| Candidate pool | `GET https://data-api.polymarket.com/v2/leaderboard?category=<sports or esports>&timePeriod=<DAY, WEEK, MONTH or ALL>&limit=50` (paginate with `cursor` only; `offset` is rejected and `window=` is silently ignored, which returns the DAY board) |
 | Wallet history | `GET https://data-api.polymarket.com/v2/activity?user=<wallet>&limit=500&cursor=` (TRADE, SPLIT, MERGE, REDEEM; we cap at 30k-90k records) |
 | Open positions | `GET https://data-api.polymarket.com/v2/positions?user=<wallet>&status=OPEN&limit=500` (fields `event_slug`, `slug`, `condition_id`, `token_id`, `opposite_token_id`, `outcome`, `avg_price`, `current_size`, `current_price`) |
 | Market metadata and resolution | `GET https://gamma-api.polymarket.com/events?slug=<event_slug>` (`markets[].conditionId`, `outcomes`, `outcomePrices`, `clobTokenIds`, `gameStartTime`, `sportsMarketType`, `closed`) |
@@ -50,7 +50,7 @@ We compute all numbers ourselves from settled history. **Leaderboard ROI is neve
 
 **Segment** = wallet × (league, bet type). Clean bets are pre-game, held, and priced 0.05-0.95. Each segment gets a **credibility score**:
 - raw `m = mean(res/entry − 1)` and variance `v = Σ((1−p)/p)/n²`
-- prior `μ`, `τ²` from method of moments across all segments with ≥ 30 clean bets (2026-11-08: μ = −0.18%, τ² = 0.0036)
+- prior `μ`, `τ²` from method of moments across all segments with ≥ 30 clean bets (2026-11-12: μ = +0.21%, τ² = 0.0063 over 1,382 segments; 2026-11-08 was μ = −0.18%, τ² = 0.0036 over 928)
 - `score = μ + τ²/(τ²+v)·(m − μ)`
 
 **Tiers:**
@@ -58,12 +58,25 @@ We compute all numbers ourselves from settled history. **Leaderboard ROI is neve
 - **watch** (lower confidence): score > 0 over ≥ 100 clean bets, not a total, hold ≥ 70%, two-sided < 30%, age ≥ 60 days, own ROI ≥ 0
 - everything else is **drop**. Dropped wallets go on a suppression list and are rechecked after 30 days. Keep/watch wallets are re-profiled weekly.
 
+**Weekly refresh (rebuilt 2026-11-12 after the Nov 9 refresh failed on a stale cache and Cloudflare 1015 rate limits):**
+- one shared throttle per host (data API ≈ 4 requests/s), with exponential backoff plus jitter on 429/1015/5xx that pauses every thread
+- incremental activity: only pages newer than the cached history are downloaded and merged; new wallets checkpoint every page to a `.part` file
+- a per-wallet manifest makes every stage resumable; a wallet that fails is marked **stale** and listed in `rankings.json` (`stale_wallets`) instead of silently reusing old data
+- unsettled cached events are re-fetched so newly settled games count; CLV samples up to 80 pre-game bets per wallet
+- the pool grows by about 60 new leaderboard wallets per week from a prioritized backlog
+
 **Pick rule** (for an open position of a keep/watch wallet):
 - in an allowed segment, not a total
 - position stake ≥ $100 and ≥ 0.5x the wallet's median stake (no token positions)
 - wallet average entry 0.40-0.85 (no longshots)
 - game not started, and the exact US market exists
 - no keep/watch wallet holds the opposite outcome
+
+**Manual overrides** (`data/manual_overrides.json`, applied after scoring on every refresh, so they persist):
+- **ianf2026 and chongchong37, NBA spreads: forced to watch as a "manual trial"** (added 2026-11-12 at the user's request, review after 2026-12-12). Both show about +20-35% flat ROI on NBA spreads near even odds, but on fewer than 100 bets and under 60 days of history, so the rules alone would drop them. Rows keep `computed_status` (what the rules said) next to the forced `status`.
+- **HomeRunHazard, NBA spreads:** special rule below, which replaces the generic pick rule for him.
+
+**Conditional edges** (`data/conditional_edges.md`): for every keep/watch segment and every segment with ≥ 50 clean bets, stats by bet size relative to the wallet's median stake and by price band. **The headline is the 40-60c band**, because near-even-odds edge is what we want to copy. A high win rate on 70c+ favourites counts only if ROI is clearly positive.
 
 **HomeRunHazard NBA spreads (override):** copy **only his single largest NBA spread** on a game, and only when that position is at least **1.2× his usual size** (the median of the larger side of his NBA spread markets). Rest a fee-free maker order at or below his average entry. **Never mirror his full two-sided book.** He holds opposite-team spreads or moneylines on essentially every game (arbs and middles); those extra legs are not a one-way opinion we can copy in full, and a full mirror as a taker lost money in the backtest (see BACKTEST.md).
 
