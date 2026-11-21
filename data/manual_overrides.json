@@ -31,7 +31,10 @@
    "league": "nba",
    "bet_type": "spread",
    "rule": "copy only his biggest NBA spread position per game when it is >= 1.2x his usual size, even if he holds both sides; fee-free resting order at or below his entry; never mirror his two-sided book",
-   "source": "bt/hrh_results.md backtest (236 NBA spread games, Oct 3 - Nov 11 2026)"
+   "source": "bt/hrh_results.md backtest (236 NBA spread games, Oct 3 - Nov 11 2026)",
+   "usual_size_usd": 1718.35,
+   "min_x": 1.2,
+   "usual_size_note": "median of the larger side of each of his NBA spread markets (bt/hrh_results.md); copy_pipeline_v4 applies this rule even when the generic ranking marks the segment drop"
   },
   {
    "wallet": "0xe963d57ab09233f3cb2bf1546660a1b4638e6753",
